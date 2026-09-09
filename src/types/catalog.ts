@@ -33,7 +33,9 @@ export type DevelopmentStatus =
   | 'Operational'
   | 'Upgrade'
   | 'Retired'
-  | 'Cancelled';
+  | 'Cancelled'
+  | 'Development'
+  | 'In Development';
 
 export type ServiceBranchTag = 'Army' | 'Air Force' | 'Navy' | 'Joint' | 'Other';
 
@@ -94,9 +96,14 @@ export interface AssetImage {
   url: string;
   sourceUrl?: string;
   sourceName?: string;
-  angle?: string;       // e.g. "Front Three-Quarter", "Side Profile", "Top Down / Overhead", "Rear"
+  photographer?: string;
   credit: string;
   license: string;
+  copyright?: string;
+  imageType?: string;
+  verified?: boolean;
+  verifiedAt?: string;
+  angle?: string;       // e.g. "Front", "Side", "Rear", "Top / Overhead", "Front 3/4", "Rear 3/4", "Operational", "Interior", "MULTIPLE VIEWS"
   imageStatus?: 'verified' | 'unverified';
   type?: string;
 }
@@ -107,6 +114,9 @@ export interface SourceItem {
   publisher: string;
   sourceType: 'official' | 'government' | 'reference' | 'defence-publication';
   accessedAt: string;
+  publicationDate?: string;
+  accessDate?: string;
+  claimSupported?: string;
 }
 
 export interface VariantItem {
@@ -115,13 +125,16 @@ export interface VariantItem {
   designation?: string;
   description?: string;
   serviceEntry?: string;
+  variantType?: string;
 }
 
 export interface TimelineData {
   firstAnnouncement?: string;
   developmentStart?: string;
   firstPrototype?: string;
+  firstTest?: string;
   firstFlightTest?: string;
+  firstFlight?: string;
   productionStart?: string;
   serviceEntry?: string;
   retirement?: string;
@@ -150,55 +163,141 @@ export interface SystemRelationships {
   airDefenceIds?: string[];
   parentSystemId?: string;
   childVariantIds?: string[];
+  usedBy?: ServiceBranchTag[];
+  operatedBy?: string[];
+  developedBy?: string[];
+  manufacturedBy?: string[];
+  variantOf?: string;
+  parentPlatform?: string;
+  sameFamily?: string[];
+  relatedSystem?: string[];
+  usedWith?: string[];
+  carrierFor?: string[];
+  sensorOn?: string[];
+  weaponOn?: string[];
 }
+
+export type MasterStatus =
+  | 'CURRENT'
+  | 'MODERNIZED'
+  | 'EMERGING'
+  | 'DEVELOPMENT'
+  | 'PROTOTYPE'
+  | 'TRIALS'
+  | 'LEGACY'
+  | 'RETIRED'
+  | 'CANCELLED'
+  | DevelopmentStatus;
+
+export type DataConfidence =
+  | 'VERIFIED'
+  | 'HIGH'
+  | 'MEDIUM'
+  | 'LOW'
+  | 'ESTIMATED'
+  | 'DISPUTED'
+  | 'NOT_PUBLICLY_DISCLOSED';
 
 export interface Asset {
   id: string;
+  slug?: string;
   name: string;
   officialDesignation?: string;
   commonName?: string;
+  aliases?: string[];
+  natoName?: string;
   natoReportingName?: string;
+  manufacturerDesignation?: string;
+  exportDesignations?: string[];
+
+  familyName?: string;
+  parentPlatform?: string;
+  variantOf?: string;
+  variantType?: string;
+
+  domain?: 'LAND' | 'AIR' | 'NAVY' | 'MISSILES' | 'AIR-DEFENCE' | 'RADAR' | 'C4ISR' | 'ELECTRONIC-WARFARE' | 'UNMANNED';
   branchId: BranchId;
   categoryId: string;
   categoryName: string;
+  category?: string;
   subcategory: string;
+  type?: string;
   rankInCategory: number;    // 1 to 30
+
+  roles?: string[];
+  primaryRole?: string;
+  secondaryRoles?: string[];
+  missions?: string[];
+  missionTypes?: string[];
+  operatingEnvironment?: string[] | string;
+  operationalEnvironment?: string;
+
+  countryOfOrigin?: string;
+  originCountry?: string;
   originCountries: string[];
   manufacturerCountry?: string;
+  manufacturerCountries?: string[];
   developerCountry?: string;
+  developmentCountries?: string[];
   manufacturer?: string;
   developer?: string;
   designer?: string;
+
+  operators?: string[];
   operatorCountries?: string[];
   formerOperators?: string[];
+  formerOperatorCountries?: string[];
   exportCustomers?: string[];
-  services?: ServiceBranchTag[];
-  status?: DevelopmentStatus;
-  timeline?: TimelineData;
+  jointDevelopmentCountries?: string[];
+  licensedProductionCountries?: string[];
+
+  generation?: string;       // e.g. "5th Generation", "Gen 4.5", "AESA / Modern Tech Level"
   era: EraCategory;
+
+  developmentStart?: string;
+  prototype?: string;
+  firstTest?: string;
+  firstFlight?: string;
+  productionStart?: string;
+  serviceEntry?: string;
+
+  upgradePrograms?: string[];
+  modernizationPrograms?: string[];
+
+  status?: MasterStatus;
+  currentRelevance?: MasterStatus;
+
+  searchKeywords?: string[];
+  tags?: string[];
+
+  services?: ServiceBranchTag[];
+  timeline?: TimelineData;
   shortDescription: string;
   fullOverview: string;
-  primaryRole?: string;
-  secondaryRoles?: string[];
-  missionTypes?: string[];
-  operationalEnvironment?: string;
   classification?: 'Strategic' | 'Operational' | 'Tactical';
-  generation?: string;       // e.g. "5th Generation", "Gen 4.5", "AESA / Modern Tech Level"
-  images: AssetImage[];      // 1 for weapons, 3+ for vehicles/ships/aircraft
+
+  images: AssetImage[];      // multi-angle / verified military imagery
   image?: string;            // fallback primary image URL
   imageCredit?: string;
   imageLicense?: string;
+
+  specifications?: CategorySpecs;
   specs: CategorySpecs;
   ratings: RatingScores;
   overallTier: TierBadge;
+
   analysis?: AnalyticalSection;
   relationships?: SystemRelationships;
+  comparableSystems?: string[];
+  relatedSystems?: string[];
+  relatedAssetIds?: string[];
   variants?: VariantItem[];
   sources?: SourceItem[];
   sourceCitation: string;
-  confidence?: 'High' | 'Medium' | 'Low';
+
+  dataConfidence?: DataConfidence;
+  confidence?: 'High' | 'Medium' | 'Low' | DataConfidence;
   lastVerified?: string;
-  relatedAssetIds?: string[];
 }
 
 export interface Category {
@@ -231,7 +330,12 @@ export interface FilterOptions {
   branchId?: BranchId;
   categoryId?: string;
   country?: string;
+  originCountry?: string;
   operatorCountry?: string;
+  manufacturerCountry?: string;
+  developerCountry?: string;
+  jointDevelopmentCountry?: string;
+  exportCustomer?: string;
   service?: ServiceBranchTag;
   status?: DevelopmentStatus;
   generation?: string;

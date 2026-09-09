@@ -15,8 +15,12 @@ interface CategoryCatalogClientProps {
 
 export function CategoryCatalogClient({ category, branch, allBranchAssets }: CategoryCatalogClientProps) {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCountry, setSelectedCountry] = useState<string>('');
+  const [selectedOrigin, setSelectedOrigin] = useState<string>('');
   const [selectedOperator, setSelectedOperator] = useState<string>('');
+  const [selectedManufacturer, setSelectedManufacturer] = useState<string>('');
+  const [selectedDeveloper, setSelectedDeveloper] = useState<string>('');
+  const [selectedJointDev, setSelectedJointDev] = useState<string>('');
+  const [selectedExportCustomer, setSelectedExportCustomer] = useState<string>('');
   const [selectedService, setSelectedService] = useState<string>('');
   const [selectedStatus, setSelectedStatus] = useState<string>('');
   const [selectedGeneration, setSelectedGeneration] = useState<string>('');
@@ -25,8 +29,8 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
   const [sortBy, setSortBy] = useState<FilterOptions['sortBy']>('name-asc');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
-  const allCountries = useMemo(() => getAllCountries().slice(0, 10), []);
-  const allOperators = useMemo(() => getAllOperators().slice(0, 10), []);
+  const allCountries = useMemo(() => getAllCountries(), []);
+  const allOperators = useMemo(() => getAllOperators(), []);
 
   const serviceOptions: ServiceBranchTag[] = ['Army', 'Air Force', 'Navy', 'Joint'];
   const statusOptions: DevelopmentStatus[] = ['Operational', 'Production', 'Upgrade', 'Testing', 'Prototype'];
@@ -53,8 +57,12 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
       searchQuery,
       branchId: branch.id,
       categoryId: category.id,
-      country: selectedCountry || undefined,
+      originCountry: selectedOrigin || undefined,
       operatorCountry: selectedOperator || undefined,
+      manufacturerCountry: selectedManufacturer || undefined,
+      developerCountry: selectedDeveloper || undefined,
+      jointDevelopmentCountry: selectedJointDev || undefined,
+      exportCustomer: selectedExportCustomer || undefined,
       service: (selectedService as ServiceBranchTag) || undefined,
       status: (selectedStatus as DevelopmentStatus) || undefined,
       generation: selectedGeneration || undefined,
@@ -62,14 +70,22 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
       tier: (selectedTier as TierBadge) || undefined,
       sortBy,
     });
-  }, [searchQuery, branch.id, category.id, selectedCountry, selectedOperator, selectedService, selectedStatus, selectedGeneration, selectedEra, selectedTier, sortBy]);
+  }, [
+    searchQuery, branch.id, category.id, selectedOrigin, selectedOperator,
+    selectedManufacturer, selectedDeveloper, selectedJointDev, selectedExportCustomer,
+    selectedService, selectedStatus, selectedGeneration, selectedEra, selectedTier, sortBy
+  ]);
 
-  const hasActiveFilters = searchQuery || selectedCountry || selectedOperator || selectedService || selectedStatus || selectedGeneration || selectedEra || selectedTier;
+  const hasActiveFilters = searchQuery || selectedOrigin || selectedOperator || selectedManufacturer || selectedDeveloper || selectedJointDev || selectedExportCustomer || selectedService || selectedStatus || selectedGeneration || selectedEra || selectedTier;
 
   const resetFilters = () => {
     setSearchQuery('');
-    setSelectedCountry('');
+    setSelectedOrigin('');
     setSelectedOperator('');
+    setSelectedManufacturer('');
+    setSelectedDeveloper('');
+    setSelectedJointDev('');
+    setSelectedExportCustomer('');
     setSelectedService('');
     setSelectedStatus('');
     setSelectedGeneration('');
@@ -195,13 +211,13 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
           </div>
         </div>
 
-        {/* Combinable Dropdown Filters */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2">
+        {/* 6 Country Filter Axes & Additional Parameters */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5">
           <div>
             <label className="text-[10px] text-slate-500 font-sans font-semibold uppercase block mb-1">Origin Country</label>
             <select
-              value={selectedCountry}
-              onChange={e => setSelectedCountry(e.target.value)}
+              value={selectedOrigin}
+              onChange={e => setSelectedOrigin(e.target.value)}
               className="w-full p-1.5 bg-slate-50 border border-slate-200 text-slate-900 text-xs rounded-sm focus:outline-none"
             >
               <option value="">All Origins</option>
@@ -221,6 +237,57 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
             </select>
           </div>
 
+          <div>
+            <label className="text-[10px] text-slate-500 font-sans font-semibold uppercase block mb-1">Manufacturer</label>
+            <select
+              value={selectedManufacturer}
+              onChange={e => setSelectedManufacturer(e.target.value)}
+              className="w-full p-1.5 bg-slate-50 border border-slate-200 text-slate-900 text-xs rounded-sm focus:outline-none"
+            >
+              <option value="">All Manufacturers</option>
+              {allCountries.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+          </div>
+
+          <div>
+            <label className="text-[10px] text-slate-500 font-sans font-semibold uppercase block mb-1">Developer Country</label>
+            <select
+              value={selectedDeveloper}
+              onChange={e => setSelectedDeveloper(e.target.value)}
+              className="w-full p-1.5 bg-slate-50 border border-slate-200 text-slate-900 text-xs rounded-sm focus:outline-none"
+            >
+              <option value="">All Developers</option>
+              {allCountries.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+          </div>
+
+          <div>
+            <label className="text-[10px] text-slate-500 font-sans font-semibold uppercase block mb-1">Joint Dev Country</label>
+            <select
+              value={selectedJointDev}
+              onChange={e => setSelectedJointDev(e.target.value)}
+              className="w-full p-1.5 bg-slate-50 border border-slate-200 text-slate-900 text-xs rounded-sm focus:outline-none"
+            >
+              <option value="">All Joint Devs</option>
+              {allCountries.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+          </div>
+
+          <div>
+            <label className="text-[10px] text-slate-500 font-sans font-semibold uppercase block mb-1">Export Customer</label>
+            <select
+              value={selectedExportCustomer}
+              onChange={e => setSelectedExportCustomer(e.target.value)}
+              className="w-full p-1.5 bg-slate-50 border border-slate-200 text-slate-900 text-xs rounded-sm focus:outline-none"
+            >
+              <option value="">All Export Customers</option>
+              {allCountries.map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+          </div>
+        </div>
+
+        {/* Secondary Parameters Strip */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-2 border-t border-slate-100">
           <div>
             <label className="text-[10px] text-slate-500 font-sans font-semibold uppercase block mb-1">Service Branch</label>
             <select
