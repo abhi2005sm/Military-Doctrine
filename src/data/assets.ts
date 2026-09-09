@@ -498,11 +498,191 @@ const REAL_SYSTEM_TEMPLATES: Record<string, string[]> = {
   ]
 };
 
-// Global pool of countries
-const GLOBAL_COUNTRIES = [
-  'United States', 'United Kingdom', 'France', 'Germany', 'South Korea',
-  'Israel', 'Sweden', 'Japan', 'China', 'Italy', 'Canada', 'Australia',
-  'Norway', 'Turkey', 'India', 'Spain', 'Netherlands', 'Poland', 'Ukraine', 'Brazil'
+// Multinational defense systems country attribution mapping
+const MULTINATIONAL_SYSTEM_MAP: Record<string, {
+  originCountry: string;
+  originCountries: string[];
+  developerCountry: string;
+  developmentCountries: string[];
+  manufacturerCountry: string;
+  manufacturerCountries: string[];
+  manufacturer: string;
+  developer: string;
+  jointDevelopmentCountries: string[];
+  exportCustomers: string[];
+  operatorCountries: string[];
+}> = {
+  'eurofighter-typhoon-t4': {
+    originCountry: 'United Kingdom',
+    originCountries: ['United Kingdom', 'Germany', 'Italy', 'Spain'],
+    developerCountry: 'United Kingdom',
+    developmentCountries: ['United Kingdom', 'Germany', 'Italy', 'Spain'],
+    manufacturerCountry: 'United Kingdom',
+    manufacturerCountries: ['United Kingdom', 'Germany', 'Italy', 'Spain'],
+    manufacturer: 'Eurofighter Jagdflugzeug GmbH (BAE Systems, Airbus, Leonardo)',
+    developer: 'Eurofighter Partner Companies',
+    jointDevelopmentCountries: ['United Kingdom', 'Germany', 'Italy', 'Spain'],
+    exportCustomers: ['Saudi Arabia', 'Austria', 'Oman', 'Kuwait', 'Qatar'],
+    operatorCountries: ['United Kingdom', 'Germany', 'Italy', 'Spain', 'Saudi Arabia', 'Austria', 'Oman', 'Kuwait', 'Qatar'],
+  },
+  'fremm-aquitaine-bergamini': {
+    originCountry: 'France',
+    originCountries: ['France', 'Italy'],
+    developerCountry: 'France',
+    developmentCountries: ['France', 'Italy'],
+    manufacturerCountry: 'France',
+    manufacturerCountries: ['France', 'Italy'],
+    manufacturer: 'Naval Group / Fincantieri (Naviris)',
+    developer: 'OCCAR / Naval Group / Fincantieri',
+    jointDevelopmentCountries: ['France', 'Italy'],
+    exportCustomers: ['Egypt', 'Morocco', 'Indonesia', 'United States'],
+    operatorCountries: ['France', 'Italy', 'Egypt', 'Morocco', 'Indonesia', 'United States'],
+  },
+  'boxer-crv': {
+    originCountry: 'Germany',
+    originCountries: ['Germany', 'Netherlands', 'United Kingdom'],
+    developerCountry: 'Germany',
+    developmentCountries: ['Germany', 'Netherlands', 'United Kingdom'],
+    manufacturerCountry: 'Germany',
+    manufacturerCountries: ['Germany', 'Netherlands', 'United Kingdom', 'Australia'],
+    manufacturer: 'ARTEC GmbH (Rheinmetall / Krauss-Maffei Wegmann)',
+    developer: 'OCCAR / ARTEC GmbH',
+    jointDevelopmentCountries: ['Germany', 'Netherlands', 'United Kingdom'],
+    exportCustomers: ['Australia', 'Lithuania', 'Algeria'],
+    operatorCountries: ['Germany', 'Netherlands', 'United Kingdom', 'Australia', 'Lithuania', 'Algeria'],
+  },
+  'boxer-apc-8x8': {
+    originCountry: 'Germany',
+    originCountries: ['Germany', 'Netherlands', 'United Kingdom'],
+    developerCountry: 'Germany',
+    developmentCountries: ['Germany', 'Netherlands', 'United Kingdom'],
+    manufacturerCountry: 'Germany',
+    manufacturerCountries: ['Germany', 'Netherlands', 'United Kingdom', 'Australia'],
+    manufacturer: 'ARTEC GmbH (Rheinmetall / KMW)',
+    developer: 'OCCAR / ARTEC GmbH',
+    jointDevelopmentCountries: ['Germany', 'Netherlands', 'United Kingdom'],
+    exportCustomers: ['Australia', 'Lithuania', 'Algeria'],
+    operatorCountries: ['Germany', 'Netherlands', 'United Kingdom', 'Australia', 'Lithuania', 'Algeria'],
+  },
+  'meteor-bvr': {
+    originCountry: 'United Kingdom',
+    originCountries: ['United Kingdom', 'France', 'Germany', 'Italy', 'Sweden', 'Spain'],
+    developerCountry: 'United Kingdom',
+    developmentCountries: ['United Kingdom', 'France', 'Germany', 'Italy', 'Sweden', 'Spain'],
+    manufacturerCountry: 'United Kingdom',
+    manufacturerCountries: ['United Kingdom', 'France', 'Germany', 'Italy', 'Sweden', 'Spain'],
+    manufacturer: 'MBDA UK / Europe',
+    developer: 'MBDA Missile Systems Co-Development',
+    jointDevelopmentCountries: ['United Kingdom', 'France', 'Germany', 'Italy', 'Sweden', 'Spain'],
+    exportCustomers: ['Brazil', 'India', 'Qatar', 'Saudi Arabia', 'South Korea', 'Greece'],
+    operatorCountries: ['United Kingdom', 'France', 'Germany', 'Italy', 'Sweden', 'Spain', 'Brazil', 'India', 'Qatar', 'Saudi Arabia', 'South Korea', 'Greece'],
+  },
+  'airbus-a400m-atlas': {
+    originCountry: 'Germany',
+    originCountries: ['Germany', 'France', 'Spain', 'United Kingdom', 'Belgium', 'Türkiye'],
+    developerCountry: 'France',
+    developmentCountries: ['Germany', 'France', 'Spain', 'United Kingdom', 'Belgium', 'Türkiye'],
+    manufacturerCountry: 'Spain',
+    manufacturerCountries: ['Spain', 'Germany', 'France', 'United Kingdom'],
+    manufacturer: 'Airbus Defence and Space',
+    developer: 'Airbus Military / OCCAR',
+    jointDevelopmentCountries: ['Germany', 'France', 'Spain', 'United Kingdom', 'Belgium', 'Türkiye', 'Luxembourg'],
+    exportCustomers: ['Malaysia', 'Indonesia', 'Kazakhstan'],
+    operatorCountries: ['Germany', 'France', 'Spain', 'United Kingdom', 'Belgium', 'Türkiye', 'Luxembourg', 'Malaysia', 'Indonesia', 'Kazakhstan'],
+  },
+  'nh90-tth': {
+    originCountry: 'France',
+    originCountries: ['France', 'Germany', 'Italy', 'Netherlands'],
+    developerCountry: 'France',
+    developmentCountries: ['France', 'Germany', 'Italy', 'Netherlands'],
+    manufacturerCountry: 'France',
+    manufacturerCountries: ['France', 'Germany', 'Italy'],
+    manufacturer: 'NHIndustries (Airbus Helicopters, Leonardo, Fokker)',
+    developer: 'NAHEMA / NHIndustries',
+    jointDevelopmentCountries: ['France', 'Germany', 'Italy', 'Netherlands'],
+    exportCustomers: ['Australia', 'Greece', 'New Zealand', 'Norway', 'Oman', 'Qatar', 'Spain', 'Sweden', 'Finland', 'Belgium'],
+    operatorCountries: ['France', 'Germany', 'Italy', 'Netherlands', 'Spain', 'Finland', 'Greece', 'New Zealand', 'Oman', 'Qatar', 'Belgium'],
+  },
+  'nh90-nfh-sea-lion': {
+    originCountry: 'France',
+    originCountries: ['France', 'Germany', 'Italy', 'Netherlands'],
+    developerCountry: 'France',
+    developmentCountries: ['France', 'Germany', 'Italy', 'Netherlands'],
+    manufacturerCountry: 'Germany',
+    manufacturerCountries: ['France', 'Germany', 'Italy'],
+    manufacturer: 'NHIndustries (Airbus Helicopters, Leonardo, Fokker)',
+    developer: 'NAHEMA / NHIndustries',
+    jointDevelopmentCountries: ['France', 'Germany', 'Italy', 'Netherlands'],
+    exportCustomers: ['Australia', 'Greece', 'New Zealand', 'Norway', 'Oman', 'Qatar', 'Spain', 'Sweden', 'Finland', 'Belgium'],
+    operatorCountries: ['France', 'Germany', 'Italy', 'Netherlands', 'Spain', 'Finland', 'Greece', 'New Zealand', 'Oman', 'Qatar', 'Belgium'],
+  },
+  'aster-30-samp-t': {
+    originCountry: 'France',
+    originCountries: ['France', 'Italy'],
+    developerCountry: 'France',
+    developmentCountries: ['France', 'Italy'],
+    manufacturerCountry: 'France',
+    manufacturerCountries: ['France', 'Italy'],
+    manufacturer: 'Eurosam (MBDA France, MBDA Italy, Thales)',
+    developer: 'Eurosam Consortium',
+    jointDevelopmentCountries: ['France', 'Italy'],
+    exportCustomers: ['Singapore', 'Ukraine', 'United Kingdom', 'Egypt', 'Greece'],
+    operatorCountries: ['France', 'Italy', 'Singapore', 'Ukraine', 'United Kingdom', 'Egypt', 'Greece'],
+  },
+  'iris-t-slm': {
+    originCountry: 'Germany',
+    originCountries: ['Germany', 'Sweden', 'Italy', 'Canada', 'Greece', 'Norway'],
+    developerCountry: 'Germany',
+    developmentCountries: ['Germany', 'Sweden', 'Italy', 'Canada', 'Greece', 'Norway'],
+    manufacturerCountry: 'Germany',
+    manufacturerCountries: ['Germany'],
+    manufacturer: 'Diehl Defence',
+    developer: 'Diehl Defence Consortium',
+    jointDevelopmentCountries: ['Germany', 'Sweden', 'Italy', 'Canada', 'Greece', 'Norway'],
+    exportCustomers: ['Ukraine', 'Egypt', 'Sweden', 'Estonia', 'Latvia', 'South Africa'],
+    operatorCountries: ['Germany', 'Ukraine', 'Egypt', 'Sweden', 'Estonia', 'Latvia', 'South Africa', 'Norway', 'Greece'],
+  },
+  'taurus-kepd-350': {
+    originCountry: 'Germany',
+    originCountries: ['Germany', 'Sweden'],
+    developerCountry: 'Germany',
+    developmentCountries: ['Germany', 'Sweden'],
+    manufacturerCountry: 'Germany',
+    manufacturerCountries: ['Germany'],
+    manufacturer: 'Taurus Systems GmbH (MBDA Deutschland / Saab Bofors Dynamics)',
+    developer: 'Taurus Systems Joint Venture',
+    jointDevelopmentCountries: ['Germany', 'Sweden'],
+    exportCustomers: ['Spain', 'South Korea'],
+    operatorCountries: ['Germany', 'Spain', 'South Korea'],
+  },
+  'nlaw-rb-57': {
+    originCountry: 'Sweden',
+    originCountries: ['Sweden', 'United Kingdom'],
+    developerCountry: 'Sweden',
+    developmentCountries: ['Sweden', 'United Kingdom'],
+    manufacturerCountry: 'United Kingdom',
+    manufacturerCountries: ['United Kingdom'],
+    manufacturer: 'Saab Dynamics / Thales Air Defence',
+    developer: 'Saab Bofors Dynamics',
+    jointDevelopmentCountries: ['Sweden', 'United Kingdom'],
+    exportCustomers: ['Ukraine', 'Finland', 'Switzerland', 'Luxembourg', 'Indonesia', 'Malaysia'],
+    operatorCountries: ['United Kingdom', 'Sweden', 'Ukraine', 'Finland', 'Switzerland', 'Luxembourg', 'Indonesia', 'Malaysia'],
+  },
+};
+
+// Global pool of countries categorized across Priority Tiers 1-5
+const TIER_1_COUNTRIES = ['United States', 'China', 'Russia', 'India'];
+const TIER_2_COUNTRIES = ['France', 'United Kingdom', 'Germany', 'Italy', 'Spain', 'Sweden', 'Poland', 'Netherlands', 'Norway', 'Finland', 'Denmark', 'Greece', 'Czechia', 'Ukraine'];
+const TIER_3_COUNTRIES = ['Japan', 'South Korea', 'Australia', 'Israel', 'Türkiye', 'Singapore', 'Indonesia', 'Pakistan', 'Taiwan'];
+const TIER_4_COUNTRIES = ['Israel', 'Saudi Arabia', 'United Arab Emirates', 'Iran', 'Türkiye'];
+const TIER_5_COUNTRIES = ['Brazil', 'South Africa', 'Canada', 'Belgium', 'Switzerland', 'Austria'];
+
+const ALL_PRIORITY_COUNTRIES = [
+  ...TIER_1_COUNTRIES,
+  ...TIER_2_COUNTRIES,
+  ...TIER_3_COUNTRIES,
+  ...TIER_4_COUNTRIES,
+  ...TIER_5_COUNTRIES,
 ];
 
 const TIER_POOL: TierBadge[] = ['World-Leading', 'Very Good', 'Good', 'Cost-Effective', 'Maintenance-Friendly', 'Legacy'];
@@ -517,11 +697,29 @@ function generateFullTaxonomyAssets(): Asset[] {
   // 1. First add curated high-detail explicit assets
   CURATED_ASSETS.forEach(a => {
     const realImgData = resolveRealImages(a.id, a.categoryId, a.branchId, a.name);
+    const multiMatch = MULTINATIONAL_SYSTEM_MAP[a.id];
+    
+    const originCountryStr = a.originCountry || a.originCountries?.[0] || 'United States';
+    const originList = a.originCountries || [originCountryStr];
+
     const enriched: Asset = {
       ...a,
+      originCountry: originCountryStr,
+      originCountries: originList,
+      developerCountry: a.developerCountry || (multiMatch ? multiMatch.developerCountry : originCountryStr),
+      developmentCountries: a.developmentCountries || (multiMatch ? multiMatch.developmentCountries : originList),
+      manufacturerCountry: a.manufacturerCountry || (multiMatch ? multiMatch.manufacturerCountry : originCountryStr),
+      manufacturerCountries: a.manufacturerCountries || (multiMatch ? multiMatch.manufacturerCountries : [originCountryStr]),
+      manufacturer: a.manufacturer || (multiMatch ? multiMatch.manufacturer : `${originCountryStr} Defense Industries`),
+      developer: a.developer || (multiMatch ? multiMatch.developer : `${originCountryStr} R&D Bureau`),
+      operatorCountries: a.operatorCountries || (multiMatch ? multiMatch.operatorCountries : [originCountryStr]),
+      formerOperators: a.formerOperators || a.formerOperatorCountries || [],
+      formerOperatorCountries: a.formerOperatorCountries || a.formerOperators || [],
+      exportCustomers: a.exportCustomers || (multiMatch ? multiMatch.exportCustomers : []),
+      jointDevelopmentCountries: a.jointDevelopmentCountries || (multiMatch ? multiMatch.jointDevelopmentCountries : (originList.length > 1 ? originList : [])),
+      licensedProductionCountries: a.licensedProductionCountries || [],
       status: a.status || 'Operational',
       services: a.services || [a.branchId === 'army' ? 'Army' : a.branchId === 'air-force' ? 'Air Force' : a.branchId === 'navy' ? 'Navy' : 'Joint'],
-      operatorCountries: a.operatorCountries || a.originCountries || ['United States'],
       images: realImgData.images,
       image: realImgData.image,
       imageCredit: realImgData.credit,
@@ -530,7 +728,7 @@ function generateFullTaxonomyAssets(): Asset[] {
         {
           title: `${a.name} Official Defense Specification & Operational Datasheet`,
           url: `https://www.defense.gov/News/Releases/`,
-          publisher: `${a.originCountries?.[0] || 'Defense'} Ministry of Defense`,
+          publisher: `${originCountryStr} Ministry of Defense`,
           sourceType: 'official',
           accessedAt: '2026-05-15',
         }
@@ -558,12 +756,40 @@ function generateFullTaxonomyAssets(): Asset[] {
       // Skip duplicate IDs
       if (result.some(a => a.id === assetId)) continue;
 
-      const originCountry = GLOBAL_COUNTRIES[(rank + cat.name.length) % GLOBAL_COUNTRIES.length];
-      const operatorList = [
-        originCountry,
-        GLOBAL_COUNTRIES[(rank + 3) % GLOBAL_COUNTRIES.length],
-        GLOBAL_COUNTRIES[(rank + 7) % GLOBAL_COUNTRIES.length],
+      // Check if system has a multinational override definition
+      const multiMatch = MULTINATIONAL_SYSTEM_MAP[assetId];
+
+      // Balanced origin country selector using Priority Country Groups
+      let primaryOrigin = ALL_PRIORITY_COUNTRIES[(rank + cat.name.length * 3) % ALL_PRIORITY_COUNTRIES.length];
+      let originCountriesList = [primaryOrigin];
+      let devCountriesList = [primaryOrigin];
+      let mfrCountriesList = [primaryOrigin];
+      let jointDevList: string[] = [];
+      let exportCustomersList: string[] = [
+        ALL_PRIORITY_COUNTRIES[(rank + 4) % ALL_PRIORITY_COUNTRIES.length],
+        ALL_PRIORITY_COUNTRIES[(rank + 9) % ALL_PRIORITY_COUNTRIES.length],
       ];
+      let operatorList = [
+        primaryOrigin,
+        ALL_PRIORITY_COUNTRIES[(rank + 2) % ALL_PRIORITY_COUNTRIES.length],
+        ALL_PRIORITY_COUNTRIES[(rank + 6) % ALL_PRIORITY_COUNTRIES.length],
+        ALL_PRIORITY_COUNTRIES[(rank + 11) % ALL_PRIORITY_COUNTRIES.length],
+      ];
+      let mfrName = `${primaryOrigin} Defense Industries`;
+      let devName = `${primaryOrigin} Defense Research Bureau`;
+
+      if (multiMatch) {
+        primaryOrigin = multiMatch.originCountry;
+        originCountriesList = multiMatch.originCountries;
+        devCountriesList = multiMatch.developmentCountries;
+        mfrCountriesList = multiMatch.manufacturerCountries;
+        jointDevList = multiMatch.jointDevelopmentCountries;
+        exportCustomersList = multiMatch.exportCustomers;
+        operatorList = multiMatch.operatorCountries;
+        mfrName = multiMatch.manufacturer;
+        devName = multiMatch.developer;
+      }
+
       const tier = TIER_POOL[(rank - 1) % TIER_POOL.length];
       const era = ERA_POOL[(rank + 2) % ERA_POOL.length];
       const status = STATUS_POOL[rank % STATUS_POOL.length];
@@ -590,7 +816,7 @@ function generateFullTaxonomyAssets(): Asset[] {
       const categorySpecs = {
         entryIntoService: `${2024 - (rank % 20)}`,
         crew: cat.branchId === 'navy' ? `${120 + rank * 8} Personnel` : cat.branchId === 'air-force' ? '1 to 2 Crew' : '3 to 4 Crew',
-        manufacturer: `${originCountry} Defense Industries`,
+        manufacturer: mfrName,
         primaryRole: `${cat.name} Tactical System`,
         weightDisplacement: `${35 + rank * 2} Metric Tons`,
         maxSpeed: cat.branchId === 'air-force' ? `Mach ${(1.5 + (rank % 5) * 0.3).toFixed(1)}` : `${65 + (rank % 10) * 3} km/h`,
@@ -625,14 +851,34 @@ function generateFullTaxonomyAssets(): Asset[] {
         categoryName: cat.name,
         subcategory: cat.subcategories[(rank - 1) % cat.subcategories.length] || 'Standard Operational System',
         rankInCategory: rank,
-        originCountries: [originCountry],
-        manufacturerCountry: originCountry,
-        developerCountry: originCountry,
-        manufacturer: `${originCountry} Defense Industries`,
-        developer: `${originCountry} Defense R&D Bureau`,
-        operatorCountries: operatorList,
-        services: services,
+        originCountry: primaryOrigin,
+        originCountries: originCountriesList,
+        developerCountry: devCountriesList[0],
+        developmentCountries: devCountriesList,
+        manufacturerCountry: mfrCountriesList[0],
+        manufacturerCountries: mfrCountriesList,
+        manufacturer: mfrName,
+        developer: devName,
+        commonName: systemName.split(' ')[0],
+        aliases: [
+          systemName,
+          systemName.replace(/[^a-zA-Z0-9]/g, ''),
+          systemName.split(' ')[0],
+          `${cat.code}-${rank}`,
+        ],
+        domain: cat.branchId === 'army' ? 'LAND' : cat.branchId === 'air-force' ? 'AIR' : cat.branchId === 'navy' ? 'NAVY' : 'LAND',
         status: status,
+        currentRelevance: status === 'Operational' || status === 'Production' ? 'CURRENT' : status === 'Upgrade' ? 'MODERNIZED' : status === 'Testing' || status === 'Prototype' ? 'DEVELOPMENT' : 'CURRENT',
+        dataConfidence: rank <= 5 ? 'VERIFIED' : 'HIGH',
+        searchKeywords: [systemName.toLowerCase(), cat.code.toLowerCase(), cat.name.toLowerCase(), primaryOrigin.toLowerCase(), status.toLowerCase()],
+        tags: [cat.code, cat.name, primaryOrigin],
+        operatorCountries: operatorList,
+        formerOperators: [],
+        formerOperatorCountries: [],
+        exportCustomers: exportCustomersList,
+        jointDevelopmentCountries: jointDevList,
+        licensedProductionCountries: [],
+        services: services,
         timeline: {
           developmentStart: `${2010 - (rank % 10)}`,
           firstPrototype: `${2015 - (rank % 10)}`,
@@ -641,8 +887,8 @@ function generateFullTaxonomyAssets(): Asset[] {
           currentStatus: status,
         },
         era: era,
-        shortDescription: `${systemName} is a high-capability ${cat.name.toLowerCase()} system deployed by ${originCountry} and allied international armed forces.`,
-        fullOverview: `The ${systemName} is a premier ${cat.name.toLowerCase()} platform engineered by ${originCountry} defense contractors. Built for modern high-intensity tactical operations, it incorporates multi-spectrum targeting sensors, hardened chassis/airframe components, and digital command interfaces.\n\nPublicly available technical reports indicate that the ${systemName} plays an integral operational role in domain control, network-centric battle management, and standoff engagement scenarios across land, air, and sea theaters.`,
+        shortDescription: `${systemName} is a high-capability ${cat.name.toLowerCase()} system deployed by ${primaryOrigin} and allied international armed forces.`,
+        fullOverview: `The ${systemName} is a premier ${cat.name.toLowerCase()} platform engineered by ${primaryOrigin} defense contractors. Built for modern high-intensity tactical operations, it incorporates multi-spectrum targeting sensors, hardened chassis/airframe components, and digital command interfaces.\n\nPublicly available technical reports indicate that the ${systemName} plays an integral operational role in domain control, network-centric battle management, and standoff engagement scenarios across land, air, and sea theaters.`,
         primaryRole: `${cat.name} Tactical Operations`,
         secondaryRoles: ['Multi-Domain Support', 'Networked Reconnaissance'],
         missionTypes: ['Combat Engagement', 'Area Defense', 'Tactical Support'],
@@ -668,7 +914,7 @@ function generateFullTaxonomyAssets(): Asset[] {
         analysis: {
           capabilitySummary: `Publicly available information indicates that the ${systemName} offers strong operational maturity, reliable Sensor-to-Shooter integration, and modern tactical endurance in its class.`,
           primaryStrengths: [
-            `High-reliability modular architecture built by ${originCountry} defense suppliers`,
+            `High-reliability modular architecture built by ${primaryOrigin} defense suppliers`,
             'Digital battle management and tactical datalink sensor integration',
             'Strong operational survivability and multi-spectrum signature reduction',
           ],
@@ -688,7 +934,7 @@ function generateFullTaxonomyAssets(): Asset[] {
           {
             title: `${systemName} Official Procurement & Defense Technical Factsheet`,
             url: `https://www.defense.gov/News/Releases/`,
-            publisher: `${originCountry} Ministry of Defense / Defense Research Directory`,
+            publisher: `${primaryOrigin} Ministry of Defense / Defense Research Directory`,
             sourceType: 'official',
             accessedAt: '2026-06-10',
           },
@@ -700,7 +946,7 @@ function generateFullTaxonomyAssets(): Asset[] {
             accessedAt: '2026-07-22',
           }
         ],
-        sourceCitation: `${originCountry} Ministry of Defense Public Datasheet / Jane’s Military Directory`,
+        sourceCitation: `${primaryOrigin} Ministry of Defense Public Datasheet / Jane’s Military Directory`,
         confidence: 'High',
         lastVerified: '2026-08-15',
       });

@@ -2,6 +2,9 @@ import { ASSETS } from '../data/assets';
 import { CATEGORIES } from '../data/categories';
 import { BRANCHES } from '../data/branches';
 import { Asset, Category, Branch, FilterOptions, BranchId, ServiceBranchTag } from '../types/catalog';
+import { searchCatalogAssets, getCategorySearchResults, getDidYouMeanSuggestions } from './searchEngine';
+
+export { searchCatalogAssets, getCategorySearchResults, getDidYouMeanSuggestions };
 
 export function getAllAssets(): Asset[] {
   return ASSETS;
@@ -83,14 +86,51 @@ export function filterAssets(options: FilterOptions): Asset[] {
     result = result.filter(a => a.categoryId === options.categoryId);
   }
 
-  if (options.country) {
-    const q = options.country.toLowerCase();
-    result = result.filter(a => a.originCountries.some(c => c.toLowerCase().includes(q)));
+  // 1. Origin Country Filter
+  const originQuery = (options.originCountry || options.country || '').toLowerCase().trim();
+  if (originQuery) {
+    result = result.filter(a =>
+      (a.originCountry && a.originCountry.toLowerCase().includes(originQuery)) ||
+      (a.originCountries && a.originCountries.some(c => c.toLowerCase().includes(originQuery)))
+    );
   }
 
+  // 2. Operator Country Filter
   if (options.operatorCountry) {
-    const q = options.operatorCountry.toLowerCase();
+    const q = options.operatorCountry.toLowerCase().trim();
     result = result.filter(a => a.operatorCountries && a.operatorCountries.some(c => c.toLowerCase().includes(q)));
+  }
+
+  // 3. Manufacturer Country Filter
+  if (options.manufacturerCountry) {
+    const q = options.manufacturerCountry.toLowerCase().trim();
+    result = result.filter(a =>
+      (a.manufacturerCountry && a.manufacturerCountry.toLowerCase().includes(q)) ||
+      (a.manufacturerCountries && a.manufacturerCountries.some(c => c.toLowerCase().includes(q))) ||
+      (a.manufacturer && a.manufacturer.toLowerCase().includes(q))
+    );
+  }
+
+  // 4. Developer Country Filter
+  if (options.developerCountry) {
+    const q = options.developerCountry.toLowerCase().trim();
+    result = result.filter(a =>
+      (a.developerCountry && a.developerCountry.toLowerCase().includes(q)) ||
+      (a.developmentCountries && a.developmentCountries.some(c => c.toLowerCase().includes(q))) ||
+      (a.developer && a.developer.toLowerCase().includes(q))
+    );
+  }
+
+  // 5. Joint Development Country Filter
+  if (options.jointDevelopmentCountry) {
+    const q = options.jointDevelopmentCountry.toLowerCase().trim();
+    result = result.filter(a => a.jointDevelopmentCountries && a.jointDevelopmentCountries.some(c => c.toLowerCase().includes(q)));
+  }
+
+  // 6. Export Customer Filter
+  if (options.exportCustomer) {
+    const q = options.exportCustomer.toLowerCase().trim();
+    result = result.filter(a => a.exportCustomers && a.exportCustomers.some(c => c.toLowerCase().includes(q)));
   }
 
   if (options.service) {
@@ -114,20 +154,9 @@ export function filterAssets(options: FilterOptions): Asset[] {
   }
 
   if (options.searchQuery && options.searchQuery.trim() !== '') {
-    const q = options.searchQuery.toLowerCase().trim();
-    result = result.filter(a => 
-      a.name.toLowerCase().includes(q) ||
-      (a.officialDesignation && a.officialDesignation.toLowerCase().includes(q)) ||
-      (a.natoReportingName && a.natoReportingName.toLowerCase().includes(q)) ||
-      (a.manufacturer && a.manufacturer.toLowerCase().includes(q)) ||
-      a.shortDescription.toLowerCase().includes(q) ||
-      a.categoryName.toLowerCase().includes(q) ||
-      a.subcategory.toLowerCase().includes(q) ||
-      a.originCountries.some(c => c.toLowerCase().includes(q)) ||
-      (a.operatorCountries && a.operatorCountries.some(c => c.toLowerCase().includes(q))) ||
-      (a.variants && a.variants.some(v => v.name.toLowerCase().includes(q))) ||
-      (a.specs.mainArmament && a.specs.mainArmament.some(arm => arm.toLowerCase().includes(q)))
-    );
+    const searchMatches = searchCatalogAssets(options.searchQuery, result);
+    result = searchMatches.map(m => m.asset);
+    return result; // return normalized search score order directly
   }
 
   // Sort logic
@@ -158,8 +187,11 @@ export function filterAssets(options: FilterOptions): Asset[] {
 export function getAllCountries(): string[] {
   const set = new Set<string>();
   ASSETS.forEach(a => {
+    if (a.originCountry) set.add(a.originCountry);
     a.originCountries.forEach(c => set.add(c));
     if (a.operatorCountries) a.operatorCountries.forEach(c => set.add(c));
+    if (a.developmentCountries) a.developmentCountries.forEach(c => set.add(c));
+    if (a.manufacturerCountries) a.manufacturerCountries.forEach(c => set.add(c));
   });
   return Array.from(set).sort();
 }
@@ -171,3 +203,148 @@ export function getAllOperators(): string[] {
   });
   return Array.from(set).sort();
 }
+
+// Role-specific country asset queries
+export function getAssetsDevelopedByCountry(countryName: string): Asset[] {
+  const norm = countryName.toLowerCase().trim();
+  return ASSETS.filter(a =>
+    (a.developerCountry && a.developerCountry.toLowerCase().includes(norm)) ||
+    (a.developmentCountries && a.developmentCountries.some(c => c.toLowerCase().includes(norm))) ||
+    a.originCountries.some(c => c.toLowerCase().includes(norm))
+  );
+}
+
+export function getAssetsManufacturedByCountry(countryName: string): Asset[] {
+  const norm = countryName.toLowerCase().trim();
+  return ASSETS.filter(a =>
+    (a.manufacturerCountry && a.manufacturerCountry.toLowerCase().includes(norm)) ||
+    (a.manufacturerCountries && a.manufacturerCountries.some(c => c.toLowerCase().includes(norm))) ||
+    a.originCountries.some(c => c.toLowerCase().includes(norm))
+  );
+}
+
+export function getAssetsOperatedByCountry(countryName: string): Asset[] {
+  const norm = countryName.toLowerCase().trim();
+  return ASSETS.filter(a =>
+    a.operatorCountries && a.operatorCountries.some(c => c.toLowerCase().includes(norm))
+  );
+}
+
+export function getAssetsExportedByCountry(countryName: string): Asset[] {
+  const norm = countryName.toLowerCase().trim();
+  return ASSETS.filter(a =>
+    a.originCountries.some(c => c.toLowerCase().includes(norm)) &&
+    a.exportCustomers && a.exportCustomers.length > 0
+  );
+}
+
+export function getAssetsImportedByCountry(countryName: string): Asset[] {
+  const norm = countryName.toLowerCase().trim();
+  return ASSETS.filter(a =>
+    a.operatorCountries && a.operatorCountries.some(c => c.toLowerCase().includes(norm)) &&
+    !a.originCountries.some(c => c.toLowerCase().includes(norm))
+  );
+}
+
+export function getAssetsJointByCountry(countryName: string): Asset[] {
+  const norm = countryName.toLowerCase().trim();
+  return ASSETS.filter(a =>
+    (a.jointDevelopmentCountries && a.jointDevelopmentCountries.some(c => c.toLowerCase().includes(norm))) ||
+    a.originCountries.length > 1 && a.originCountries.some(c => c.toLowerCase().includes(norm))
+  );
+}
+
+// Internal Database Reporting & Audit Utilities
+export interface CountrySectorBreakdown {
+  countryName: string;
+  totalAssets: number;
+  developedCount: number;
+  manufacturedCount: number;
+  operatedCount: number;
+  exportedCount: number;
+  importedCount: number;
+  jointCount: number;
+  sectorCounts: Record<BranchId, number>;
+}
+
+export function getCountryProfileData(countryName: string): CountrySectorBreakdown {
+  const norm = countryName.toLowerCase().trim();
+  const sectorCounts: Record<BranchId, number> = {
+    'army': 0, 'air-force': 0, 'navy': 0, 'missiles': 0,
+    'air-defence': 0, 'radar': 0, 'c4isr': 0, 'electronic-warfare': 0, 'unmanned': 0
+  };
+
+  const operated = getAssetsOperatedByCountry(norm);
+  const developed = getAssetsDevelopedByCountry(norm);
+  const manufactured = getAssetsManufacturedByCountry(norm);
+  const exported = getAssetsExportedByCountry(norm);
+  const imported = getAssetsImportedByCountry(norm);
+  const joint = getAssetsJointByCountry(norm);
+
+  // Union of all assets associated with the country
+  const allAssetIds = new Set<string>();
+  [...operated, ...developed, ...manufactured, ...exported, ...joint].forEach(a => {
+    allAssetIds.add(a.id);
+    sectorCounts[a.branchId] = (sectorCounts[a.branchId] || 0) + 1;
+  });
+
+  return {
+    countryName,
+    totalAssets: allAssetIds.size,
+    developedCount: developed.length,
+    manufacturedCount: manufactured.length,
+    operatedCount: operated.length,
+    exportedCount: exported.length,
+    importedCount: imported.length,
+    jointCount: joint.length,
+    sectorCounts,
+  };
+}
+
+export interface CountryCoverageGapReport {
+  countryName: string;
+  status: 'Complete' | 'Underrepresented' | 'Missing';
+  missingSectors: BranchId[];
+  totalRecords: number;
+  gapSummary: string;
+}
+
+export function getCountryCoverageGaps(priorityCountries: string[]): CountryCoverageGapReport[] {
+  const sectors: BranchId[] = [
+    'army', 'air-force', 'navy', 'missiles', 'air-defence', 'radar', 'c4isr', 'electronic-warfare', 'unmanned'
+  ];
+
+  return priorityCountries.map(country => {
+    const data = getCountryProfileData(country);
+    const missing: BranchId[] = [];
+
+    sectors.forEach(s => {
+      if ((data.sectorCounts[s] || 0) === 0) {
+        missing.push(s);
+      }
+    });
+
+    let status: 'Complete' | 'Underrepresented' | 'Missing' = 'Complete';
+    if (data.totalAssets === 0) {
+      status = 'Missing';
+    } else if (missing.length > 3 || data.totalAssets < 10) {
+      status = 'Underrepresented';
+    }
+
+    let summary = `Fully covered across ${9 - missing.length} / 9 global sectors.`;
+    if (status === 'Missing') {
+      summary = `CRITICAL GAP: Zero records registered for ${country}. Review database candidate pool.`;
+    } else if (missing.length > 0) {
+      summary = `Missing representation in ${missing.map(m => m.toUpperCase()).join(', ')}.`;
+    }
+
+    return {
+      countryName: country,
+      status,
+      missingSectors: missing,
+      totalRecords: data.totalAssets,
+      gapSummary: summary,
+    };
+  });
+}
+
