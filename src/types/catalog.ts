@@ -100,11 +100,11 @@ export interface AssetImage {
   credit: string;
   license: string;
   copyright?: string;
-  imageType?: string;
+  imageType?: 'photo' | 'official-diagram' | 'technical-drawing' | 'satellite' | 'other' | string;
   verified?: boolean;
   verifiedAt?: string;
   angle?: string;       // e.g. "Front", "Side", "Rear", "Top / Overhead", "Front 3/4", "Rear 3/4", "Operational", "Interior", "MULTIPLE VIEWS"
-  imageStatus?: 'verified' | 'unverified';
+  imageStatus?: 'verified' | 'unverified' | 'unavailable';
   type?: string;
 }
 
@@ -196,7 +196,8 @@ export type DataConfidence =
   | 'LOW'
   | 'ESTIMATED'
   | 'DISPUTED'
-  | 'NOT_PUBLICLY_DISCLOSED';
+  | 'NOT_PUBLICLY_DISCLOSED'
+  | 'NOT-PUBLICLY-DISCLOSED';
 
 export interface Asset {
   id: string;
@@ -223,6 +224,7 @@ export interface Asset {
   subcategory: string;
   type?: string;
   rankInCategory: number;    // 1 to 30
+  rankingRationale?: string; // Editorial / capability justification for ranking
 
   roles?: string[];
   primaryRole?: string;
@@ -238,6 +240,7 @@ export interface Asset {
   manufacturerCountry?: string;
   manufacturerCountries?: string[];
   developerCountry?: string;
+  developerCountries?: string[];
   developmentCountries?: string[];
   manufacturer?: string;
   developer?: string;
@@ -248,6 +251,7 @@ export interface Asset {
   formerOperators?: string[];
   formerOperatorCountries?: string[];
   exportCustomers?: string[];
+  exportCustomerCountries?: string[];
   jointDevelopmentCountries?: string[];
   licensedProductionCountries?: string[];
 
@@ -277,6 +281,8 @@ export interface Asset {
   classification?: 'Strategic' | 'Operational' | 'Tactical';
 
   images: AssetImage[];      // multi-angle / verified military imagery
+  imageStatus?: 'verified' | 'unverified' | 'unavailable';
+  imageNotice?: string;
   image?: string;            // fallback primary image URL
   imageCredit?: string;
   imageLicense?: string;
@@ -322,6 +328,9 @@ export interface Branch {
   primaryRole: string;
   assetCount: number;
   categoryCount: number;
+  targetCount?: number;
+  actualCount?: number;
+  approvedCount?: number;
   featuredAssetIds: string[];
 }
 
@@ -341,5 +350,5 @@ export interface FilterOptions {
   generation?: string;
   era?: string;
   tier?: TierBadge;
-  sortBy: 'rating' | 'name-asc' | 'name-desc' | 'year-desc' | 'capability' | 'range' | 'speed' | 'weight';
+  sortBy?: 'rank' | 'rating' | 'name-asc' | 'name-desc' | 'year-desc' | 'capability' | 'range' | 'speed' | 'weight';
 }

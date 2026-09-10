@@ -9,9 +9,11 @@ import { ArrowRight, SlidersHorizontal, Check, Globe } from 'lucide-react';
 
 interface AssetCardProps {
   asset: Asset;
+  displayIndex?: number;
 }
 
-export function AssetCard({ asset }: AssetCardProps) {
+export function AssetCard({ asset, displayIndex }: AssetCardProps) {
+  const cardNumber = displayIndex !== undefined ? displayIndex : (asset.rankInCategory || 1);
   const { addToCompare, removeFromCompare, isInCompare } = useCompare();
 
   // Primary image URL resolution
@@ -66,7 +68,7 @@ export function AssetCard({ asset }: AssetCardProps) {
         {/* Top Corner Overlay: Rank Badge & Tier Badge */}
         <div className="absolute top-2 left-2 right-2 flex items-center justify-between gap-2 z-10 pointer-events-none">
           <span className="px-2 py-0.5 bg-[#0B0E14]/90 text-white text-xs font-mono font-bold tracking-wider rounded-none border border-slate-700/80">
-            #{asset.rankInCategory}
+            #{cardNumber}
           </span>
           <div className="pointer-events-auto">
             <TierBadge tier={asset.overallTier} size="sm" />

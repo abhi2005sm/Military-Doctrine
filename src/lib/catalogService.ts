@@ -32,7 +32,32 @@ export function getCategoriesByBranch(branchId: BranchId): Category[] {
 }
 
 export function getBranchById(branchId: BranchId): Branch | undefined {
-  return BRANCHES[branchId];
+  const b = BRANCHES[branchId];
+  if (!b) return undefined;
+  const actualAssets = getAssetsByBranch(branchId);
+  const actualCategories = getCategoriesByBranch(branchId);
+  return {
+    ...b,
+    assetCount: actualAssets.length,
+    categoryCount: actualCategories.length,
+  };
+}
+
+export function getAllBranches(): Branch[] {
+  return (Object.keys(BRANCHES) as BranchId[])
+    .map(id => getBranchById(id))
+    .filter((b): b is Branch => b !== undefined);
+}
+
+export function getCategoryWithStats(categoryId: string): (Category & { actualCount: number; approvedCount: number }) | undefined {
+  const cat = getCategoryById(categoryId);
+  if (!cat) return undefined;
+  const actualAssets = getAssetsByCategory(categoryId);
+  return {
+    ...cat,
+    actualCount: actualAssets.length,
+    approvedCount: actualAssets.length,
+  };
 }
 
 export function getAssetsByOperatorCountry(countryName: string): Asset[] {
@@ -176,6 +201,7 @@ export function filterAssets(options: FilterOptions): Asset[] {
     case 'year-desc':
       result.sort((a, b) => parseInt(b.specs.entryIntoService || '2000') - parseInt(a.specs.entryIntoService || '2000'));
       break;
+    case 'rank':
     default:
       result.sort((a, b) => a.rankInCategory - b.rankInCategory);
       break;

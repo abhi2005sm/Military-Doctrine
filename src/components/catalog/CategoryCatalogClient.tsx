@@ -26,7 +26,7 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
   const [selectedGeneration, setSelectedGeneration] = useState<string>('');
   const [selectedEra, setSelectedEra] = useState<string>('');
   const [selectedTier, setSelectedTier] = useState<string>('');
-  const [sortBy, setSortBy] = useState<FilterOptions['sortBy']>('name-asc');
+  const [sortBy, setSortBy] = useState<FilterOptions['sortBy']>('rank');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
   const allCountries = useMemo(() => getAllCountries(), []);
@@ -91,7 +91,7 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
     setSelectedGeneration('');
     setSelectedEra('');
     setSelectedTier('');
-    setSortBy('name-asc');
+    setSortBy('rank');
   };
 
   return (
@@ -174,7 +174,8 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
                 onChange={e => setSortBy(e.target.value as FilterOptions['sortBy'])}
                 className="px-2.5 py-1.5 bg-slate-50 border border-slate-200 text-slate-900 font-mono text-xs rounded-sm focus:outline-none focus:border-[#1B3A5C]"
               >
-                <option value="name-asc">Rank Order (#1 up)</option>
+                <option value="rank">Rank Order (#1 up)</option>
+                <option value="name-asc">Alphabetical (A-Z)</option>
                 <option value="rating">Highest Overall Rating</option>
                 <option value="capability">Offensive Capability</option>
                 <option value="year-desc">Service Entry (Newest)</option>
@@ -342,17 +343,17 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
       {filteredAssets.length > 0 ? (
         viewMode === 'grid' ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredAssets.map(asset => (
-              <AssetCard key={asset.id} asset={asset} />
+            {filteredAssets.map((asset, index) => (
+              <AssetCard key={asset.id} asset={asset} displayIndex={index + 1} />
             ))}
           </div>
         ) : (
           <div className="bg-white border border-slate-200 divide-y divide-slate-200 rounded-sm shadow-xs font-mono text-xs">
-            {filteredAssets.map(asset => (
+            {filteredAssets.map((asset, index) => (
               <div key={asset.id} className="p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 hover:bg-slate-50">
                 <div className="space-y-1">
                   <div className="flex items-center gap-2">
-                    <span className="font-bold text-[#1B3A5C]">#{asset.rankInCategory}</span>
+                    <span className="font-bold text-[#1B3A5C]">#{index + 1}</span>
                     <Link href={`/${asset.branchId}/${asset.categoryId}/${asset.id}`} className="font-bold text-slate-900 hover:text-[#1B3A5C] text-sm">
                       {asset.name}
                     </Link>

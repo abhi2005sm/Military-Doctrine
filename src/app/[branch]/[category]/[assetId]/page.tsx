@@ -439,8 +439,8 @@ export default function AssetDetailPage({ params }: AssetDetailPageProps) {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            {relatedAssets.map(rel => (
-              <AssetCard key={rel.id} asset={rel} />
+            {relatedAssets.map((rel, index) => (
+              <AssetCard key={rel.id} asset={rel} displayIndex={index + 1} />
             ))}
           </div>
         </div>

@@ -34,7 +34,7 @@ export default function HomePage() {
             <div className="space-y-4 max-w-3xl">
               <div className="inline-flex items-center gap-2 px-3 py-1 bg-slate-100 border border-slate-200 font-mono text-xs text-slate-800 rounded-sm">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                <span className="font-semibold">GLOBAL MILITARY EQUIPMENT RESEARCH DATABASE — 860 MASTER RECORDS</span>
+                <span className="font-semibold">GLOBAL MILITARY EQUIPMENT RESEARCH DATABASE — {totalAssetsCount.toLocaleString()} MASTER RECORDS</span>
               </div>
 
               <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-slate-900 font-sans leading-tight">
@@ -94,47 +94,47 @@ export default function HomePage() {
           <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-9 gap-3 pt-6 border-t border-slate-200 font-mono text-xs text-center">
             <div className="p-2.5 bg-slate-50 border border-slate-200 rounded-sm">
               <span className="text-slate-500 text-[10px] uppercase font-sans font-bold block">Army</span>
-              <span className="text-sm font-bold text-slate-900">200</span>
+              <span className="text-sm font-bold text-slate-900">{ASSETS.filter(a => a.branchId === 'army').length}</span>
               <span className="text-[9px] text-slate-500 block">Records</span>
             </div>
             <div className="p-2.5 bg-slate-50 border border-slate-200 rounded-sm">
               <span className="text-slate-500 text-[10px] uppercase font-sans font-bold block">Air Force</span>
-              <span className="text-sm font-bold text-slate-900">117</span>
+              <span className="text-sm font-bold text-slate-900">{ASSETS.filter(a => a.branchId === 'air-force').length}</span>
               <span className="text-[9px] text-slate-500 block">Records</span>
             </div>
             <div className="p-2.5 bg-slate-50 border border-slate-200 rounded-sm">
               <span className="text-slate-500 text-[10px] uppercase font-sans font-bold block">Navy</span>
-              <span className="text-sm font-bold text-slate-900">193</span>
+              <span className="text-sm font-bold text-slate-900">{ASSETS.filter(a => a.branchId === 'navy').length}</span>
               <span className="text-[9px] text-slate-500 block">Records</span>
             </div>
             <div className="p-2.5 bg-slate-50 border border-slate-200 rounded-sm">
               <span className="text-slate-500 text-[10px] uppercase font-sans font-bold block">Missiles</span>
-              <span className="text-sm font-bold text-slate-900">150</span>
+              <span className="text-sm font-bold text-slate-900">{ASSETS.filter(a => a.branchId === 'missiles').length}</span>
               <span className="text-[9px] text-slate-500 block">Records</span>
             </div>
             <div className="p-2.5 bg-slate-50 border border-slate-200 rounded-sm">
               <span className="text-slate-500 text-[10px] uppercase font-sans font-bold block">Air Defence</span>
-              <span className="text-sm font-bold text-slate-900">80</span>
+              <span className="text-sm font-bold text-slate-900">{ASSETS.filter(a => a.branchId === 'air-defence').length}</span>
               <span className="text-[9px] text-slate-500 block">Records</span>
             </div>
             <div className="p-2.5 bg-slate-50 border border-slate-200 rounded-sm">
               <span className="text-slate-500 text-[10px] uppercase font-sans font-bold block">Radar</span>
-              <span className="text-sm font-bold text-slate-900">70</span>
+              <span className="text-sm font-bold text-slate-900">{ASSETS.filter(a => a.branchId === 'radar').length}</span>
               <span className="text-[9px] text-slate-500 block">Records</span>
             </div>
             <div className="p-2.5 bg-slate-50 border border-slate-200 rounded-sm">
               <span className="text-slate-500 text-[10px] uppercase font-sans font-bold block">C4ISR</span>
-              <span className="text-sm font-bold text-slate-900">50</span>
+              <span className="text-sm font-bold text-slate-900">{ASSETS.filter(a => a.branchId === 'c4isr').length}</span>
               <span className="text-[9px] text-slate-500 block">Records</span>
             </div>
             <div className="p-2.5 bg-slate-50 border border-slate-200 rounded-sm">
               <span className="text-slate-500 text-[10px] uppercase font-sans font-bold block">EW</span>
-              <span className="text-sm font-bold text-slate-900">50</span>
+              <span className="text-sm font-bold text-slate-900">{ASSETS.filter(a => a.branchId === 'electronic-warfare').length}</span>
               <span className="text-[9px] text-slate-500 block">Records</span>
             </div>
             <div className="p-2.5 bg-slate-50 border border-slate-200 rounded-sm">
               <span className="text-slate-500 text-[10px] uppercase font-sans font-bold block">Unmanned</span>
-              <span className="text-sm font-bold text-slate-900">50</span>
+              <span className="text-sm font-bold text-slate-900">{ASSETS.filter(a => a.branchId === 'unmanned').length}</span>
               <span className="text-[9px] text-slate-500 block">Records</span>
             </div>
           </div>
@@ -237,8 +237,8 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {featuredAssets.map(asset => (
-            <AssetCard key={asset.id} asset={asset} />
+          {featuredAssets.map((asset, index) => (
+            <AssetCard key={asset.id} asset={asset} displayIndex={index + 1} />
           ))}
         </div>
       </section>
