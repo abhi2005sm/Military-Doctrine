@@ -1,6 +1,20 @@
 import { Branch } from '../types/catalog';
+import { ASSETS } from './assets';
+import { CATEGORIES } from './categories';
 
-export const BRANCHES: Record<string, Branch> = {
+interface RawBranchDef {
+  id: Branch['id'];
+  name: string;
+  code: string;
+  subtitle: string;
+  iconName: string;
+  description: string;
+  primaryRole: string;
+  targetCount: number;
+  featuredAssetIds: string[];
+}
+
+const RAW_BRANCHES: Record<string, RawBranchDef> = {
   army: {
     id: 'army',
     name: 'Army / Land Forces',
@@ -9,8 +23,7 @@ export const BRANCHES: Record<string, Branch> = {
     iconName: 'ShieldAlert',
     description: 'Comprehensive inventory of land combat systems including main battle tanks, light tanks, IFVs, APCs, MRAPs, towed and self-propelled artillery, MLRS, mortars, guns, small arms, and ground robotics.',
     primaryRole: 'Land Domain Superiority & Tactical Surface Operations',
-    assetCount: 200,
-    categoryCount: 15,
+    targetCount: 200,
     featuredAssetIds: ['m1a2-abrams', 'leopard-2a7', 'm2a4-bradley', 'm777-howitzer', 'himars', 'm4a1-carbine'],
   },
   'air-force': {
@@ -21,8 +34,7 @@ export const BRANCHES: Record<string, Branch> = {
     iconName: 'Plane',
     description: 'Aerial warfare assets spanning stealth air superiority fighters, multirole combat jets, heavy interceptors, attack aircraft, strategic bombers, AWACS, EW support, tankers, and tactical transports.',
     primaryRole: 'Air Dominance, Global Precision Strike & Aerial Reconnaissance',
-    assetCount: 117,
-    categoryCount: 12,
+    targetCount: 117,
     featuredAssetIds: ['f35-lightning-ii', 'rafale-c', 'b2-spirit', 'ah64e-apache', 'ea18g-growler', 'su57-felon'],
   },
   navy: {
@@ -33,9 +45,8 @@ export const BRANCHES: Record<string, Branch> = {
     iconName: 'Anchor',
     description: 'Naval fleet assets encompassing nuclear aircraft carriers, Aegis guided-missile destroyers, cruisers, ASW frigates, corvettes, SSBN/SSN/SSK attack submarines, fleet support, naval aircraft, and torpedoes.',
     primaryRole: 'Maritime Domain Awareness, Sea Control & Power Projection',
-    assetCount: 193,
-    categoryCount: 16,
-    featuredAssetIds: ['gerald-r-ford', 'arleigh-burke-flight-iii', 'virginia-class-ssn', 'type-055-destroyer', 'sejong-great'],
+    targetCount: 193,
+    featuredAssetIds: ['gerald-r-ford', 'arleigh-burke-flight-iii', 'virginia-class-ssn', 'type055-destroyer'],
   },
   missiles: {
     id: 'missiles',
@@ -45,9 +56,8 @@ export const BRANCHES: Record<string, Branch> = {
     iconName: 'Crosshair',
     description: 'Global sector housing strategic ballistic missiles, hypersonic weapons, BVR air-to-air missiles, anti-ship cruise missiles, standoff land attack weapons, and infantry anti-tank guided missiles.',
     primaryRole: 'Standoff Kinetic Precision Strike & Air Interception Across All Domains',
-    assetCount: 150,
-    categoryCount: 8,
-    featuredAssetIds: ['brahmos', 'df26', 'tomahawk', 'aim120d', 'meteor', 'javelin-atgm'],
+    targetCount: 150,
+    featuredAssetIds: ['brahmos', 'df26', 'tomahawk-block-v', 'aim120-amraam', 'meteor-bvraam', 'javelin-atgm'],
   },
   'air-defence': {
     id: 'air-defence',
@@ -57,8 +67,7 @@ export const BRANCHES: Record<string, Branch> = {
     iconName: 'RadioTower',
     description: 'Integrated point and area air defense systems, anti-ballistic missile batteries, multi-tiered SAM networks, and counter-unmanned aerial strike platforms.',
     primaryRole: 'Integrated Air & Ballistic Missile Defence',
-    assetCount: 80,
-    categoryCount: 8,
+    targetCount: 80,
     featuredAssetIds: ['patriot-pac3', 's400-triumf', 'thaad', 'iron-dome', 'nasams3'],
   },
   radar: {
@@ -69,8 +78,7 @@ export const BRANCHES: Record<string, Branch> = {
     iconName: 'Radar',
     description: 'Ground-based air surveillance, fighter GaN AESA fire-control radars, AWACS arrays, naval multifunction radars, counter-battery locators, and passive sensor arrays.',
     primaryRole: 'Electromagnetic Sensing, Early Warning & Targeting',
-    assetCount: 70,
-    categoryCount: 9,
+    targetCount: 70,
     featuredAssetIds: ['an-apg-81', 'spy-6-aesa', 'nebo-m', 'an-tpy-2', 'giraffe-1x'],
   },
   c4isr: {
@@ -81,8 +89,7 @@ export const BRANCHES: Record<string, Branch> = {
     iconName: 'Cpu',
     description: 'Joint tactical data links, battlefield management systems, satellite communication networks, strategic intelligence processing hubs, and resilient command architectures.',
     primaryRole: 'Multi-Domain Network Integration & Command Connectivity',
-    assetCount: 50,
-    categoryCount: 8,
+    targetCount: 50,
     featuredAssetIds: ['link-16', 'ibcs-c2', 'bctm-net', 'satcom-ultra', 'tactical-mesh-c4'],
   },
   'electronic-warfare': {
@@ -93,8 +100,7 @@ export const BRANCHES: Record<string, Branch> = {
     iconName: 'Zap',
     description: 'Airborne and ground-based radar jammers, communications interceptors, ELINT signal intelligence suites, directional infrared countermeasures (DIRCM), and cyber-electronic warfare.',
     primaryRole: 'Electromagnetic Spectrum Superiority & Offensive/Defensive Jamming',
-    assetCount: 50,
-    categoryCount: 6,
+    targetCount: 50,
     featuredAssetIds: ['an-alq-249-ngj', 'krasukha-4', 'samshit-ew', 'scorpion-ew', 'dircom-suite'],
   },
   unmanned: {
@@ -105,10 +111,36 @@ export const BRANCHES: Record<string, Branch> = {
     iconName: 'Bot',
     description: 'Unmanned aerial vehicles (UAV), stealth UCAVs, loitering munition kamikaze drones, unmanned ground combat vehicles (UGV), autonomous surface vessels (USV), and underwater vehicles (UUV).',
     primaryRole: 'Autonomous & Remotely Piloted Multi-Domain Operations',
-    assetCount: 50,
-    categoryCount: 6,
+    targetCount: 50,
     featuredAssetIds: ['mq9b-skyguardian', 'bayraktar-tb2', 'switchblade-600', 'orca-xluuv', 'thermite-ugv'],
   },
 };
 
+export function getBranchAssetCount(branchId: string): number {
+  return ASSETS.filter(a => a.branchId === branchId).length;
+}
+
+export function getBranchCategoryCount(branchId: string): number {
+  return CATEGORIES.filter(c => c.branchId === branchId).length;
+}
+
+export function buildDynamicBranches(): Record<string, Branch> {
+  const result: Record<string, Branch> = {};
+  Object.keys(RAW_BRANCHES).forEach(id => {
+    const raw = RAW_BRANCHES[id];
+    const liveAssetCount = getBranchAssetCount(id);
+    const liveCategoryCount = getBranchCategoryCount(id);
+    result[id] = {
+      ...raw,
+      assetCount: liveAssetCount,
+      categoryCount: liveCategoryCount,
+      targetCount: raw.targetCount,
+      actualCount: liveAssetCount,
+      approvedCount: liveAssetCount,
+    };
+  });
+  return result;
+}
+
+export const BRANCHES: Record<string, Branch> = buildDynamicBranches();
 export const BRANCH_LIST: Branch[] = Object.values(BRANCHES);

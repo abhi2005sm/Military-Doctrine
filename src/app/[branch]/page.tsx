@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getBranchById, getCategoriesByBranch, getAssetsByBranch } from '../../lib/catalogService';
-import { BranchId } from '../../types/catalog';
+import { BranchId, Category } from '../../types/catalog';
 import { Shield, Plane, Anchor, ArrowRight, Grid, ChevronRight, Crosshair, RadioTower, Radar, Cpu, Zap, Bot } from 'lucide-react';
 
 interface BranchPageProps {
@@ -117,7 +117,7 @@ export default function BranchPage({ params }: BranchPageProps) {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {categories.map(cat => {
+          {categories.map((cat: Category) => {
             const catAssetCount = branchAssets.filter(a => a.categoryId === cat.id).length;
 
             return (
@@ -146,7 +146,7 @@ export default function BranchPage({ params }: BranchPageProps) {
 
                   {/* Subcategory tags */}
                   <div className="flex flex-wrap gap-1 pt-1">
-                    {cat.subcategories.map(sub => (
+                    {cat.subcategories.map((sub: string) => (
                       <span
                         key={sub}
                         className="px-1.5 py-0.5 bg-slate-100 text-slate-600 text-[10px] font-mono border border-slate-200 rounded-xs"

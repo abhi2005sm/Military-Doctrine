@@ -18,7 +18,7 @@ import { BRANCHES } from '../../data/branches';
 import { AssetCard } from '../../components/catalog/AssetCard';
 import {
   Globe, Search, ArrowRight, Shield, Plane, Anchor, Crosshair, RadioTower,
-  Radar, Cpu, Zap, Bot, ChevronRight, Layers, Factory, CpuIcon, Send, Download, Cpu as ChipIcon, Flag
+  Radar, Cpu, Zap, Bot, ChevronRight, Layers, Factory, Send, Download, Flag
 } from 'lucide-react';
 import { Asset, BranchId } from '../../types/catalog';
 
@@ -380,8 +380,8 @@ export default function CountryPage() {
           {/* Equipment Asset Cards Display */}
           {displayAssets.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {displayAssets.map(asset => (
-                <AssetCard key={asset.id} asset={asset} />
+              {displayAssets.map((asset, index) => (
+                <AssetCard key={asset.id} asset={asset} displayIndex={index + 1} />
               ))}
             </div>
           ) : (
