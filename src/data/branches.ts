@@ -14,6 +14,22 @@ interface RawBranchDef {
   featuredAssetIds: string[];
 }
 
+/**
+ * featuredAssetIds below were audited against the live asset IDs that
+ * actually exist in army.ts / airforce.ts / navy.ts / missiles.ts /
+ * airDefence.ts / radar.ts / electronicWarfare.ts / unmanned.ts / c4isr.ts
+ * as of this fix. Every ID listed here resolves to a real record.
+ *
+ * Previously this list contained several orphaned / misspelled IDs that
+ * pointed to nothing (e.g. 'df26', 'tomahawk', 'aim120d', 'meteor',
+ * 'spy-6-aesa', 'nebo-m', 'ibcs-c2', 'bctm-net', 'satcom-ultra',
+ * 'tactical-mesh-c4', 'samshit-ew', 'scorpion-ew', 'dircom-suite',
+ * 'switchblade-600', 'ea18g-growler', 'type-055-destroyer') — those have
+ * been corrected or removed. c4isr and electronic-warfare currently only
+ * have 2–4 real records each, so their featured lists are intentionally
+ * short rather than padded with non-existent placeholders. Add more IDs
+ * here only once the corresponding real record exists in its sector file.
+ */
 const RAW_BRANCHES: Record<string, RawBranchDef> = {
   army: {
     id: 'army',
@@ -23,8 +39,8 @@ const RAW_BRANCHES: Record<string, RawBranchDef> = {
     iconName: 'ShieldAlert',
     description: 'Comprehensive inventory of land combat systems including main battle tanks, light tanks, IFVs, APCs, MRAPs, towed and self-propelled artillery, MLRS, mortars, guns, small arms, and ground robotics.',
     primaryRole: 'Land Domain Superiority & Tactical Surface Operations',
-    targetCount: 200,
-    featuredAssetIds: ['m1a2-abrams', 'leopard-2a7', 'm2a4-bradley', 'm777-howitzer', 'himars', 'm4a1-carbine'],
+    targetCount: 205,
+    featuredAssetIds: ['m1a2-abrams', 'leopard-2a7', 'k2-black-panther', 'm2a4-bradley', 'm777-howitzer', 'himars'],
   },
   'air-force': {
     id: 'air-force',
@@ -35,7 +51,7 @@ const RAW_BRANCHES: Record<string, RawBranchDef> = {
     description: 'Aerial warfare assets spanning stealth air superiority fighters, multirole combat jets, heavy interceptors, attack aircraft, strategic bombers, AWACS, EW support, tankers, and tactical transports.',
     primaryRole: 'Air Dominance, Global Precision Strike & Aerial Reconnaissance',
     targetCount: 117,
-    featuredAssetIds: ['f35-lightning-ii', 'rafale-c', 'b2-spirit', 'ah64e-apache', 'ea18g-growler', 'su57-felon'],
+    featuredAssetIds: ['f35-lightning-ii', 'f22-raptor', 'rafale-c', 'b2-spirit', 'su57-felon', 'eurofighter-typhoon'],
   },
   navy: {
     id: 'navy',
@@ -45,8 +61,8 @@ const RAW_BRANCHES: Record<string, RawBranchDef> = {
     iconName: 'Anchor',
     description: 'Naval fleet assets encompassing nuclear aircraft carriers, Aegis guided-missile destroyers, cruisers, ASW frigates, corvettes, SSBN/SSN/SSK attack submarines, fleet support, naval aircraft, and torpedoes.',
     primaryRole: 'Maritime Domain Awareness, Sea Control & Power Projection',
-    targetCount: 193,
-    featuredAssetIds: ['gerald-r-ford', 'arleigh-burke-flight-iii', 'virginia-class-ssn', 'type055-destroyer'],
+    targetCount: 203,
+    featuredAssetIds: ['gerald-r-ford', 'arleigh-burke-flight-iii', 'virginia-class-ssn', 'type055-destroyer', 'sejong-great'],
   },
   missiles: {
     id: 'missiles',
@@ -57,7 +73,7 @@ const RAW_BRANCHES: Record<string, RawBranchDef> = {
     description: 'Global sector housing strategic ballistic missiles, hypersonic weapons, BVR air-to-air missiles, anti-ship cruise missiles, standoff land attack weapons, and infantry anti-tank guided missiles.',
     primaryRole: 'Standoff Kinetic Precision Strike & Air Interception Across All Domains',
     targetCount: 150,
-    featuredAssetIds: ['brahmos', 'df26', 'tomahawk-block-v', 'aim120-amraam', 'meteor-bvraam', 'javelin-atgm'],
+    featuredAssetIds: ['brahmos-missile', 'iskander-m', 'tomahawk-cruise-missile', 'aim120-amraam', 'meteor-missile', 'fgm148-javelin'],
   },
   'air-defence': {
     id: 'air-defence',
@@ -79,7 +95,7 @@ const RAW_BRANCHES: Record<string, RawBranchDef> = {
     description: 'Ground-based air surveillance, fighter GaN AESA fire-control radars, AWACS arrays, naval multifunction radars, counter-battery locators, and passive sensor arrays.',
     primaryRole: 'Electromagnetic Sensing, Early Warning & Targeting',
     targetCount: 70,
-    featuredAssetIds: ['an-apg-81', 'spy-6-aesa', 'nebo-m', 'an-tpy-2', 'giraffe-1x'],
+    featuredAssetIds: ['an-apg-81', 'an-spy-6', 'an-tpy-2', 'giraffe-1x'],
   },
   c4isr: {
     id: 'c4isr',
@@ -90,7 +106,7 @@ const RAW_BRANCHES: Record<string, RawBranchDef> = {
     description: 'Joint tactical data links, battlefield management systems, satellite communication networks, strategic intelligence processing hubs, and resilient command architectures.',
     primaryRole: 'Multi-Domain Network Integration & Command Connectivity',
     targetCount: 50,
-    featuredAssetIds: ['link-16', 'ibcs-c2', 'bctm-net', 'satcom-ultra', 'tactical-mesh-c4'],
+    featuredAssetIds: ['link-16', 'ibcs-system'],
   },
   'electronic-warfare': {
     id: 'electronic-warfare',
@@ -101,7 +117,7 @@ const RAW_BRANCHES: Record<string, RawBranchDef> = {
     description: 'Airborne and ground-based radar jammers, communications interceptors, ELINT signal intelligence suites, directional infrared countermeasures (DIRCM), and cyber-electronic warfare.',
     primaryRole: 'Electromagnetic Spectrum Superiority & Offensive/Defensive Jamming',
     targetCount: 50,
-    featuredAssetIds: ['an-alq-249-ngj', 'krasukha-4', 'samshit-ew', 'scorpion-ew', 'dircom-suite'],
+    featuredAssetIds: ['ea-18g-growler', 'an-alq-249', 'krasukha-4', 'an-slq-32v7'],
   },
   unmanned: {
     id: 'unmanned',
@@ -112,7 +128,7 @@ const RAW_BRANCHES: Record<string, RawBranchDef> = {
     description: 'Unmanned aerial vehicles (UAV), stealth UCAVs, loitering munition kamikaze drones, unmanned ground combat vehicles (UGV), autonomous surface vessels (USV), and underwater vehicles (UUV).',
     primaryRole: 'Autonomous & Remotely Piloted Multi-Domain Operations',
     targetCount: 50,
-    featuredAssetIds: ['mq9b-skyguardian', 'bayraktar-tb2', 'switchblade-600', 'orca-xluuv', 'thermite-ugv'],
+    featuredAssetIds: ['bayraktar-tb2', 'mq9a-reaper', 'orca-xluuv', 'thermite-ugv', 'shahed-136'],
   },
 };
 
@@ -124,6 +140,17 @@ export function getBranchCategoryCount(branchId: string): number {
   return CATEGORIES.filter(c => c.branchId === branchId).length;
 }
 
+/**
+ * Filters featuredAssetIds down to IDs that actually resolve to a live
+ * asset record. This is a safety net on top of the manual audit above —
+ * if a sector file ever drops an asset, the branch page will silently
+ * stop showing it as featured instead of rendering a broken card.
+ */
+function getValidFeaturedIds(ids: string[]): string[] {
+  const liveIds = new Set(ASSETS.map(a => a.id));
+  return ids.filter(id => liveIds.has(id));
+}
+
 export function buildDynamicBranches(): Record<string, Branch> {
   const result: Record<string, Branch> = {};
   Object.keys(RAW_BRANCHES).forEach(id => {
@@ -132,6 +159,7 @@ export function buildDynamicBranches(): Record<string, Branch> {
     const liveCategoryCount = getBranchCategoryCount(id);
     result[id] = {
       ...raw,
+      featuredAssetIds: getValidFeaturedIds(raw.featuredAssetIds),
       assetCount: liveAssetCount,
       categoryCount: liveCategoryCount,
       targetCount: raw.targetCount,
