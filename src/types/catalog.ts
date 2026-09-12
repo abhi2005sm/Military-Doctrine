@@ -17,13 +17,16 @@ export type TierBadge =
   | 'Good'
   | 'Cost-Effective'
   | 'Maintenance-Friendly'
-  | 'Legacy';
+  | 'Legacy'
+  | 'Limited';
 
 export type EraCategory = 
   | 'Cold War (1947-1991)'
+  | 'Cold War / Modernized (1970-1991)'
   | 'Modern (1992-2015)'
   | 'Next-Gen (2016-Present)'
-  | 'Legacy System';
+  | 'Legacy System'
+  | 'Legacy / Historical';
 
 export type DevelopmentStatus =
   | 'Concept'
