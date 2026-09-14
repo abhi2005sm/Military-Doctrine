@@ -18,7 +18,8 @@ export type TierBadge =
   | 'Cost-Effective'
   | 'Maintenance-Friendly'
   | 'Legacy'
-  | 'Limited';
+  | 'Limited'
+  | (string & {});
 
 export type EraCategory = 
   | 'Cold War (1947-1991)'
@@ -26,7 +27,8 @@ export type EraCategory =
   | 'Modern (1992-2015)'
   | 'Next-Gen (2016-Present)'
   | 'Legacy System'
-  | 'Legacy / Historical';
+  | 'Legacy / Historical'
+  | (string & {});
 
 export type DevelopmentStatus =
   | 'Concept'
@@ -38,9 +40,10 @@ export type DevelopmentStatus =
   | 'Retired'
   | 'Cancelled'
   | 'Development'
-  | 'In Development';
+  | 'In Development'
+  | (string & {});
 
-export type ServiceBranchTag = 'Army' | 'Air Force' | 'Navy' | 'Joint' | 'Other';
+export type ServiceBranchTag = 'Army' | 'Air Force' | 'Navy' | 'Joint' | 'Other' | (string & {});
 
 export interface RatingScores {
   capability: number;        // 1-5 scale
@@ -91,7 +94,7 @@ export interface CategorySpecs {
   entryIntoService?: string;
   manufacturer?: string;
   primaryRole?: string;
-  keyMetrics?: SpecMetric[];
+  keyMetrics?: (SpecMetric | string)[];
   [key: string]: any;
 }
 
@@ -115,7 +118,7 @@ export interface SourceItem {
   title: string;
   url: string;
   publisher: string;
-  sourceType: 'official' | 'government' | 'reference' | 'defence-publication';
+  sourceType: 'official' | 'government' | 'reference' | 'defence-publication' | string;
   accessedAt: string;
   publicationDate?: string;
   accessDate?: string;
@@ -190,7 +193,8 @@ export type MasterStatus =
   | 'LEGACY'
   | 'RETIRED'
   | 'CANCELLED'
-  | DevelopmentStatus;
+  | DevelopmentStatus
+  | (string & {});
 
 export type DataConfidence =
   | 'VERIFIED'
@@ -200,7 +204,8 @@ export type DataConfidence =
   | 'ESTIMATED'
   | 'DISPUTED'
   | 'NOT_PUBLICLY_DISCLOSED'
-  | 'NOT-PUBLICLY-DISCLOSED';
+  | 'NOT-PUBLICLY-DISCLOSED'
+  | (string & {});
 
 export interface Asset {
   id: string;
@@ -219,7 +224,7 @@ export interface Asset {
   variantOf?: string;
   variantType?: string;
 
-  domain?: 'LAND' | 'AIR' | 'NAVY' | 'MISSILES' | 'AIR-DEFENCE' | 'RADAR' | 'C4ISR' | 'ELECTRONIC-WARFARE' | 'UNMANNED';
+  domain?: 'LAND' | 'AIR' | 'AIR-FORCE' | 'NAVY' | 'MISSILES' | 'AIR-DEFENCE' | 'RADAR' | 'C4ISR' | 'ELECTRONIC-WARFARE' | 'UNMANNED';
   branchId: BranchId;
   categoryId: string;
   categoryName: string;
