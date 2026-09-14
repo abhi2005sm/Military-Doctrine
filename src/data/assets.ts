@@ -1,6 +1,6 @@
 import { Asset } from '../types/catalog';
 import { ARMY_ASSETS } from './assets/army';
-import { AIRFORCE_ASSETS } from './assets/airforce';
+import { AIR_FORCE_ASSETS } from './assets/airforce';
 import { NAVY_ASSETS } from './assets/navy';
 import { MISSILE_ASSETS } from './assets/missiles';
 import { AIR_DEFENCE_ASSETS } from './assets/airDefence';
@@ -13,7 +13,7 @@ import { resolveVerifiedImages } from './realImages';
 // Canonical master list of 100% verified real-world military assets across 9 sectors
 const ALL_CANONICAL_RAW_ASSETS: Asset[] = [
   ...ARMY_ASSETS,
-  ...AIRFORCE_ASSETS,
+  ...AIR_FORCE_ASSETS,
   ...NAVY_ASSETS,
   ...MISSILE_ASSETS,
   ...AIR_DEFENCE_ASSETS,

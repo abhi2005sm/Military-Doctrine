@@ -114,12 +114,18 @@ export function AssetCard({ asset, displayIndex }: AssetCardProps) {
         <div className="space-y-1 py-2 px-2.5 bg-[#F7F8FA] border border-[#E4E7EC] font-mono text-xs">
           {asset.specs.keyMetrics && asset.specs.keyMetrics.length > 0 ? (
             asset.specs.keyMetrics.slice(0, 2).map((metric, idx) => (
-              <div key={idx} className="flex items-center justify-between text-[11px]">
-                <span className="text-[#5B6472] font-sans truncate">{metric.label}:</span>
-                <span className="font-semibold text-[#0B0E14] text-right shrink-0">
-                  {metric.value} {metric.unit && <span className="text-[10px] text-[#5B6472] font-normal">{metric.unit}</span>}
-                </span>
-              </div>
+              typeof metric === 'string' ? (
+                <div key={idx} className="flex items-center justify-between text-[11px]">
+                  <span className="text-[#5B6472] font-sans truncate">{metric}</span>
+                </div>
+              ) : (
+                <div key={idx} className="flex items-center justify-between text-[11px]">
+                  <span className="text-[#5B6472] font-sans truncate">{metric.label}:</span>
+                  <span className="font-semibold text-[#0B0E14] text-right shrink-0">
+                    {metric.value} {metric.unit && <span className="text-[10px] text-[#5B6472] font-normal">{metric.unit}</span>}
+                  </span>
+                </div>
+              )
             ))
           ) : (
             <div className="flex items-center justify-between text-[11px]">
