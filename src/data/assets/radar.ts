@@ -66,7 +66,7 @@ export const RADAR_ASSETS: Asset[] = [
   },
   {
     id: 'an-spy-6',
-    name: 'AN/SPY-6(V)1 AMDR',
+    name: 'AN/SPY-6 Air and Missile Defense Radar',
     officialDesignation: 'AN/SPY-6(V)1 Air and Missile Defense Radar',
     commonName: 'AN/SPY-6',
     aliases: ['AN/SPY-6', 'SPY-6', 'SPY6', 'AMDR', 'AN/SPY-6(V)1'],
