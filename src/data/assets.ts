@@ -76,7 +76,14 @@ function buildCanonicalDatabase(): Asset[] {
       manufacturerCountries: a.manufacturerCountries || originList,
       developer: a.developer,
       manufacturer: a.manufacturer,
-      operatorCountries: a.operatorCountries || originList,
+      operatorCountries: (a.operatorCountries || originList).map(c => {
+        if (typeof c === 'string' && (c.startsWith("('") || c.startsWith("(\""))) {
+          const m = c.match(/\('(.*?)',|\("(.*?)",/);
+          if (m) return m[1] || m[2];
+        }
+        return c;
+      }),
+      serviceEntry: a.serviceEntry || a.specs?.entryIntoService || (a.airDefenceSpecs?.serviceEntryYear ? String(a.airDefenceSpecs.serviceEntryYear) : undefined),
       formerOperatorCountries: a.formerOperatorCountries || [],
       exportCustomerCountries: a.exportCustomerCountries || a.exportCustomers || [],
       jointDevelopmentCountries: a.jointDevelopmentCountries || [],

@@ -1,3 +1,5 @@
+import { AirDefenceSystemSpecs } from '@/schema/airDefence';
+
 export type BranchId = 
   | 'army' 
   | 'air-force' 
@@ -297,6 +299,7 @@ export interface Asset {
 
   specifications?: CategorySpecs;
   specs: CategorySpecs;
+  airDefenceSpecs?: AirDefenceSystemSpecs;
   ratings: RatingScores;
   overallTier: TierBadge;
 
