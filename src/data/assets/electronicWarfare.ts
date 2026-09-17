@@ -200,7 +200,7 @@ export const ELECTRONIC_WARFARE_ASSETS: Asset[] = [
   },
   {
     id: 'an-slq-32v7',
-    name: 'AN/SLQ-32(V)7 SEWIP Block 3',
+    name: 'AN/SLQ-32 SEWIP System',
     officialDesignation: 'AN/SLQ-32(V)7 Surface Electronic Warfare Improvement Program',
     commonName: 'SEWIP Block 3',
     aliases: ['SEWIP', 'SLQ-32', 'SEWIP Block 3', 'AN/SLQ-32(V)7'],
