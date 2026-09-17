@@ -147,7 +147,7 @@ export default function AssetDetailPage({ params }: AssetDetailPageProps) {
               <span>•</span>
               <div>
                 <span className="text-slate-500">SERVICE ENTRY: </span>
-                <span className="font-semibold text-slate-900">{asset.specs.entryIntoService || 'Unknown'}</span>
+                <span className="font-semibold text-slate-900">{asset.serviceEntry || asset.specs.entryIntoService || 'Unknown'}</span>
               </div>
               <span>•</span>
               <div>
@@ -250,6 +250,117 @@ export default function AssetDetailPage({ params }: AssetDetailPageProps) {
               )}
             </div>
           </div>
+
+          {/* Air Defence Domain Architecture & Interceptor Specs */}
+          {asset.airDefenceSpecs && (
+            <div className="bg-white border border-slate-200 p-6 space-y-4 rounded-sm shadow-xs">
+              <div className="flex items-center justify-between border-b border-slate-200 pb-3">
+                <h2 className="text-base font-bold text-slate-900 tracking-tight font-sans uppercase flex items-center gap-2">
+                  <Cpu className="w-4 h-4 text-[#1B3A5C]" />
+                  AIR DEFENCE DOMAIN ARCHITECTURE & INTERCEPTOR SPECS
+                </h2>
+                <span className="px-2.5 py-0.5 bg-[#1B3A5C] text-white font-mono text-[10px] font-bold rounded-xs">
+                  {asset.airDefenceSpecs.tierClassification}
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-mono text-xs">
+                {/* Performance & Engagement Envelope */}
+                <div className="p-4 bg-slate-50 border border-slate-200 rounded-sm space-y-2">
+                  <h3 className="font-sans font-bold text-[#1B3A5C] text-xs uppercase">
+                    Engagement Envelope
+                  </h3>
+                  <div className="space-y-1.5 pt-1">
+                    <div className="flex justify-between border-b border-slate-200/60 pb-1">
+                      <span className="text-slate-500">Max Engagement Range:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.performance.maxEngagementRangeKm} km</span>
+                    </div>
+                    {asset.airDefenceSpecs.performance.minEngagementRangeKm && (
+                      <div className="flex justify-between border-b border-slate-200/60 pb-1">
+                        <span className="text-slate-500">Min Engagement Range:</span>
+                        <span className="font-bold text-slate-900">{asset.airDefenceSpecs.performance.minEngagementRangeKm} km</span>
+                      </div>
+                    )}
+                    {asset.airDefenceSpecs.performance.maxEngagementAltitudeM && (
+                      <div className="flex justify-between border-b border-slate-200/60 pb-1">
+                        <span className="text-slate-500">Max Engagement Altitude:</span>
+                        <span className="font-bold text-slate-900">{asset.airDefenceSpecs.performance.maxEngagementAltitudeM.toLocaleString()} m</span>
+                      </div>
+                    )}
+                    <div className="flex justify-between pb-1">
+                      <span className="text-slate-500">Simultaneous Engagements:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.performance.simultaneousEngagements || 1} Target</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Battery & Launcher Architecture */}
+                <div className="p-4 bg-slate-50 border border-slate-200 rounded-sm space-y-2">
+                  <h3 className="font-sans font-bold text-[#1B3A5C] text-xs uppercase">
+                    Launcher Architecture
+                  </h3>
+                  <div className="space-y-1.5 pt-1">
+                    <div className="flex justify-between border-b border-slate-200/60 pb-1">
+                      <span className="text-slate-500">Launcher Type:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.batteryArchitecture.launcherType}</span>
+                    </div>
+                    <div className="flex justify-between border-b border-slate-200/60 pb-1">
+                      <span className="text-slate-500">Mobility Classification:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.batteryArchitecture.mobility}</span>
+                    </div>
+                    <div className="flex justify-between pb-1">
+                      <span className="text-slate-500">Ready To Fire Per Launcher:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.batteryArchitecture.readyToFirePerLauncher} Missile(s)</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Interceptor Reference */}
+                <div className="p-4 bg-slate-50 border border-slate-200 rounded-sm space-y-2">
+                  <h3 className="font-sans font-bold text-[#1B3A5C] text-xs uppercase">
+                    Interceptor Ordnance
+                  </h3>
+                  <div className="space-y-1.5 pt-1">
+                    <div className="flex justify-between border-b border-slate-200/60 pb-1">
+                      <span className="text-slate-500">Missile Designation:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.interceptorReference.missileDesignation}</span>
+                    </div>
+                    <div className="flex justify-between border-b border-slate-200/60 pb-1">
+                      <span className="text-slate-500">Guidance Method:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.interceptorReference.guidanceMethod}</span>
+                    </div>
+                    <div className="flex justify-between pb-1">
+                      <span className="text-slate-500">Warhead Type:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.interceptorReference.warheadType}</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Sensors & C4ISR Networking */}
+                <div className="p-4 bg-slate-50 border border-slate-200 rounded-sm space-y-2">
+                  <h3 className="font-sans font-bold text-[#1B3A5C] text-xs uppercase">
+                    Sensors & C4ISR Linkages
+                  </h3>
+                  <div className="space-y-1.5 pt-1">
+                    <div className="flex justify-between border-b border-slate-200/60 pb-1">
+                      <span className="text-slate-500">Radar Architecture:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.radarAndSensors.radarArchitecture || 'N/A'}</span>
+                    </div>
+                    <div className="flex justify-between border-b border-slate-200/60 pb-1">
+                      <span className="text-slate-500">Tactical Data Links:</span>
+                      <span className="font-bold text-slate-900">{asset.airDefenceSpecs.c4isrNetworking.tacticalDataLinksSupported.join(', ') || 'Standard C2'}</span>
+                    </div>
+                    <div className="flex justify-between pb-1">
+                      <span className="text-slate-500">Cooperative Engagement:</span>
+                      <span className="font-bold text-[#1B3A5C]">
+                        {asset.airDefenceSpecs.c4isrNetworking.cooperativeEngagementCapable ? 'Capable' : 'Not Supported'}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Development Timeline */}
           {asset.timeline && (

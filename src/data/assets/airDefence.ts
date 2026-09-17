@@ -1,4 +1,5 @@
 import { Asset } from '../../types/catalog';
+import { AirDefenceSystemSpecs } from '@/schema/airDefence';
 export const AIR_DEFENCE_ASSETS: Asset[] = [
   // =========================================================================
   // VSHORAD — 10 records
@@ -21,15 +22,17 @@ export const AIR_DEFENCE_ASSETS: Asset[] = [
     originCountries: ['Sweden'],
     developerCountries: ['Sweden'],
     manufacturerCountries: ['Sweden'],
-    operatorCountries: ['(\'Sweden\', \'https://military-doctrine.vercel.app/country?country=Sweden\')', '(\'Finland\', \'https://military-doctrine.vercel.app/country?country=Finland\')', '(\'Czech Republic\', \'https://military-doctrine.vercel.app/country?country=Czech%20Republic\')', '(\'Brazil\', \'https://military-doctrine.vercel.app/country?country=Brazil\')', '(\'Latvia\', \'https://military-doctrine.vercel.app/country?country=Latvia\')', '(\'Lithuania\', \'https://military-doctrine.vercel.app/country?country=Lithuania\')', '(\'Thailand\', \'https://military-doctrine.vercel.app/country?country=Thailand\')'],
+    operatorCountries: ['Sweden', 'Finland', 'Czech Republic', 'Brazil', 'Latvia', 'Lithuania', 'Thailand'],
     developer: 'Saab',
     manufacturer: 'Saab',
+    serviceEntry: '2011',
     dataConfidence: 'HIGH',
     status: 'Operational',
     currentRelevance: 'CURRENT',
     services: ['Army', 'Joint'],
     searchKeywords: ['rbs 70 ng', 'air-defence-vshorad', 'manpads / vshorad'],
     era: 'Modern (1992-2015)',
+    generation: 'Modern (1992-2015)',
     shortDescription: 'RBS 70 NG is a modern VSHORAD system using an unjammable laser beam-riding missile with automatic target tracking and night capability.',
     fullOverview: 'RBS 70 NG is a modern VSHORAD system using an unjammable laser beam-riding missile with automatic target tracking and night capability.',
     images: [],
@@ -42,19 +45,76 @@ export const AIR_DEFENCE_ASSETS: Asset[] = [
     ratings: {
       capability: 4.7, offensive: 4.6, defensive: 4.8, reliability: 4.7, maintainability: 4.8, survivability: 4.7, rangeMobility: 4.7, precision: 4.7, technology: 4.8, logistics: 4.7, costEfficiency: 4.7, combatMaturity: 4.8, upgradePotential: 4.8
     },
+    airDefenceSpecs: {
+      id: "rbs-70-ng",
+      name: "RBS 70 NG",
+      officialDesignation: "RBS 70 NG Ground-Based Air Defence System",
+      alternateNames: ["RBS 70 NG Ground-Based Air Defence System"],
+      domain: "AIR_DEFENCE",
+      category: "Very Short Range Air Defence (VSHORAD)",
+      subcategory: "MANPADS / VSHORAD",
+      airDefenceCategory: "VSHORAD",
+      tierClassification: "Man-Portable (MANPADS)",
+      country: "Sweden",
+      manufacturer: "Saab",
+      operator: ["Sweden", "Finland", "Czech Republic", "Brazil", "Latvia", "Lithuania", "Thailand"],
+      serviceEntryYear: 2011,
+      status: "Active",
+      generation: "Modern (1992-2015)",
+      description: "RBS 70 NG is a modern VSHORAD system using an unjammable laser beam-riding missile with automatic target tracking and night capability.",
+      performance: {
+        minEngagementRangeKm: 0.25,
+        maxEngagementRangeKm: 9.0,
+        maxEngagementAltitudeM: 5000,
+        simultaneousEngagements: 1
+      },
+      batteryArchitecture: {
+        launcherType: "Shoulder-Fired",
+        readyToFirePerLauncher: 1,
+        mobility: "Man-Portable"
+      },
+      radarAndSensors: {
+        radarArchitecture: "None (Optical/Laser only)",
+        opticalTrackingChannels: ["Automatic target tracker", "Thermal sight", "Night sight", "Laser transmitter"]
+      },
+      interceptorReference: {
+        missileRecordId: "bolide-interceptor",
+        missileDesignation: "Bolide",
+        guidanceMethod: "Laser Beam-Riding (SACLOS)",
+        warheadType: "HE Blast-Fragmentation"
+      },
+      c4isrNetworking: {
+        tacticalDataLinksSupported: ["Giraffe C2 link"],
+        cooperativeEngagementCapable: true
+      },
+      sources: [{
+        title: "Saab RBS 70 NG Product Information",
+        url: "https://www.saab.com/products/rbs-70-ng",
+        publisher: "Saab",
+        accessedDate: "2026-09-13",
+        classificationStatus: "Public"
+      }]
+    },
     specs: {
-      entryIntoService: '2011 (RBS 70 NG generation)',
-      crew: 'Battery / system operators',
+      entryIntoService: '2011',
+      crew: '3 (Commander, Gunner, Target Tracker)',
       manufacturer: 'Saab',
       primaryRole: 'Very Short-Range Low-Altitude Air Defence',
+      weightDisplacement: '87 kg (Tripod, Sight & Launch Tube)',
+      maxSpeed: 'Mach 2.0 (Bolide Interceptor Speed)',
+      operationalRange: '0.25 – 9.0 km',
+      serviceCeilingDepth: '5,000 m (Max Altitude)',
+      mainArmament: ['Bolide Interceptor Missile (Laser Beam-Riding SACLOS, HE Blast-Fragmentation)'],
+      sensorsAvionics: ['Automatic Target Tracker', 'Thermal Sight', 'Night Sight', 'Laser Transmitter', 'Giraffe C2 Link'],
       keyMetrics: [
-        { label: 'Operational Range', value: '9', unit: 'km class', highlight: true },
-        { label: 'Max Speed', value: 'Not publicly disclosed', unit: '' },
-        { label: 'Weight / Displacement', value: 'Launcher configuration dependent', unit: '' }
+        { label: 'Max Engagement Range', value: '9.0', unit: 'km', highlight: true },
+        { label: 'Min Engagement Range', value: '0.25', unit: 'km' },
+        { label: 'Max Altitude', value: '5,000', unit: 'm', highlight: true },
+        { label: 'Guidance', value: 'Laser Beam-Riding', unit: '' },
+        { label: 'Mobility', value: 'Man-Portable', unit: '' }
       ],
-      armament: [],
-      propulsionPower: 'Not specified in the supplied display-format source.',
-      sensorsAvionics: ['Automatic target tracker', 'Thermal/night sight', 'Laser beam-riding guidance']
+      armament: ['Bolide Interceptor Missile'],
+      propulsionPower: 'Laser Beam-Riding Rocket Motor',
     },
     relationships: {
       usedBy: ['Army', 'Joint']
