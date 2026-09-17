@@ -57,7 +57,7 @@ export const NAVY_ASSETS: Asset[] = [
         'Electromagnetic Aircraft Launch System (EMALS - 4 catapults)'
       ]
     },
-    relatedAssetIds: ['arleigh-burke-flight-iii', 'virginia-class-ssn', 'f35-lightning-ii']
+    relatedAssetIds: ['arleigh-burke-flight-iii', 'virginia-class-ssn', 'lockheed-martin-f-35a-lightning-ii-fighter-aircraft']
   },
   {
     id: 'hms-queen-elizabeth',
@@ -111,7 +111,7 @@ export const NAVY_ASSETS: Asset[] = [
         'Ultra Electronics Series 2500 Electro-Optical Sensor'
       ]
     },
-    relatedAssetIds: ['gerald-r-ford', 'f35-lightning-ii']
+    relatedAssetIds: ['gerald-r-ford', 'lockheed-martin-f-35a-lightning-ii-fighter-aircraft']
   },
   {
     id: 'ins-vikrant',
@@ -165,7 +165,7 @@ export const NAVY_ASSETS: Asset[] = [
         'Selex RAN-40L 3D Air Search Radar'
       ]
     },
-    relatedAssetIds: ['gerald-r-ford', 'hms-queen-elizabeth', 'rafale-c']
+    relatedAssetIds: ['gerald-r-ford', 'hms-queen-elizabeth', 'dassault-rafale-f4-fighter-aircraft']
   },
 
   // =========================================================================

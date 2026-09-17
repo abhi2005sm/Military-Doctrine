@@ -212,7 +212,7 @@ export function CompareClient() {
               </p>
             </div>
             <div className="flex justify-center gap-2 pt-2 flex-wrap font-mono text-xs">
-              {['m1a2-abrams', 'leopard-2a7', 'f35-lightning-ii', 'rafale-c'].map(presetId => {
+              {['m1a2-abrams', 'leopard-2a7', 'lockheed-martin-f-35a-lightning-ii-fighter-aircraft', 'dassault-rafale-f4-fighter-aircraft'].map(presetId => {
                 const item = getAssetById(presetId);
                 if (!item) return null;
                 return (
