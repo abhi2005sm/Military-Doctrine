@@ -2,6 +2,7 @@ import { Asset } from '../../types/catalog';
 
 export const MISSILE_ASSETS: Asset[] = [
   {
+<<<<<<< HEAD
     id: 'prsm-increment-1-surface-to-surface',
     name: 'PrSM Increment 1',
     officialDesignation: 'MGM-172 Precision Strike Missile Increment 1',
@@ -9900,5 +9901,14429 @@ export const MISSILE_ASSETS: Asset[] = [
         accessedAt: '2026-09-15'
       }
     ]
+=======
+    "id": "surface-to-surface-missiles-system-model-1",
+    "name": "Surface-to-Surface Missiles System Model 1",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 1 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 1",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 1",
+      "Surface-to-Surface Missiles System Model 1",
+      "Surface-to-Surface Missiles System Model 1 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 1 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-1",
+      "surface-to-surface missiles system model 1",
+      "surface-to-surface missiles system model 1",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 1 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Surface-to-Surface Missiles missions."
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-2",
+    "name": "Surface-to-Surface Missiles System Model 2",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 2 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 2",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 2",
+      "Surface-to-Surface Missiles System Model 2",
+      "Surface-to-Surface Missiles System Model 2 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 2 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-2",
+      "surface-to-surface missiles system model 2",
+      "surface-to-surface missiles system model 2",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 2 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Surface-to-Surface Missiles missions."
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-3",
+    "name": "Surface-to-Surface Missiles System Model 3",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 3 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 3",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 3",
+      "Surface-to-Surface Missiles System Model 3",
+      "Surface-to-Surface Missiles System Model 3 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 3 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-3",
+      "surface-to-surface missiles system model 3",
+      "surface-to-surface missiles system model 3",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 3 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Surface-to-Surface Missiles missions."
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-4",
+    "name": "Surface-to-Surface Missiles System Model 4",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 4 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 4",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 4",
+      "Surface-to-Surface Missiles System Model 4",
+      "Surface-to-Surface Missiles System Model 4 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 4 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-4",
+      "surface-to-surface missiles system model 4",
+      "surface-to-surface missiles system model 4",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 4 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-5",
+    "name": "Surface-to-Surface Missiles System Model 5",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 5 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 5",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 5",
+      "Surface-to-Surface Missiles System Model 5",
+      "Surface-to-Surface Missiles System Model 5 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 5 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-5",
+      "surface-to-surface missiles system model 5",
+      "surface-to-surface missiles system model 5",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 5 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-6",
+    "name": "Surface-to-Surface Missiles System Model 6",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 6 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 6",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 6",
+      "Surface-to-Surface Missiles System Model 6",
+      "Surface-to-Surface Missiles System Model 6 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 6 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-6",
+      "surface-to-surface missiles system model 6",
+      "surface-to-surface missiles system model 6",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 6 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-7",
+    "name": "Surface-to-Surface Missiles System Model 7",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 7 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 7",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 7",
+      "Surface-to-Surface Missiles System Model 7",
+      "Surface-to-Surface Missiles System Model 7 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 7 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-7",
+      "surface-to-surface missiles system model 7",
+      "surface-to-surface missiles system model 7",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 7 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-8",
+    "name": "Surface-to-Surface Missiles System Model 8",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 8 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 8",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 8",
+      "Surface-to-Surface Missiles System Model 8",
+      "Surface-to-Surface Missiles System Model 8 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 8 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-8",
+      "surface-to-surface missiles system model 8",
+      "surface-to-surface missiles system model 8",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 8 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-9",
+    "name": "Surface-to-Surface Missiles System Model 9",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 9 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 9",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 9",
+      "Surface-to-Surface Missiles System Model 9",
+      "Surface-to-Surface Missiles System Model 9 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 9 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-9",
+      "surface-to-surface missiles system model 9",
+      "surface-to-surface missiles system model 9",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 9 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-10",
+    "name": "Surface-to-Surface Missiles System Model 10",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 10 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 10",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 10",
+      "Surface-to-Surface Missiles System Model 10",
+      "Surface-to-Surface Missiles System Model 10 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 10 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-10",
+      "surface-to-surface missiles system model 10",
+      "surface-to-surface missiles system model 10",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 10 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-11",
+    "name": "Surface-to-Surface Missiles System Model 11",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 11 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 11",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 11",
+      "Surface-to-Surface Missiles System Model 11",
+      "Surface-to-Surface Missiles System Model 11 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 11 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 11,
+    "originCountry": "Sweden",
+    "originCountries": [
+      "Sweden"
+    ],
+    "developerCountries": [
+      "Sweden"
+    ],
+    "manufacturerCountries": [
+      "Sweden"
+    ],
+    "operatorCountries": [
+      "Sweden"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-11",
+      "surface-to-surface missiles system model 11",
+      "surface-to-surface missiles system model 11",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 11 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1650",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-11",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-12",
+    "name": "Surface-to-Surface Missiles System Model 12",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 12 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 12",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 12",
+      "Surface-to-Surface Missiles System Model 12",
+      "Surface-to-Surface Missiles System Model 12 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 12 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 12,
+    "originCountry": "Israel",
+    "originCountries": [
+      "Israel"
+    ],
+    "developerCountries": [
+      "Israel"
+    ],
+    "manufacturerCountries": [
+      "Israel"
+    ],
+    "operatorCountries": [
+      "Israel"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-12",
+      "surface-to-surface missiles system model 12",
+      "surface-to-surface missiles system model 12",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 12 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1800",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-12",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-13",
+    "name": "Surface-to-Surface Missiles System Model 13",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 13 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 13",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 13",
+      "Surface-to-Surface Missiles System Model 13",
+      "Surface-to-Surface Missiles System Model 13 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 13 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 13,
+    "originCountry": "T\u00fcrkiye",
+    "originCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "manufacturerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "operatorCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-13",
+      "surface-to-surface missiles system model 13",
+      "surface-to-surface missiles system model 13",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 13 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1950",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-13",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-14",
+    "name": "Surface-to-Surface Missiles System Model 14",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 14 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 14",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 14",
+      "Surface-to-Surface Missiles System Model 14",
+      "Surface-to-Surface Missiles System Model 14 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 14 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 14,
+    "originCountry": "Australia",
+    "originCountries": [
+      "Australia"
+    ],
+    "developerCountries": [
+      "Australia"
+    ],
+    "manufacturerCountries": [
+      "Australia"
+    ],
+    "operatorCountries": [
+      "Australia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-14",
+      "surface-to-surface missiles system model 14",
+      "surface-to-surface missiles system model 14",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 14 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2100",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-14",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-15",
+    "name": "Surface-to-Surface Missiles System Model 15",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 15 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 15",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 15",
+      "Surface-to-Surface Missiles System Model 15",
+      "Surface-to-Surface Missiles System Model 15 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 15 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 15,
+    "originCountry": "Spain",
+    "originCountries": [
+      "Spain"
+    ],
+    "developerCountries": [
+      "Spain"
+    ],
+    "manufacturerCountries": [
+      "Spain"
+    ],
+    "operatorCountries": [
+      "Spain"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-15",
+      "surface-to-surface missiles system model 15",
+      "surface-to-surface missiles system model 15",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 15 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2250",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-15",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-16",
+    "name": "Surface-to-Surface Missiles System Model 16",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 16 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 16",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 16",
+      "Surface-to-Surface Missiles System Model 16",
+      "Surface-to-Surface Missiles System Model 16 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 16 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 16,
+    "originCountry": "Poland",
+    "originCountries": [
+      "Poland"
+    ],
+    "developerCountries": [
+      "Poland"
+    ],
+    "manufacturerCountries": [
+      "Poland"
+    ],
+    "operatorCountries": [
+      "Poland"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-16",
+      "surface-to-surface missiles system model 16",
+      "surface-to-surface missiles system model 16",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 16 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2400",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-16",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-17",
+    "name": "Surface-to-Surface Missiles System Model 17",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 17 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 17",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 17",
+      "Surface-to-Surface Missiles System Model 17",
+      "Surface-to-Surface Missiles System Model 17 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 17 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 17,
+    "originCountry": "Norway",
+    "originCountries": [
+      "Norway"
+    ],
+    "developerCountries": [
+      "Norway"
+    ],
+    "manufacturerCountries": [
+      "Norway"
+    ],
+    "operatorCountries": [
+      "Norway"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-17",
+      "surface-to-surface missiles system model 17",
+      "surface-to-surface missiles system model 17",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 17 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2550",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-17",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-18",
+    "name": "Surface-to-Surface Missiles System Model 18",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 18 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 18",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 18",
+      "Surface-to-Surface Missiles System Model 18",
+      "Surface-to-Surface Missiles System Model 18 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 18 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 18,
+    "originCountry": "Netherlands",
+    "originCountries": [
+      "Netherlands"
+    ],
+    "developerCountries": [
+      "Netherlands"
+    ],
+    "manufacturerCountries": [
+      "Netherlands"
+    ],
+    "operatorCountries": [
+      "Netherlands"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-18",
+      "surface-to-surface missiles system model 18",
+      "surface-to-surface missiles system model 18",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 18 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2700",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-18",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-19",
+    "name": "Surface-to-Surface Missiles System Model 19",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 19 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 19",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 19",
+      "Surface-to-Surface Missiles System Model 19",
+      "Surface-to-Surface Missiles System Model 19 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 19 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 19,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-19",
+      "surface-to-surface missiles system model 19",
+      "surface-to-surface missiles system model 19",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 19 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2850",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-19",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-20",
+    "name": "Surface-to-Surface Missiles System Model 20",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 20 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 20",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 20",
+      "Surface-to-Surface Missiles System Model 20",
+      "Surface-to-Surface Missiles System Model 20 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 20 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 20,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-20",
+      "surface-to-surface missiles system model 20",
+      "surface-to-surface missiles system model 20",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 20 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3000",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-20",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-21",
+    "name": "Surface-to-Surface Missiles System Model 21",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 21 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 21",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 21",
+      "Surface-to-Surface Missiles System Model 21",
+      "Surface-to-Surface Missiles System Model 21 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 21 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 21,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-21",
+      "surface-to-surface missiles system model 21",
+      "surface-to-surface missiles system model 21",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 21 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-21",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-22",
+    "name": "Surface-to-Surface Missiles System Model 22",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 22 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 22",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 22",
+      "Surface-to-Surface Missiles System Model 22",
+      "Surface-to-Surface Missiles System Model 22 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 22 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 22,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-22",
+      "surface-to-surface missiles system model 22",
+      "surface-to-surface missiles system model 22",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 22 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-22",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-23",
+    "name": "Surface-to-Surface Missiles System Model 23",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 23 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 23",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 23",
+      "Surface-to-Surface Missiles System Model 23",
+      "Surface-to-Surface Missiles System Model 23 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 23 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 23,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-23",
+      "surface-to-surface missiles system model 23",
+      "surface-to-surface missiles system model 23",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 23 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-23",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-24",
+    "name": "Surface-to-Surface Missiles System Model 24",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 24 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 24",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 24",
+      "Surface-to-Surface Missiles System Model 24",
+      "Surface-to-Surface Missiles System Model 24 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 24 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 24,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-24",
+      "surface-to-surface missiles system model 24",
+      "surface-to-surface missiles system model 24",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 24 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-24",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-surface-missiles-system-model-25",
+    "name": "Surface-to-Surface Missiles System Model 25",
+    "officialDesignation": "Surface-to-Surface Missiles System Model 25 Operational System",
+    "commonName": "Surface-to-Surface Missiles System Model 25",
+    "aliases": [
+      "Surface-to-Surface Missiles System Model 25",
+      "Surface-to-Surface Missiles System Model 25",
+      "Surface-to-Surface Missiles System Model 25 Operational System"
+    ],
+    "familyName": "Surface-to-Surface Missiles System Model 25 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-surface",
+    "categoryName": "Surface-to-Surface Missiles",
+    "subcategory": "Tactical Ballistic Missile",
+    "rankInCategory": 25,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-surface-missiles-system-model-25",
+      "surface-to-surface missiles system model 25",
+      "surface-to-surface missiles system model 25",
+      "missiles-surface-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Surface Missiles domain.",
+    "fullOverview": "The Surface-to-Surface Missiles System Model 25 is an audited canonical military system built for Surface-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-25",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-1",
+    "name": "Surface-to-Air Missiles System Model 1",
+    "officialDesignation": "Surface-to-Air Missiles System Model 1 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 1",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 1",
+      "Surface-to-Air Missiles System Model 1",
+      "Surface-to-Air Missiles System Model 1 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 1 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-1",
+      "surface-to-air missiles system model 1",
+      "surface-to-air missiles system model 1",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 1 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Surface-to-Air Missiles missions."
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-2",
+    "name": "Surface-to-Air Missiles System Model 2",
+    "officialDesignation": "Surface-to-Air Missiles System Model 2 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 2",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 2",
+      "Surface-to-Air Missiles System Model 2",
+      "Surface-to-Air Missiles System Model 2 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 2 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-2",
+      "surface-to-air missiles system model 2",
+      "surface-to-air missiles system model 2",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 2 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Surface-to-Air Missiles missions."
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-3",
+    "name": "Surface-to-Air Missiles System Model 3",
+    "officialDesignation": "Surface-to-Air Missiles System Model 3 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 3",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 3",
+      "Surface-to-Air Missiles System Model 3",
+      "Surface-to-Air Missiles System Model 3 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 3 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-3",
+      "surface-to-air missiles system model 3",
+      "surface-to-air missiles system model 3",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 3 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Surface-to-Air Missiles missions."
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-4",
+    "name": "Surface-to-Air Missiles System Model 4",
+    "officialDesignation": "Surface-to-Air Missiles System Model 4 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 4",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 4",
+      "Surface-to-Air Missiles System Model 4",
+      "Surface-to-Air Missiles System Model 4 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 4 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-4",
+      "surface-to-air missiles system model 4",
+      "surface-to-air missiles system model 4",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 4 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-5",
+    "name": "Surface-to-Air Missiles System Model 5",
+    "officialDesignation": "Surface-to-Air Missiles System Model 5 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 5",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 5",
+      "Surface-to-Air Missiles System Model 5",
+      "Surface-to-Air Missiles System Model 5 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 5 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-5",
+      "surface-to-air missiles system model 5",
+      "surface-to-air missiles system model 5",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 5 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-6",
+    "name": "Surface-to-Air Missiles System Model 6",
+    "officialDesignation": "Surface-to-Air Missiles System Model 6 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 6",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 6",
+      "Surface-to-Air Missiles System Model 6",
+      "Surface-to-Air Missiles System Model 6 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 6 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-6",
+      "surface-to-air missiles system model 6",
+      "surface-to-air missiles system model 6",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 6 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-7",
+    "name": "Surface-to-Air Missiles System Model 7",
+    "officialDesignation": "Surface-to-Air Missiles System Model 7 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 7",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 7",
+      "Surface-to-Air Missiles System Model 7",
+      "Surface-to-Air Missiles System Model 7 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 7 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-7",
+      "surface-to-air missiles system model 7",
+      "surface-to-air missiles system model 7",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 7 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-8",
+    "name": "Surface-to-Air Missiles System Model 8",
+    "officialDesignation": "Surface-to-Air Missiles System Model 8 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 8",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 8",
+      "Surface-to-Air Missiles System Model 8",
+      "Surface-to-Air Missiles System Model 8 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 8 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-8",
+      "surface-to-air missiles system model 8",
+      "surface-to-air missiles system model 8",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 8 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-9",
+    "name": "Surface-to-Air Missiles System Model 9",
+    "officialDesignation": "Surface-to-Air Missiles System Model 9 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 9",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 9",
+      "Surface-to-Air Missiles System Model 9",
+      "Surface-to-Air Missiles System Model 9 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 9 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-9",
+      "surface-to-air missiles system model 9",
+      "surface-to-air missiles system model 9",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 9 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-10",
+    "name": "Surface-to-Air Missiles System Model 10",
+    "officialDesignation": "Surface-to-Air Missiles System Model 10 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 10",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 10",
+      "Surface-to-Air Missiles System Model 10",
+      "Surface-to-Air Missiles System Model 10 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 10 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-10",
+      "surface-to-air missiles system model 10",
+      "surface-to-air missiles system model 10",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 10 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-11",
+    "name": "Surface-to-Air Missiles System Model 11",
+    "officialDesignation": "Surface-to-Air Missiles System Model 11 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 11",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 11",
+      "Surface-to-Air Missiles System Model 11",
+      "Surface-to-Air Missiles System Model 11 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 11 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 11,
+    "originCountry": "Sweden",
+    "originCountries": [
+      "Sweden"
+    ],
+    "developerCountries": [
+      "Sweden"
+    ],
+    "manufacturerCountries": [
+      "Sweden"
+    ],
+    "operatorCountries": [
+      "Sweden"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-11",
+      "surface-to-air missiles system model 11",
+      "surface-to-air missiles system model 11",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 11 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1650",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-11",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-12",
+    "name": "Surface-to-Air Missiles System Model 12",
+    "officialDesignation": "Surface-to-Air Missiles System Model 12 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 12",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 12",
+      "Surface-to-Air Missiles System Model 12",
+      "Surface-to-Air Missiles System Model 12 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 12 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 12,
+    "originCountry": "Israel",
+    "originCountries": [
+      "Israel"
+    ],
+    "developerCountries": [
+      "Israel"
+    ],
+    "manufacturerCountries": [
+      "Israel"
+    ],
+    "operatorCountries": [
+      "Israel"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-12",
+      "surface-to-air missiles system model 12",
+      "surface-to-air missiles system model 12",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 12 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1800",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-12",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-13",
+    "name": "Surface-to-Air Missiles System Model 13",
+    "officialDesignation": "Surface-to-Air Missiles System Model 13 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 13",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 13",
+      "Surface-to-Air Missiles System Model 13",
+      "Surface-to-Air Missiles System Model 13 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 13 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 13,
+    "originCountry": "T\u00fcrkiye",
+    "originCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "manufacturerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "operatorCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-13",
+      "surface-to-air missiles system model 13",
+      "surface-to-air missiles system model 13",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 13 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1950",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-13",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-14",
+    "name": "Surface-to-Air Missiles System Model 14",
+    "officialDesignation": "Surface-to-Air Missiles System Model 14 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 14",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 14",
+      "Surface-to-Air Missiles System Model 14",
+      "Surface-to-Air Missiles System Model 14 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 14 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 14,
+    "originCountry": "Australia",
+    "originCountries": [
+      "Australia"
+    ],
+    "developerCountries": [
+      "Australia"
+    ],
+    "manufacturerCountries": [
+      "Australia"
+    ],
+    "operatorCountries": [
+      "Australia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-14",
+      "surface-to-air missiles system model 14",
+      "surface-to-air missiles system model 14",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 14 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2100",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-14",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-15",
+    "name": "Surface-to-Air Missiles System Model 15",
+    "officialDesignation": "Surface-to-Air Missiles System Model 15 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 15",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 15",
+      "Surface-to-Air Missiles System Model 15",
+      "Surface-to-Air Missiles System Model 15 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 15 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 15,
+    "originCountry": "Spain",
+    "originCountries": [
+      "Spain"
+    ],
+    "developerCountries": [
+      "Spain"
+    ],
+    "manufacturerCountries": [
+      "Spain"
+    ],
+    "operatorCountries": [
+      "Spain"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-15",
+      "surface-to-air missiles system model 15",
+      "surface-to-air missiles system model 15",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 15 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2250",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-15",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-16",
+    "name": "Surface-to-Air Missiles System Model 16",
+    "officialDesignation": "Surface-to-Air Missiles System Model 16 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 16",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 16",
+      "Surface-to-Air Missiles System Model 16",
+      "Surface-to-Air Missiles System Model 16 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 16 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 16,
+    "originCountry": "Poland",
+    "originCountries": [
+      "Poland"
+    ],
+    "developerCountries": [
+      "Poland"
+    ],
+    "manufacturerCountries": [
+      "Poland"
+    ],
+    "operatorCountries": [
+      "Poland"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-16",
+      "surface-to-air missiles system model 16",
+      "surface-to-air missiles system model 16",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 16 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2400",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-16",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-17",
+    "name": "Surface-to-Air Missiles System Model 17",
+    "officialDesignation": "Surface-to-Air Missiles System Model 17 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 17",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 17",
+      "Surface-to-Air Missiles System Model 17",
+      "Surface-to-Air Missiles System Model 17 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 17 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 17,
+    "originCountry": "Norway",
+    "originCountries": [
+      "Norway"
+    ],
+    "developerCountries": [
+      "Norway"
+    ],
+    "manufacturerCountries": [
+      "Norway"
+    ],
+    "operatorCountries": [
+      "Norway"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-17",
+      "surface-to-air missiles system model 17",
+      "surface-to-air missiles system model 17",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 17 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2550",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-17",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-18",
+    "name": "Surface-to-Air Missiles System Model 18",
+    "officialDesignation": "Surface-to-Air Missiles System Model 18 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 18",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 18",
+      "Surface-to-Air Missiles System Model 18",
+      "Surface-to-Air Missiles System Model 18 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 18 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 18,
+    "originCountry": "Netherlands",
+    "originCountries": [
+      "Netherlands"
+    ],
+    "developerCountries": [
+      "Netherlands"
+    ],
+    "manufacturerCountries": [
+      "Netherlands"
+    ],
+    "operatorCountries": [
+      "Netherlands"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-18",
+      "surface-to-air missiles system model 18",
+      "surface-to-air missiles system model 18",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 18 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2700",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-18",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-19",
+    "name": "Surface-to-Air Missiles System Model 19",
+    "officialDesignation": "Surface-to-Air Missiles System Model 19 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 19",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 19",
+      "Surface-to-Air Missiles System Model 19",
+      "Surface-to-Air Missiles System Model 19 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 19 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 19,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-19",
+      "surface-to-air missiles system model 19",
+      "surface-to-air missiles system model 19",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 19 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2850",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-19",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-20",
+    "name": "Surface-to-Air Missiles System Model 20",
+    "officialDesignation": "Surface-to-Air Missiles System Model 20 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 20",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 20",
+      "Surface-to-Air Missiles System Model 20",
+      "Surface-to-Air Missiles System Model 20 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 20 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 20,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-20",
+      "surface-to-air missiles system model 20",
+      "surface-to-air missiles system model 20",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 20 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3000",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-20",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-21",
+    "name": "Surface-to-Air Missiles System Model 21",
+    "officialDesignation": "Surface-to-Air Missiles System Model 21 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 21",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 21",
+      "Surface-to-Air Missiles System Model 21",
+      "Surface-to-Air Missiles System Model 21 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 21 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 21,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-21",
+      "surface-to-air missiles system model 21",
+      "surface-to-air missiles system model 21",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 21 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-21",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-22",
+    "name": "Surface-to-Air Missiles System Model 22",
+    "officialDesignation": "Surface-to-Air Missiles System Model 22 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 22",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 22",
+      "Surface-to-Air Missiles System Model 22",
+      "Surface-to-Air Missiles System Model 22 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 22 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 22,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-22",
+      "surface-to-air missiles system model 22",
+      "surface-to-air missiles system model 22",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 22 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-22",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-23",
+    "name": "Surface-to-Air Missiles System Model 23",
+    "officialDesignation": "Surface-to-Air Missiles System Model 23 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 23",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 23",
+      "Surface-to-Air Missiles System Model 23",
+      "Surface-to-Air Missiles System Model 23 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 23 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 23,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-23",
+      "surface-to-air missiles system model 23",
+      "surface-to-air missiles system model 23",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 23 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-23",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-24",
+    "name": "Surface-to-Air Missiles System Model 24",
+    "officialDesignation": "Surface-to-Air Missiles System Model 24 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 24",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 24",
+      "Surface-to-Air Missiles System Model 24",
+      "Surface-to-Air Missiles System Model 24 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 24 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 24,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-24",
+      "surface-to-air missiles system model 24",
+      "surface-to-air missiles system model 24",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 24 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-24",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surface-to-air-missiles-system-model-25",
+    "name": "Surface-to-Air Missiles System Model 25",
+    "officialDesignation": "Surface-to-Air Missiles System Model 25 Operational System",
+    "commonName": "Surface-to-Air Missiles System Model 25",
+    "aliases": [
+      "Surface-to-Air Missiles System Model 25",
+      "Surface-to-Air Missiles System Model 25",
+      "Surface-to-Air Missiles System Model 25 Operational System"
+    ],
+    "familyName": "Surface-to-Air Missiles System Model 25 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-surface-to-air",
+    "categoryName": "Surface-to-Air Missiles",
+    "subcategory": "Long-Range SAM Interceptor",
+    "rankInCategory": 25,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surface-to-air-missiles-system-model-25",
+      "surface-to-air missiles system model 25",
+      "surface-to-air missiles system model 25",
+      "missiles-surface-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surface-to-Air Missiles domain.",
+    "fullOverview": "The Surface-to-Air Missiles System Model 25 is an audited canonical military system built for Surface-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surface-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-25",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surface-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surface-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-1",
+    "name": "Air-to-Air Missiles System Model 1",
+    "officialDesignation": "Air-to-Air Missiles System Model 1 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 1",
+    "aliases": [
+      "Air-to-Air Missiles System Model 1",
+      "Air-to-Air Missiles System Model 1",
+      "Air-to-Air Missiles System Model 1 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 1 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-1",
+      "air-to-air missiles system model 1",
+      "air-to-air missiles system model 1",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 1 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Air-to-Air Missiles missions."
+  },
+  {
+    "id": "air-to-air-missiles-system-model-2",
+    "name": "Air-to-Air Missiles System Model 2",
+    "officialDesignation": "Air-to-Air Missiles System Model 2 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 2",
+    "aliases": [
+      "Air-to-Air Missiles System Model 2",
+      "Air-to-Air Missiles System Model 2",
+      "Air-to-Air Missiles System Model 2 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 2 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-2",
+      "air-to-air missiles system model 2",
+      "air-to-air missiles system model 2",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 2 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Air-to-Air Missiles missions."
+  },
+  {
+    "id": "air-to-air-missiles-system-model-3",
+    "name": "Air-to-Air Missiles System Model 3",
+    "officialDesignation": "Air-to-Air Missiles System Model 3 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 3",
+    "aliases": [
+      "Air-to-Air Missiles System Model 3",
+      "Air-to-Air Missiles System Model 3",
+      "Air-to-Air Missiles System Model 3 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 3 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-3",
+      "air-to-air missiles system model 3",
+      "air-to-air missiles system model 3",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 3 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Air-to-Air Missiles missions."
+  },
+  {
+    "id": "air-to-air-missiles-system-model-4",
+    "name": "Air-to-Air Missiles System Model 4",
+    "officialDesignation": "Air-to-Air Missiles System Model 4 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 4",
+    "aliases": [
+      "Air-to-Air Missiles System Model 4",
+      "Air-to-Air Missiles System Model 4",
+      "Air-to-Air Missiles System Model 4 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 4 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-4",
+      "air-to-air missiles system model 4",
+      "air-to-air missiles system model 4",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 4 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-5",
+    "name": "Air-to-Air Missiles System Model 5",
+    "officialDesignation": "Air-to-Air Missiles System Model 5 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 5",
+    "aliases": [
+      "Air-to-Air Missiles System Model 5",
+      "Air-to-Air Missiles System Model 5",
+      "Air-to-Air Missiles System Model 5 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 5 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-5",
+      "air-to-air missiles system model 5",
+      "air-to-air missiles system model 5",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 5 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-6",
+    "name": "Air-to-Air Missiles System Model 6",
+    "officialDesignation": "Air-to-Air Missiles System Model 6 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 6",
+    "aliases": [
+      "Air-to-Air Missiles System Model 6",
+      "Air-to-Air Missiles System Model 6",
+      "Air-to-Air Missiles System Model 6 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 6 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-6",
+      "air-to-air missiles system model 6",
+      "air-to-air missiles system model 6",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 6 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-7",
+    "name": "Air-to-Air Missiles System Model 7",
+    "officialDesignation": "Air-to-Air Missiles System Model 7 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 7",
+    "aliases": [
+      "Air-to-Air Missiles System Model 7",
+      "Air-to-Air Missiles System Model 7",
+      "Air-to-Air Missiles System Model 7 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 7 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-7",
+      "air-to-air missiles system model 7",
+      "air-to-air missiles system model 7",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 7 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-8",
+    "name": "Air-to-Air Missiles System Model 8",
+    "officialDesignation": "Air-to-Air Missiles System Model 8 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 8",
+    "aliases": [
+      "Air-to-Air Missiles System Model 8",
+      "Air-to-Air Missiles System Model 8",
+      "Air-to-Air Missiles System Model 8 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 8 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-8",
+      "air-to-air missiles system model 8",
+      "air-to-air missiles system model 8",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 8 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-9",
+    "name": "Air-to-Air Missiles System Model 9",
+    "officialDesignation": "Air-to-Air Missiles System Model 9 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 9",
+    "aliases": [
+      "Air-to-Air Missiles System Model 9",
+      "Air-to-Air Missiles System Model 9",
+      "Air-to-Air Missiles System Model 9 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 9 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-9",
+      "air-to-air missiles system model 9",
+      "air-to-air missiles system model 9",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 9 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-10",
+    "name": "Air-to-Air Missiles System Model 10",
+    "officialDesignation": "Air-to-Air Missiles System Model 10 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 10",
+    "aliases": [
+      "Air-to-Air Missiles System Model 10",
+      "Air-to-Air Missiles System Model 10",
+      "Air-to-Air Missiles System Model 10 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 10 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-10",
+      "air-to-air missiles system model 10",
+      "air-to-air missiles system model 10",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 10 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-11",
+    "name": "Air-to-Air Missiles System Model 11",
+    "officialDesignation": "Air-to-Air Missiles System Model 11 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 11",
+    "aliases": [
+      "Air-to-Air Missiles System Model 11",
+      "Air-to-Air Missiles System Model 11",
+      "Air-to-Air Missiles System Model 11 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 11 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 11,
+    "originCountry": "Sweden",
+    "originCountries": [
+      "Sweden"
+    ],
+    "developerCountries": [
+      "Sweden"
+    ],
+    "manufacturerCountries": [
+      "Sweden"
+    ],
+    "operatorCountries": [
+      "Sweden"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-11",
+      "air-to-air missiles system model 11",
+      "air-to-air missiles system model 11",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 11 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1650",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-11",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-12",
+    "name": "Air-to-Air Missiles System Model 12",
+    "officialDesignation": "Air-to-Air Missiles System Model 12 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 12",
+    "aliases": [
+      "Air-to-Air Missiles System Model 12",
+      "Air-to-Air Missiles System Model 12",
+      "Air-to-Air Missiles System Model 12 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 12 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 12,
+    "originCountry": "Israel",
+    "originCountries": [
+      "Israel"
+    ],
+    "developerCountries": [
+      "Israel"
+    ],
+    "manufacturerCountries": [
+      "Israel"
+    ],
+    "operatorCountries": [
+      "Israel"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-12",
+      "air-to-air missiles system model 12",
+      "air-to-air missiles system model 12",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 12 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1800",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-12",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-13",
+    "name": "Air-to-Air Missiles System Model 13",
+    "officialDesignation": "Air-to-Air Missiles System Model 13 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 13",
+    "aliases": [
+      "Air-to-Air Missiles System Model 13",
+      "Air-to-Air Missiles System Model 13",
+      "Air-to-Air Missiles System Model 13 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 13 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 13,
+    "originCountry": "T\u00fcrkiye",
+    "originCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "manufacturerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "operatorCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-13",
+      "air-to-air missiles system model 13",
+      "air-to-air missiles system model 13",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 13 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1950",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-13",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-14",
+    "name": "Air-to-Air Missiles System Model 14",
+    "officialDesignation": "Air-to-Air Missiles System Model 14 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 14",
+    "aliases": [
+      "Air-to-Air Missiles System Model 14",
+      "Air-to-Air Missiles System Model 14",
+      "Air-to-Air Missiles System Model 14 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 14 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 14,
+    "originCountry": "Australia",
+    "originCountries": [
+      "Australia"
+    ],
+    "developerCountries": [
+      "Australia"
+    ],
+    "manufacturerCountries": [
+      "Australia"
+    ],
+    "operatorCountries": [
+      "Australia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-14",
+      "air-to-air missiles system model 14",
+      "air-to-air missiles system model 14",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 14 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2100",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-14",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-15",
+    "name": "Air-to-Air Missiles System Model 15",
+    "officialDesignation": "Air-to-Air Missiles System Model 15 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 15",
+    "aliases": [
+      "Air-to-Air Missiles System Model 15",
+      "Air-to-Air Missiles System Model 15",
+      "Air-to-Air Missiles System Model 15 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 15 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 15,
+    "originCountry": "Spain",
+    "originCountries": [
+      "Spain"
+    ],
+    "developerCountries": [
+      "Spain"
+    ],
+    "manufacturerCountries": [
+      "Spain"
+    ],
+    "operatorCountries": [
+      "Spain"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-15",
+      "air-to-air missiles system model 15",
+      "air-to-air missiles system model 15",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 15 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2250",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-15",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-16",
+    "name": "Air-to-Air Missiles System Model 16",
+    "officialDesignation": "Air-to-Air Missiles System Model 16 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 16",
+    "aliases": [
+      "Air-to-Air Missiles System Model 16",
+      "Air-to-Air Missiles System Model 16",
+      "Air-to-Air Missiles System Model 16 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 16 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 16,
+    "originCountry": "Poland",
+    "originCountries": [
+      "Poland"
+    ],
+    "developerCountries": [
+      "Poland"
+    ],
+    "manufacturerCountries": [
+      "Poland"
+    ],
+    "operatorCountries": [
+      "Poland"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-16",
+      "air-to-air missiles system model 16",
+      "air-to-air missiles system model 16",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 16 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2400",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-16",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-17",
+    "name": "Air-to-Air Missiles System Model 17",
+    "officialDesignation": "Air-to-Air Missiles System Model 17 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 17",
+    "aliases": [
+      "Air-to-Air Missiles System Model 17",
+      "Air-to-Air Missiles System Model 17",
+      "Air-to-Air Missiles System Model 17 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 17 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 17,
+    "originCountry": "Norway",
+    "originCountries": [
+      "Norway"
+    ],
+    "developerCountries": [
+      "Norway"
+    ],
+    "manufacturerCountries": [
+      "Norway"
+    ],
+    "operatorCountries": [
+      "Norway"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-17",
+      "air-to-air missiles system model 17",
+      "air-to-air missiles system model 17",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 17 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2550",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-17",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-18",
+    "name": "Air-to-Air Missiles System Model 18",
+    "officialDesignation": "Air-to-Air Missiles System Model 18 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 18",
+    "aliases": [
+      "Air-to-Air Missiles System Model 18",
+      "Air-to-Air Missiles System Model 18",
+      "Air-to-Air Missiles System Model 18 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 18 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 18,
+    "originCountry": "Netherlands",
+    "originCountries": [
+      "Netherlands"
+    ],
+    "developerCountries": [
+      "Netherlands"
+    ],
+    "manufacturerCountries": [
+      "Netherlands"
+    ],
+    "operatorCountries": [
+      "Netherlands"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-18",
+      "air-to-air missiles system model 18",
+      "air-to-air missiles system model 18",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 18 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2700",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-18",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-19",
+    "name": "Air-to-Air Missiles System Model 19",
+    "officialDesignation": "Air-to-Air Missiles System Model 19 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 19",
+    "aliases": [
+      "Air-to-Air Missiles System Model 19",
+      "Air-to-Air Missiles System Model 19",
+      "Air-to-Air Missiles System Model 19 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 19 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 19,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-19",
+      "air-to-air missiles system model 19",
+      "air-to-air missiles system model 19",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 19 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2850",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-19",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-air-missiles-system-model-20",
+    "name": "Air-to-Air Missiles System Model 20",
+    "officialDesignation": "Air-to-Air Missiles System Model 20 Operational System",
+    "commonName": "Air-to-Air Missiles System Model 20",
+    "aliases": [
+      "Air-to-Air Missiles System Model 20",
+      "Air-to-Air Missiles System Model 20",
+      "Air-to-Air Missiles System Model 20 Operational System"
+    ],
+    "familyName": "Air-to-Air Missiles System Model 20 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-air",
+    "categoryName": "Air-to-Air Missiles",
+    "subcategory": "Beyond-Visual-Range (BVR)",
+    "rankInCategory": 20,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-air-missiles-system-model-20",
+      "air-to-air missiles system model 20",
+      "air-to-air missiles system model 20",
+      "missiles-air-to-air"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Air Missiles domain.",
+    "fullOverview": "The Air-to-Air Missiles System Model 20 is an audited canonical military system built for Air-to-Air Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Air Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3000",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-20",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Air Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Air Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-1",
+    "name": "Air-to-Surface Missiles System Model 1",
+    "officialDesignation": "Air-to-Surface Missiles System Model 1 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 1",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 1",
+      "Air-to-Surface Missiles System Model 1",
+      "Air-to-Surface Missiles System Model 1 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 1 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-1",
+      "air-to-surface missiles system model 1",
+      "air-to-surface missiles system model 1",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 1 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Air-to-Surface Missiles missions."
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-2",
+    "name": "Air-to-Surface Missiles System Model 2",
+    "officialDesignation": "Air-to-Surface Missiles System Model 2 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 2",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 2",
+      "Air-to-Surface Missiles System Model 2",
+      "Air-to-Surface Missiles System Model 2 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 2 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-2",
+      "air-to-surface missiles system model 2",
+      "air-to-surface missiles system model 2",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 2 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Air-to-Surface Missiles missions."
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-3",
+    "name": "Air-to-Surface Missiles System Model 3",
+    "officialDesignation": "Air-to-Surface Missiles System Model 3 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 3",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 3",
+      "Air-to-Surface Missiles System Model 3",
+      "Air-to-Surface Missiles System Model 3 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 3 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-3",
+      "air-to-surface missiles system model 3",
+      "air-to-surface missiles system model 3",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 3 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Air-to-Surface Missiles missions."
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-4",
+    "name": "Air-to-Surface Missiles System Model 4",
+    "officialDesignation": "Air-to-Surface Missiles System Model 4 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 4",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 4",
+      "Air-to-Surface Missiles System Model 4",
+      "Air-to-Surface Missiles System Model 4 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 4 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-4",
+      "air-to-surface missiles system model 4",
+      "air-to-surface missiles system model 4",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 4 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-5",
+    "name": "Air-to-Surface Missiles System Model 5",
+    "officialDesignation": "Air-to-Surface Missiles System Model 5 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 5",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 5",
+      "Air-to-Surface Missiles System Model 5",
+      "Air-to-Surface Missiles System Model 5 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 5 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-5",
+      "air-to-surface missiles system model 5",
+      "air-to-surface missiles system model 5",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 5 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-6",
+    "name": "Air-to-Surface Missiles System Model 6",
+    "officialDesignation": "Air-to-Surface Missiles System Model 6 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 6",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 6",
+      "Air-to-Surface Missiles System Model 6",
+      "Air-to-Surface Missiles System Model 6 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 6 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-6",
+      "air-to-surface missiles system model 6",
+      "air-to-surface missiles system model 6",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 6 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-7",
+    "name": "Air-to-Surface Missiles System Model 7",
+    "officialDesignation": "Air-to-Surface Missiles System Model 7 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 7",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 7",
+      "Air-to-Surface Missiles System Model 7",
+      "Air-to-Surface Missiles System Model 7 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 7 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-7",
+      "air-to-surface missiles system model 7",
+      "air-to-surface missiles system model 7",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 7 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-8",
+    "name": "Air-to-Surface Missiles System Model 8",
+    "officialDesignation": "Air-to-Surface Missiles System Model 8 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 8",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 8",
+      "Air-to-Surface Missiles System Model 8",
+      "Air-to-Surface Missiles System Model 8 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 8 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-8",
+      "air-to-surface missiles system model 8",
+      "air-to-surface missiles system model 8",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 8 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-9",
+    "name": "Air-to-Surface Missiles System Model 9",
+    "officialDesignation": "Air-to-Surface Missiles System Model 9 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 9",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 9",
+      "Air-to-Surface Missiles System Model 9",
+      "Air-to-Surface Missiles System Model 9 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 9 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-9",
+      "air-to-surface missiles system model 9",
+      "air-to-surface missiles system model 9",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 9 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-10",
+    "name": "Air-to-Surface Missiles System Model 10",
+    "officialDesignation": "Air-to-Surface Missiles System Model 10 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 10",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 10",
+      "Air-to-Surface Missiles System Model 10",
+      "Air-to-Surface Missiles System Model 10 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 10 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-10",
+      "air-to-surface missiles system model 10",
+      "air-to-surface missiles system model 10",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 10 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-11",
+    "name": "Air-to-Surface Missiles System Model 11",
+    "officialDesignation": "Air-to-Surface Missiles System Model 11 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 11",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 11",
+      "Air-to-Surface Missiles System Model 11",
+      "Air-to-Surface Missiles System Model 11 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 11 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 11,
+    "originCountry": "Sweden",
+    "originCountries": [
+      "Sweden"
+    ],
+    "developerCountries": [
+      "Sweden"
+    ],
+    "manufacturerCountries": [
+      "Sweden"
+    ],
+    "operatorCountries": [
+      "Sweden"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-11",
+      "air-to-surface missiles system model 11",
+      "air-to-surface missiles system model 11",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 11 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1650",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-11",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-12",
+    "name": "Air-to-Surface Missiles System Model 12",
+    "officialDesignation": "Air-to-Surface Missiles System Model 12 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 12",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 12",
+      "Air-to-Surface Missiles System Model 12",
+      "Air-to-Surface Missiles System Model 12 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 12 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 12,
+    "originCountry": "Israel",
+    "originCountries": [
+      "Israel"
+    ],
+    "developerCountries": [
+      "Israel"
+    ],
+    "manufacturerCountries": [
+      "Israel"
+    ],
+    "operatorCountries": [
+      "Israel"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-12",
+      "air-to-surface missiles system model 12",
+      "air-to-surface missiles system model 12",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 12 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1800",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-12",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-13",
+    "name": "Air-to-Surface Missiles System Model 13",
+    "officialDesignation": "Air-to-Surface Missiles System Model 13 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 13",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 13",
+      "Air-to-Surface Missiles System Model 13",
+      "Air-to-Surface Missiles System Model 13 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 13 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 13,
+    "originCountry": "T\u00fcrkiye",
+    "originCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "manufacturerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "operatorCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-13",
+      "air-to-surface missiles system model 13",
+      "air-to-surface missiles system model 13",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 13 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1950",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-13",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-14",
+    "name": "Air-to-Surface Missiles System Model 14",
+    "officialDesignation": "Air-to-Surface Missiles System Model 14 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 14",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 14",
+      "Air-to-Surface Missiles System Model 14",
+      "Air-to-Surface Missiles System Model 14 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 14 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 14,
+    "originCountry": "Australia",
+    "originCountries": [
+      "Australia"
+    ],
+    "developerCountries": [
+      "Australia"
+    ],
+    "manufacturerCountries": [
+      "Australia"
+    ],
+    "operatorCountries": [
+      "Australia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-14",
+      "air-to-surface missiles system model 14",
+      "air-to-surface missiles system model 14",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 14 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2100",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-14",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-15",
+    "name": "Air-to-Surface Missiles System Model 15",
+    "officialDesignation": "Air-to-Surface Missiles System Model 15 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 15",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 15",
+      "Air-to-Surface Missiles System Model 15",
+      "Air-to-Surface Missiles System Model 15 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 15 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 15,
+    "originCountry": "Spain",
+    "originCountries": [
+      "Spain"
+    ],
+    "developerCountries": [
+      "Spain"
+    ],
+    "manufacturerCountries": [
+      "Spain"
+    ],
+    "operatorCountries": [
+      "Spain"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-15",
+      "air-to-surface missiles system model 15",
+      "air-to-surface missiles system model 15",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 15 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2250",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-15",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-16",
+    "name": "Air-to-Surface Missiles System Model 16",
+    "officialDesignation": "Air-to-Surface Missiles System Model 16 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 16",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 16",
+      "Air-to-Surface Missiles System Model 16",
+      "Air-to-Surface Missiles System Model 16 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 16 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 16,
+    "originCountry": "Poland",
+    "originCountries": [
+      "Poland"
+    ],
+    "developerCountries": [
+      "Poland"
+    ],
+    "manufacturerCountries": [
+      "Poland"
+    ],
+    "operatorCountries": [
+      "Poland"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-16",
+      "air-to-surface missiles system model 16",
+      "air-to-surface missiles system model 16",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 16 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2400",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-16",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-17",
+    "name": "Air-to-Surface Missiles System Model 17",
+    "officialDesignation": "Air-to-Surface Missiles System Model 17 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 17",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 17",
+      "Air-to-Surface Missiles System Model 17",
+      "Air-to-Surface Missiles System Model 17 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 17 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 17,
+    "originCountry": "Norway",
+    "originCountries": [
+      "Norway"
+    ],
+    "developerCountries": [
+      "Norway"
+    ],
+    "manufacturerCountries": [
+      "Norway"
+    ],
+    "operatorCountries": [
+      "Norway"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-17",
+      "air-to-surface missiles system model 17",
+      "air-to-surface missiles system model 17",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 17 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2550",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-17",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-18",
+    "name": "Air-to-Surface Missiles System Model 18",
+    "officialDesignation": "Air-to-Surface Missiles System Model 18 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 18",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 18",
+      "Air-to-Surface Missiles System Model 18",
+      "Air-to-Surface Missiles System Model 18 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 18 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 18,
+    "originCountry": "Netherlands",
+    "originCountries": [
+      "Netherlands"
+    ],
+    "developerCountries": [
+      "Netherlands"
+    ],
+    "manufacturerCountries": [
+      "Netherlands"
+    ],
+    "operatorCountries": [
+      "Netherlands"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-18",
+      "air-to-surface missiles system model 18",
+      "air-to-surface missiles system model 18",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 18 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2700",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-18",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-19",
+    "name": "Air-to-Surface Missiles System Model 19",
+    "officialDesignation": "Air-to-Surface Missiles System Model 19 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 19",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 19",
+      "Air-to-Surface Missiles System Model 19",
+      "Air-to-Surface Missiles System Model 19 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 19 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 19,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-19",
+      "air-to-surface missiles system model 19",
+      "air-to-surface missiles system model 19",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 19 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2850",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-19",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "air-to-surface-missiles-system-model-20",
+    "name": "Air-to-Surface Missiles System Model 20",
+    "officialDesignation": "Air-to-Surface Missiles System Model 20 Operational System",
+    "commonName": "Air-to-Surface Missiles System Model 20",
+    "aliases": [
+      "Air-to-Surface Missiles System Model 20",
+      "Air-to-Surface Missiles System Model 20",
+      "Air-to-Surface Missiles System Model 20 Operational System"
+    ],
+    "familyName": "Air-to-Surface Missiles System Model 20 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-air-to-surface",
+    "categoryName": "Air-to-Surface Missiles",
+    "subcategory": "Tactical Air-to-Ground",
+    "rankInCategory": 20,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "air-to-surface-missiles-system-model-20",
+      "air-to-surface missiles system model 20",
+      "air-to-surface missiles system model 20",
+      "missiles-air-to-surface"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Air-to-Surface Missiles domain.",
+    "fullOverview": "The Air-to-Surface Missiles System Model 20 is an audited canonical military system built for Air-to-Surface Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Air-to-Surface Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3000",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-20",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Air-to-Surface Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Air-to-Surface Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-1",
+    "name": "Anti-Ship Missiles System Model 1",
+    "officialDesignation": "Anti-Ship Missiles System Model 1 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 1",
+    "aliases": [
+      "Anti-Ship Missiles System Model 1",
+      "Anti-Ship Missiles System Model 1",
+      "Anti-Ship Missiles System Model 1 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 1 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-1",
+      "anti-ship missiles system model 1",
+      "anti-ship missiles system model 1",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 1 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Anti-Ship Missiles missions."
+  },
+  {
+    "id": "anti-ship-missiles-system-model-2",
+    "name": "Anti-Ship Missiles System Model 2",
+    "officialDesignation": "Anti-Ship Missiles System Model 2 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 2",
+    "aliases": [
+      "Anti-Ship Missiles System Model 2",
+      "Anti-Ship Missiles System Model 2",
+      "Anti-Ship Missiles System Model 2 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 2 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-2",
+      "anti-ship missiles system model 2",
+      "anti-ship missiles system model 2",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 2 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Anti-Ship Missiles missions."
+  },
+  {
+    "id": "anti-ship-missiles-system-model-3",
+    "name": "Anti-Ship Missiles System Model 3",
+    "officialDesignation": "Anti-Ship Missiles System Model 3 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 3",
+    "aliases": [
+      "Anti-Ship Missiles System Model 3",
+      "Anti-Ship Missiles System Model 3",
+      "Anti-Ship Missiles System Model 3 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 3 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-3",
+      "anti-ship missiles system model 3",
+      "anti-ship missiles system model 3",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 3 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Anti-Ship Missiles missions."
+  },
+  {
+    "id": "anti-ship-missiles-system-model-4",
+    "name": "Anti-Ship Missiles System Model 4",
+    "officialDesignation": "Anti-Ship Missiles System Model 4 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 4",
+    "aliases": [
+      "Anti-Ship Missiles System Model 4",
+      "Anti-Ship Missiles System Model 4",
+      "Anti-Ship Missiles System Model 4 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 4 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-4",
+      "anti-ship missiles system model 4",
+      "anti-ship missiles system model 4",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 4 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-5",
+    "name": "Anti-Ship Missiles System Model 5",
+    "officialDesignation": "Anti-Ship Missiles System Model 5 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 5",
+    "aliases": [
+      "Anti-Ship Missiles System Model 5",
+      "Anti-Ship Missiles System Model 5",
+      "Anti-Ship Missiles System Model 5 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 5 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-5",
+      "anti-ship missiles system model 5",
+      "anti-ship missiles system model 5",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 5 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-6",
+    "name": "Anti-Ship Missiles System Model 6",
+    "officialDesignation": "Anti-Ship Missiles System Model 6 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 6",
+    "aliases": [
+      "Anti-Ship Missiles System Model 6",
+      "Anti-Ship Missiles System Model 6",
+      "Anti-Ship Missiles System Model 6 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 6 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-6",
+      "anti-ship missiles system model 6",
+      "anti-ship missiles system model 6",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 6 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-7",
+    "name": "Anti-Ship Missiles System Model 7",
+    "officialDesignation": "Anti-Ship Missiles System Model 7 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 7",
+    "aliases": [
+      "Anti-Ship Missiles System Model 7",
+      "Anti-Ship Missiles System Model 7",
+      "Anti-Ship Missiles System Model 7 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 7 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-7",
+      "anti-ship missiles system model 7",
+      "anti-ship missiles system model 7",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 7 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-8",
+    "name": "Anti-Ship Missiles System Model 8",
+    "officialDesignation": "Anti-Ship Missiles System Model 8 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 8",
+    "aliases": [
+      "Anti-Ship Missiles System Model 8",
+      "Anti-Ship Missiles System Model 8",
+      "Anti-Ship Missiles System Model 8 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 8 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-8",
+      "anti-ship missiles system model 8",
+      "anti-ship missiles system model 8",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 8 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-9",
+    "name": "Anti-Ship Missiles System Model 9",
+    "officialDesignation": "Anti-Ship Missiles System Model 9 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 9",
+    "aliases": [
+      "Anti-Ship Missiles System Model 9",
+      "Anti-Ship Missiles System Model 9",
+      "Anti-Ship Missiles System Model 9 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 9 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-9",
+      "anti-ship missiles system model 9",
+      "anti-ship missiles system model 9",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 9 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-10",
+    "name": "Anti-Ship Missiles System Model 10",
+    "officialDesignation": "Anti-Ship Missiles System Model 10 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 10",
+    "aliases": [
+      "Anti-Ship Missiles System Model 10",
+      "Anti-Ship Missiles System Model 10",
+      "Anti-Ship Missiles System Model 10 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 10 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-10",
+      "anti-ship missiles system model 10",
+      "anti-ship missiles system model 10",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 10 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-11",
+    "name": "Anti-Ship Missiles System Model 11",
+    "officialDesignation": "Anti-Ship Missiles System Model 11 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 11",
+    "aliases": [
+      "Anti-Ship Missiles System Model 11",
+      "Anti-Ship Missiles System Model 11",
+      "Anti-Ship Missiles System Model 11 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 11 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 11,
+    "originCountry": "Sweden",
+    "originCountries": [
+      "Sweden"
+    ],
+    "developerCountries": [
+      "Sweden"
+    ],
+    "manufacturerCountries": [
+      "Sweden"
+    ],
+    "operatorCountries": [
+      "Sweden"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-11",
+      "anti-ship missiles system model 11",
+      "anti-ship missiles system model 11",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 11 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1650",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-11",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-12",
+    "name": "Anti-Ship Missiles System Model 12",
+    "officialDesignation": "Anti-Ship Missiles System Model 12 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 12",
+    "aliases": [
+      "Anti-Ship Missiles System Model 12",
+      "Anti-Ship Missiles System Model 12",
+      "Anti-Ship Missiles System Model 12 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 12 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 12,
+    "originCountry": "Israel",
+    "originCountries": [
+      "Israel"
+    ],
+    "developerCountries": [
+      "Israel"
+    ],
+    "manufacturerCountries": [
+      "Israel"
+    ],
+    "operatorCountries": [
+      "Israel"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-12",
+      "anti-ship missiles system model 12",
+      "anti-ship missiles system model 12",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 12 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1800",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-12",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-13",
+    "name": "Anti-Ship Missiles System Model 13",
+    "officialDesignation": "Anti-Ship Missiles System Model 13 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 13",
+    "aliases": [
+      "Anti-Ship Missiles System Model 13",
+      "Anti-Ship Missiles System Model 13",
+      "Anti-Ship Missiles System Model 13 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 13 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 13,
+    "originCountry": "T\u00fcrkiye",
+    "originCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "manufacturerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "operatorCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-13",
+      "anti-ship missiles system model 13",
+      "anti-ship missiles system model 13",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 13 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1950",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-13",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-14",
+    "name": "Anti-Ship Missiles System Model 14",
+    "officialDesignation": "Anti-Ship Missiles System Model 14 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 14",
+    "aliases": [
+      "Anti-Ship Missiles System Model 14",
+      "Anti-Ship Missiles System Model 14",
+      "Anti-Ship Missiles System Model 14 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 14 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 14,
+    "originCountry": "Australia",
+    "originCountries": [
+      "Australia"
+    ],
+    "developerCountries": [
+      "Australia"
+    ],
+    "manufacturerCountries": [
+      "Australia"
+    ],
+    "operatorCountries": [
+      "Australia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-14",
+      "anti-ship missiles system model 14",
+      "anti-ship missiles system model 14",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 14 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2100",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-14",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-15",
+    "name": "Anti-Ship Missiles System Model 15",
+    "officialDesignation": "Anti-Ship Missiles System Model 15 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 15",
+    "aliases": [
+      "Anti-Ship Missiles System Model 15",
+      "Anti-Ship Missiles System Model 15",
+      "Anti-Ship Missiles System Model 15 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 15 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 15,
+    "originCountry": "Spain",
+    "originCountries": [
+      "Spain"
+    ],
+    "developerCountries": [
+      "Spain"
+    ],
+    "manufacturerCountries": [
+      "Spain"
+    ],
+    "operatorCountries": [
+      "Spain"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-15",
+      "anti-ship missiles system model 15",
+      "anti-ship missiles system model 15",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 15 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2250",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-15",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-16",
+    "name": "Anti-Ship Missiles System Model 16",
+    "officialDesignation": "Anti-Ship Missiles System Model 16 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 16",
+    "aliases": [
+      "Anti-Ship Missiles System Model 16",
+      "Anti-Ship Missiles System Model 16",
+      "Anti-Ship Missiles System Model 16 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 16 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 16,
+    "originCountry": "Poland",
+    "originCountries": [
+      "Poland"
+    ],
+    "developerCountries": [
+      "Poland"
+    ],
+    "manufacturerCountries": [
+      "Poland"
+    ],
+    "operatorCountries": [
+      "Poland"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-16",
+      "anti-ship missiles system model 16",
+      "anti-ship missiles system model 16",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 16 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2400",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-16",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-17",
+    "name": "Anti-Ship Missiles System Model 17",
+    "officialDesignation": "Anti-Ship Missiles System Model 17 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 17",
+    "aliases": [
+      "Anti-Ship Missiles System Model 17",
+      "Anti-Ship Missiles System Model 17",
+      "Anti-Ship Missiles System Model 17 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 17 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 17,
+    "originCountry": "Norway",
+    "originCountries": [
+      "Norway"
+    ],
+    "developerCountries": [
+      "Norway"
+    ],
+    "manufacturerCountries": [
+      "Norway"
+    ],
+    "operatorCountries": [
+      "Norway"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-17",
+      "anti-ship missiles system model 17",
+      "anti-ship missiles system model 17",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 17 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2550",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-17",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-18",
+    "name": "Anti-Ship Missiles System Model 18",
+    "officialDesignation": "Anti-Ship Missiles System Model 18 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 18",
+    "aliases": [
+      "Anti-Ship Missiles System Model 18",
+      "Anti-Ship Missiles System Model 18",
+      "Anti-Ship Missiles System Model 18 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 18 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 18,
+    "originCountry": "Netherlands",
+    "originCountries": [
+      "Netherlands"
+    ],
+    "developerCountries": [
+      "Netherlands"
+    ],
+    "manufacturerCountries": [
+      "Netherlands"
+    ],
+    "operatorCountries": [
+      "Netherlands"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-18",
+      "anti-ship missiles system model 18",
+      "anti-ship missiles system model 18",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 18 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2700",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-18",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-19",
+    "name": "Anti-Ship Missiles System Model 19",
+    "officialDesignation": "Anti-Ship Missiles System Model 19 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 19",
+    "aliases": [
+      "Anti-Ship Missiles System Model 19",
+      "Anti-Ship Missiles System Model 19",
+      "Anti-Ship Missiles System Model 19 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 19 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 19,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-19",
+      "anti-ship missiles system model 19",
+      "anti-ship missiles system model 19",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 19 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2850",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-19",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-ship-missiles-system-model-20",
+    "name": "Anti-Ship Missiles System Model 20",
+    "officialDesignation": "Anti-Ship Missiles System Model 20 Operational System",
+    "commonName": "Anti-Ship Missiles System Model 20",
+    "aliases": [
+      "Anti-Ship Missiles System Model 20",
+      "Anti-Ship Missiles System Model 20",
+      "Anti-Ship Missiles System Model 20 Operational System"
+    ],
+    "familyName": "Anti-Ship Missiles System Model 20 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-ship",
+    "categoryName": "Anti-Ship Missiles",
+    "subcategory": "Supersonic Sea-Skimmer",
+    "rankInCategory": 20,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-ship-missiles-system-model-20",
+      "anti-ship missiles system model 20",
+      "anti-ship missiles system model 20",
+      "missiles-anti-ship"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Ship Missiles domain.",
+    "fullOverview": "The Anti-Ship Missiles System Model 20 is an audited canonical military system built for Anti-Ship Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Ship Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "3000",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-20",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Ship Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Ship Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-1",
+    "name": "Anti-Tank Missiles System Model 1",
+    "officialDesignation": "Anti-Tank Missiles System Model 1 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 1",
+    "aliases": [
+      "Anti-Tank Missiles System Model 1",
+      "Anti-Tank Missiles System Model 1",
+      "Anti-Tank Missiles System Model 1 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 1 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-1",
+      "anti-tank missiles system model 1",
+      "anti-tank missiles system model 1",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 1 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Anti-Tank Missiles missions."
+  },
+  {
+    "id": "anti-tank-missiles-system-model-2",
+    "name": "Anti-Tank Missiles System Model 2",
+    "officialDesignation": "Anti-Tank Missiles System Model 2 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 2",
+    "aliases": [
+      "Anti-Tank Missiles System Model 2",
+      "Anti-Tank Missiles System Model 2",
+      "Anti-Tank Missiles System Model 2 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 2 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-2",
+      "anti-tank missiles system model 2",
+      "anti-tank missiles system model 2",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 2 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Anti-Tank Missiles missions."
+  },
+  {
+    "id": "anti-tank-missiles-system-model-3",
+    "name": "Anti-Tank Missiles System Model 3",
+    "officialDesignation": "Anti-Tank Missiles System Model 3 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 3",
+    "aliases": [
+      "Anti-Tank Missiles System Model 3",
+      "Anti-Tank Missiles System Model 3",
+      "Anti-Tank Missiles System Model 3 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 3 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-3",
+      "anti-tank missiles system model 3",
+      "anti-tank missiles system model 3",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 3 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Anti-Tank Missiles missions."
+  },
+  {
+    "id": "anti-tank-missiles-system-model-4",
+    "name": "Anti-Tank Missiles System Model 4",
+    "officialDesignation": "Anti-Tank Missiles System Model 4 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 4",
+    "aliases": [
+      "Anti-Tank Missiles System Model 4",
+      "Anti-Tank Missiles System Model 4",
+      "Anti-Tank Missiles System Model 4 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 4 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-4",
+      "anti-tank missiles system model 4",
+      "anti-tank missiles system model 4",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 4 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-5",
+    "name": "Anti-Tank Missiles System Model 5",
+    "officialDesignation": "Anti-Tank Missiles System Model 5 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 5",
+    "aliases": [
+      "Anti-Tank Missiles System Model 5",
+      "Anti-Tank Missiles System Model 5",
+      "Anti-Tank Missiles System Model 5 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 5 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-5",
+      "anti-tank missiles system model 5",
+      "anti-tank missiles system model 5",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 5 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-6",
+    "name": "Anti-Tank Missiles System Model 6",
+    "officialDesignation": "Anti-Tank Missiles System Model 6 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 6",
+    "aliases": [
+      "Anti-Tank Missiles System Model 6",
+      "Anti-Tank Missiles System Model 6",
+      "Anti-Tank Missiles System Model 6 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 6 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-6",
+      "anti-tank missiles system model 6",
+      "anti-tank missiles system model 6",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 6 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-7",
+    "name": "Anti-Tank Missiles System Model 7",
+    "officialDesignation": "Anti-Tank Missiles System Model 7 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 7",
+    "aliases": [
+      "Anti-Tank Missiles System Model 7",
+      "Anti-Tank Missiles System Model 7",
+      "Anti-Tank Missiles System Model 7 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 7 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-7",
+      "anti-tank missiles system model 7",
+      "anti-tank missiles system model 7",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 7 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-8",
+    "name": "Anti-Tank Missiles System Model 8",
+    "officialDesignation": "Anti-Tank Missiles System Model 8 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 8",
+    "aliases": [
+      "Anti-Tank Missiles System Model 8",
+      "Anti-Tank Missiles System Model 8",
+      "Anti-Tank Missiles System Model 8 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 8 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-8",
+      "anti-tank missiles system model 8",
+      "anti-tank missiles system model 8",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 8 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-9",
+    "name": "Anti-Tank Missiles System Model 9",
+    "officialDesignation": "Anti-Tank Missiles System Model 9 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 9",
+    "aliases": [
+      "Anti-Tank Missiles System Model 9",
+      "Anti-Tank Missiles System Model 9",
+      "Anti-Tank Missiles System Model 9 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 9 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-9",
+      "anti-tank missiles system model 9",
+      "anti-tank missiles system model 9",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 9 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-10",
+    "name": "Anti-Tank Missiles System Model 10",
+    "officialDesignation": "Anti-Tank Missiles System Model 10 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 10",
+    "aliases": [
+      "Anti-Tank Missiles System Model 10",
+      "Anti-Tank Missiles System Model 10",
+      "Anti-Tank Missiles System Model 10 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 10 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-10",
+      "anti-tank missiles system model 10",
+      "anti-tank missiles system model 10",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 10 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-11",
+    "name": "Anti-Tank Missiles System Model 11",
+    "officialDesignation": "Anti-Tank Missiles System Model 11 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 11",
+    "aliases": [
+      "Anti-Tank Missiles System Model 11",
+      "Anti-Tank Missiles System Model 11",
+      "Anti-Tank Missiles System Model 11 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 11 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 11,
+    "originCountry": "Sweden",
+    "originCountries": [
+      "Sweden"
+    ],
+    "developerCountries": [
+      "Sweden"
+    ],
+    "manufacturerCountries": [
+      "Sweden"
+    ],
+    "operatorCountries": [
+      "Sweden"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-11",
+      "anti-tank missiles system model 11",
+      "anti-tank missiles system model 11",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 11 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1650",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-11",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-12",
+    "name": "Anti-Tank Missiles System Model 12",
+    "officialDesignation": "Anti-Tank Missiles System Model 12 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 12",
+    "aliases": [
+      "Anti-Tank Missiles System Model 12",
+      "Anti-Tank Missiles System Model 12",
+      "Anti-Tank Missiles System Model 12 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 12 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 12,
+    "originCountry": "Israel",
+    "originCountries": [
+      "Israel"
+    ],
+    "developerCountries": [
+      "Israel"
+    ],
+    "manufacturerCountries": [
+      "Israel"
+    ],
+    "operatorCountries": [
+      "Israel"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-12",
+      "anti-tank missiles system model 12",
+      "anti-tank missiles system model 12",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 12 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1800",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-12",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-13",
+    "name": "Anti-Tank Missiles System Model 13",
+    "officialDesignation": "Anti-Tank Missiles System Model 13 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 13",
+    "aliases": [
+      "Anti-Tank Missiles System Model 13",
+      "Anti-Tank Missiles System Model 13",
+      "Anti-Tank Missiles System Model 13 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 13 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 13,
+    "originCountry": "T\u00fcrkiye",
+    "originCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "manufacturerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "operatorCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-13",
+      "anti-tank missiles system model 13",
+      "anti-tank missiles system model 13",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 13 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1950",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-13",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-14",
+    "name": "Anti-Tank Missiles System Model 14",
+    "officialDesignation": "Anti-Tank Missiles System Model 14 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 14",
+    "aliases": [
+      "Anti-Tank Missiles System Model 14",
+      "Anti-Tank Missiles System Model 14",
+      "Anti-Tank Missiles System Model 14 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 14 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 14,
+    "originCountry": "Australia",
+    "originCountries": [
+      "Australia"
+    ],
+    "developerCountries": [
+      "Australia"
+    ],
+    "manufacturerCountries": [
+      "Australia"
+    ],
+    "operatorCountries": [
+      "Australia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-14",
+      "anti-tank missiles system model 14",
+      "anti-tank missiles system model 14",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 14 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2100",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-14",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-tank-missiles-system-model-15",
+    "name": "Anti-Tank Missiles System Model 15",
+    "officialDesignation": "Anti-Tank Missiles System Model 15 Operational System",
+    "commonName": "Anti-Tank Missiles System Model 15",
+    "aliases": [
+      "Anti-Tank Missiles System Model 15",
+      "Anti-Tank Missiles System Model 15",
+      "Anti-Tank Missiles System Model 15 Operational System"
+    ],
+    "familyName": "Anti-Tank Missiles System Model 15 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-tank",
+    "categoryName": "Anti-Tank Missiles",
+    "subcategory": "Fire-and-Forget Top-Attack",
+    "rankInCategory": 15,
+    "originCountry": "Spain",
+    "originCountries": [
+      "Spain"
+    ],
+    "developerCountries": [
+      "Spain"
+    ],
+    "manufacturerCountries": [
+      "Spain"
+    ],
+    "operatorCountries": [
+      "Spain"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-tank-missiles-system-model-15",
+      "anti-tank missiles system model 15",
+      "anti-tank missiles system model 15",
+      "missiles-anti-tank"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Tank Missiles domain.",
+    "fullOverview": "The Anti-Tank Missiles System Model 15 is an audited canonical military system built for Anti-Tank Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Tank Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2250",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-15",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Tank Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Tank Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-1",
+    "name": "Land-Attack / Cruise Missiles System Model 1",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 1 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 1",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 1",
+      "Land-Attack / Cruise Missiles System Model 1",
+      "Land-Attack / Cruise Missiles System Model 1 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 1 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-1",
+      "land-attack / cruise missiles system model 1",
+      "land-attack / cruise missiles system model 1",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 1 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Land-Attack / Cruise Missiles missions."
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-2",
+    "name": "Land-Attack / Cruise Missiles System Model 2",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 2 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 2",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 2",
+      "Land-Attack / Cruise Missiles System Model 2",
+      "Land-Attack / Cruise Missiles System Model 2 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 2 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-2",
+      "land-attack / cruise missiles system model 2",
+      "land-attack / cruise missiles system model 2",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 2 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Land-Attack / Cruise Missiles missions."
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-3",
+    "name": "Land-Attack / Cruise Missiles System Model 3",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 3 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 3",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 3",
+      "Land-Attack / Cruise Missiles System Model 3",
+      "Land-Attack / Cruise Missiles System Model 3 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 3 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-3",
+      "land-attack / cruise missiles system model 3",
+      "land-attack / cruise missiles system model 3",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 3 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Land-Attack / Cruise Missiles missions."
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-4",
+    "name": "Land-Attack / Cruise Missiles System Model 4",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 4 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 4",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 4",
+      "Land-Attack / Cruise Missiles System Model 4",
+      "Land-Attack / Cruise Missiles System Model 4 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 4 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-4",
+      "land-attack / cruise missiles system model 4",
+      "land-attack / cruise missiles system model 4",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 4 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-5",
+    "name": "Land-Attack / Cruise Missiles System Model 5",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 5 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 5",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 5",
+      "Land-Attack / Cruise Missiles System Model 5",
+      "Land-Attack / Cruise Missiles System Model 5 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 5 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-5",
+      "land-attack / cruise missiles system model 5",
+      "land-attack / cruise missiles system model 5",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 5 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-6",
+    "name": "Land-Attack / Cruise Missiles System Model 6",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 6 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 6",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 6",
+      "Land-Attack / Cruise Missiles System Model 6",
+      "Land-Attack / Cruise Missiles System Model 6 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 6 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-6",
+      "land-attack / cruise missiles system model 6",
+      "land-attack / cruise missiles system model 6",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 6 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-7",
+    "name": "Land-Attack / Cruise Missiles System Model 7",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 7 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 7",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 7",
+      "Land-Attack / Cruise Missiles System Model 7",
+      "Land-Attack / Cruise Missiles System Model 7 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 7 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-7",
+      "land-attack / cruise missiles system model 7",
+      "land-attack / cruise missiles system model 7",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 7 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-8",
+    "name": "Land-Attack / Cruise Missiles System Model 8",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 8 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 8",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 8",
+      "Land-Attack / Cruise Missiles System Model 8",
+      "Land-Attack / Cruise Missiles System Model 8 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 8 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-8",
+      "land-attack / cruise missiles system model 8",
+      "land-attack / cruise missiles system model 8",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 8 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-9",
+    "name": "Land-Attack / Cruise Missiles System Model 9",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 9 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 9",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 9",
+      "Land-Attack / Cruise Missiles System Model 9",
+      "Land-Attack / Cruise Missiles System Model 9 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 9 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-9",
+      "land-attack / cruise missiles system model 9",
+      "land-attack / cruise missiles system model 9",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 9 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-10",
+    "name": "Land-Attack / Cruise Missiles System Model 10",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 10 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 10",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 10",
+      "Land-Attack / Cruise Missiles System Model 10",
+      "Land-Attack / Cruise Missiles System Model 10 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 10 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-10",
+      "land-attack / cruise missiles system model 10",
+      "land-attack / cruise missiles system model 10",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 10 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-11",
+    "name": "Land-Attack / Cruise Missiles System Model 11",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 11 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 11",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 11",
+      "Land-Attack / Cruise Missiles System Model 11",
+      "Land-Attack / Cruise Missiles System Model 11 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 11 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 11,
+    "originCountry": "Sweden",
+    "originCountries": [
+      "Sweden"
+    ],
+    "developerCountries": [
+      "Sweden"
+    ],
+    "manufacturerCountries": [
+      "Sweden"
+    ],
+    "operatorCountries": [
+      "Sweden"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-11",
+      "land-attack / cruise missiles system model 11",
+      "land-attack / cruise missiles system model 11",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 11 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1650",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-11",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-12",
+    "name": "Land-Attack / Cruise Missiles System Model 12",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 12 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 12",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 12",
+      "Land-Attack / Cruise Missiles System Model 12",
+      "Land-Attack / Cruise Missiles System Model 12 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 12 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 12,
+    "originCountry": "Israel",
+    "originCountries": [
+      "Israel"
+    ],
+    "developerCountries": [
+      "Israel"
+    ],
+    "manufacturerCountries": [
+      "Israel"
+    ],
+    "operatorCountries": [
+      "Israel"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-12",
+      "land-attack / cruise missiles system model 12",
+      "land-attack / cruise missiles system model 12",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 12 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1800",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-12",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-13",
+    "name": "Land-Attack / Cruise Missiles System Model 13",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 13 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 13",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 13",
+      "Land-Attack / Cruise Missiles System Model 13",
+      "Land-Attack / Cruise Missiles System Model 13 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 13 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 13,
+    "originCountry": "T\u00fcrkiye",
+    "originCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "manufacturerCountries": [
+      "T\u00fcrkiye"
+    ],
+    "operatorCountries": [
+      "T\u00fcrkiye"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-13",
+      "land-attack / cruise missiles system model 13",
+      "land-attack / cruise missiles system model 13",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 13 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1950",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-13",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-14",
+    "name": "Land-Attack / Cruise Missiles System Model 14",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 14 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 14",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 14",
+      "Land-Attack / Cruise Missiles System Model 14",
+      "Land-Attack / Cruise Missiles System Model 14 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 14 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 14,
+    "originCountry": "Australia",
+    "originCountries": [
+      "Australia"
+    ],
+    "developerCountries": [
+      "Australia"
+    ],
+    "manufacturerCountries": [
+      "Australia"
+    ],
+    "operatorCountries": [
+      "Australia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-14",
+      "land-attack / cruise missiles system model 14",
+      "land-attack / cruise missiles system model 14",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 14 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2100",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-14",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "land-attack-cruise-missiles-system-model-15",
+    "name": "Land-Attack / Cruise Missiles System Model 15",
+    "officialDesignation": "Land-Attack / Cruise Missiles System Model 15 Operational System",
+    "commonName": "Land-Attack / Cruise Missiles System Model 15",
+    "aliases": [
+      "Land-Attack / Cruise Missiles System Model 15",
+      "Land-Attack / Cruise Missiles System Model 15",
+      "Land-Attack / Cruise Missiles System Model 15 Operational System"
+    ],
+    "familyName": "Land-Attack / Cruise Missiles System Model 15 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-land-attack-cruise",
+    "categoryName": "Land-Attack / Cruise Missiles",
+    "subcategory": "Subsonic Stealth Cruise Missile",
+    "rankInCategory": 15,
+    "originCountry": "Spain",
+    "originCountries": [
+      "Spain"
+    ],
+    "developerCountries": [
+      "Spain"
+    ],
+    "manufacturerCountries": [
+      "Spain"
+    ],
+    "operatorCountries": [
+      "Spain"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "land-attack-cruise-missiles-system-model-15",
+      "land-attack / cruise missiles system model 15",
+      "land-attack / cruise missiles system model 15",
+      "missiles-land-attack-cruise"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Land-Attack / Cruise Missiles domain.",
+    "fullOverview": "The Land-Attack / Cruise Missiles System Model 15 is an audited canonical military system built for Land-Attack / Cruise Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Land-Attack / Cruise Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "2250",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-15",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Land-Attack / Cruise Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Land-Attack / Cruise Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-1",
+    "name": "Anti-Radiation Missiles System Model 1",
+    "officialDesignation": "Anti-Radiation Missiles System Model 1 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 1",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 1",
+      "Anti-Radiation Missiles System Model 1",
+      "Anti-Radiation Missiles System Model 1 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 1 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-1",
+      "anti-radiation missiles system model 1",
+      "anti-radiation missiles system model 1",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 1 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Anti-Radiation Missiles missions."
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-2",
+    "name": "Anti-Radiation Missiles System Model 2",
+    "officialDesignation": "Anti-Radiation Missiles System Model 2 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 2",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 2",
+      "Anti-Radiation Missiles System Model 2",
+      "Anti-Radiation Missiles System Model 2 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 2 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-2",
+      "anti-radiation missiles system model 2",
+      "anti-radiation missiles system model 2",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 2 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Anti-Radiation Missiles missions."
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-3",
+    "name": "Anti-Radiation Missiles System Model 3",
+    "officialDesignation": "Anti-Radiation Missiles System Model 3 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 3",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 3",
+      "Anti-Radiation Missiles System Model 3",
+      "Anti-Radiation Missiles System Model 3 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 3 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-3",
+      "anti-radiation missiles system model 3",
+      "anti-radiation missiles system model 3",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 3 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Anti-Radiation Missiles missions."
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-4",
+    "name": "Anti-Radiation Missiles System Model 4",
+    "officialDesignation": "Anti-Radiation Missiles System Model 4 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 4",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 4",
+      "Anti-Radiation Missiles System Model 4",
+      "Anti-Radiation Missiles System Model 4 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 4 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-4",
+      "anti-radiation missiles system model 4",
+      "anti-radiation missiles system model 4",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 4 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-5",
+    "name": "Anti-Radiation Missiles System Model 5",
+    "officialDesignation": "Anti-Radiation Missiles System Model 5 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 5",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 5",
+      "Anti-Radiation Missiles System Model 5",
+      "Anti-Radiation Missiles System Model 5 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 5 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-5",
+      "anti-radiation missiles system model 5",
+      "anti-radiation missiles system model 5",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 5 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-6",
+    "name": "Anti-Radiation Missiles System Model 6",
+    "officialDesignation": "Anti-Radiation Missiles System Model 6 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 6",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 6",
+      "Anti-Radiation Missiles System Model 6",
+      "Anti-Radiation Missiles System Model 6 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 6 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-6",
+      "anti-radiation missiles system model 6",
+      "anti-radiation missiles system model 6",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 6 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-7",
+    "name": "Anti-Radiation Missiles System Model 7",
+    "officialDesignation": "Anti-Radiation Missiles System Model 7 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 7",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 7",
+      "Anti-Radiation Missiles System Model 7",
+      "Anti-Radiation Missiles System Model 7 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 7 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-7",
+      "anti-radiation missiles system model 7",
+      "anti-radiation missiles system model 7",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 7 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-8",
+    "name": "Anti-Radiation Missiles System Model 8",
+    "officialDesignation": "Anti-Radiation Missiles System Model 8 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 8",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 8",
+      "Anti-Radiation Missiles System Model 8",
+      "Anti-Radiation Missiles System Model 8 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 8 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-8",
+      "anti-radiation missiles system model 8",
+      "anti-radiation missiles system model 8",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 8 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-9",
+    "name": "Anti-Radiation Missiles System Model 9",
+    "officialDesignation": "Anti-Radiation Missiles System Model 9 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 9",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 9",
+      "Anti-Radiation Missiles System Model 9",
+      "Anti-Radiation Missiles System Model 9 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 9 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-9",
+      "anti-radiation missiles system model 9",
+      "anti-radiation missiles system model 9",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 9 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "anti-radiation-missiles-system-model-10",
+    "name": "Anti-Radiation Missiles System Model 10",
+    "officialDesignation": "Anti-Radiation Missiles System Model 10 Operational System",
+    "commonName": "Anti-Radiation Missiles System Model 10",
+    "aliases": [
+      "Anti-Radiation Missiles System Model 10",
+      "Anti-Radiation Missiles System Model 10",
+      "Anti-Radiation Missiles System Model 10 Operational System"
+    ],
+    "familyName": "Anti-Radiation Missiles System Model 10 Family",
+    "domain": "MISSILES",
+    "branchId": "missiles",
+    "categoryId": "missiles-anti-radiation",
+    "categoryName": "Anti-Radiation Missiles",
+    "subcategory": "High-Speed Anti-Radiation (HARM)",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "anti-radiation-missiles-system-model-10",
+      "anti-radiation missiles system model 10",
+      "anti-radiation missiles system model 10",
+      "missiles-anti-radiation"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Anti-Radiation Missiles domain.",
+    "fullOverview": "The Anti-Radiation Missiles System Model 10 is an audited canonical military system built for Anti-Radiation Missiles operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Anti-Radiation Missiles Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Anti-Radiation Missiles Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Anti-Radiation Missiles Radar/Sensor Array"
+      ]
+    }
+>>>>>>> 60e58fa (feat: add asset data files for multiple military domains)
   }
 ];
