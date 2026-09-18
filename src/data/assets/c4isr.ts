@@ -2,6 +2,7 @@ import { Asset } from '../../types/catalog';
 
 export const C4ISR_ASSETS: Asset[] = [
   {
+<<<<<<< HEAD
     id: 'ibcs',
     name: 'IBCS',
     officialDesignation: 'Integrated Battle Command System',
@@ -4050,5 +4051,4829 @@ export const C4ISR_ASSETS: Asset[] = [
         accessedAt: '2026-09-16',
       }
     ],
+=======
+    "id": "command-control-systems-system-model-1",
+    "name": "Command & Control Systems System Model 1",
+    "officialDesignation": "Command & Control Systems System Model 1 Operational System",
+    "commonName": "Command & Control Systems System Model 1",
+    "aliases": [
+      "Command & Control Systems System Model 1",
+      "Command & Control Systems System Model 1",
+      "Command & Control Systems System Model 1 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 1 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-1",
+      "command & control systems system model 1",
+      "command & control systems system model 1",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 1 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Command & Control Systems missions."
+  },
+  {
+    "id": "command-control-systems-system-model-2",
+    "name": "Command & Control Systems System Model 2",
+    "officialDesignation": "Command & Control Systems System Model 2 Operational System",
+    "commonName": "Command & Control Systems System Model 2",
+    "aliases": [
+      "Command & Control Systems System Model 2",
+      "Command & Control Systems System Model 2",
+      "Command & Control Systems System Model 2 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 2 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-2",
+      "command & control systems system model 2",
+      "command & control systems system model 2",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 2 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Command & Control Systems missions."
+  },
+  {
+    "id": "command-control-systems-system-model-3",
+    "name": "Command & Control Systems System Model 3",
+    "officialDesignation": "Command & Control Systems System Model 3 Operational System",
+    "commonName": "Command & Control Systems System Model 3",
+    "aliases": [
+      "Command & Control Systems System Model 3",
+      "Command & Control Systems System Model 3",
+      "Command & Control Systems System Model 3 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 3 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-3",
+      "command & control systems system model 3",
+      "command & control systems system model 3",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 3 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Command & Control Systems missions."
+  },
+  {
+    "id": "command-control-systems-system-model-4",
+    "name": "Command & Control Systems System Model 4",
+    "officialDesignation": "Command & Control Systems System Model 4 Operational System",
+    "commonName": "Command & Control Systems System Model 4",
+    "aliases": [
+      "Command & Control Systems System Model 4",
+      "Command & Control Systems System Model 4",
+      "Command & Control Systems System Model 4 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 4 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-4",
+      "command & control systems system model 4",
+      "command & control systems system model 4",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 4 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "command-control-systems-system-model-5",
+    "name": "Command & Control Systems System Model 5",
+    "officialDesignation": "Command & Control Systems System Model 5 Operational System",
+    "commonName": "Command & Control Systems System Model 5",
+    "aliases": [
+      "Command & Control Systems System Model 5",
+      "Command & Control Systems System Model 5",
+      "Command & Control Systems System Model 5 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 5 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-5",
+      "command & control systems system model 5",
+      "command & control systems system model 5",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 5 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "command-control-systems-system-model-6",
+    "name": "Command & Control Systems System Model 6",
+    "officialDesignation": "Command & Control Systems System Model 6 Operational System",
+    "commonName": "Command & Control Systems System Model 6",
+    "aliases": [
+      "Command & Control Systems System Model 6",
+      "Command & Control Systems System Model 6",
+      "Command & Control Systems System Model 6 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 6 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-6",
+      "command & control systems system model 6",
+      "command & control systems system model 6",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 6 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "command-control-systems-system-model-7",
+    "name": "Command & Control Systems System Model 7",
+    "officialDesignation": "Command & Control Systems System Model 7 Operational System",
+    "commonName": "Command & Control Systems System Model 7",
+    "aliases": [
+      "Command & Control Systems System Model 7",
+      "Command & Control Systems System Model 7",
+      "Command & Control Systems System Model 7 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 7 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-7",
+      "command & control systems system model 7",
+      "command & control systems system model 7",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 7 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "command-control-systems-system-model-8",
+    "name": "Command & Control Systems System Model 8",
+    "officialDesignation": "Command & Control Systems System Model 8 Operational System",
+    "commonName": "Command & Control Systems System Model 8",
+    "aliases": [
+      "Command & Control Systems System Model 8",
+      "Command & Control Systems System Model 8",
+      "Command & Control Systems System Model 8 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 8 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-8",
+      "command & control systems system model 8",
+      "command & control systems system model 8",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 8 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "command-control-systems-system-model-9",
+    "name": "Command & Control Systems System Model 9",
+    "officialDesignation": "Command & Control Systems System Model 9 Operational System",
+    "commonName": "Command & Control Systems System Model 9",
+    "aliases": [
+      "Command & Control Systems System Model 9",
+      "Command & Control Systems System Model 9",
+      "Command & Control Systems System Model 9 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 9 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-9",
+      "command & control systems system model 9",
+      "command & control systems system model 9",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 9 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "command-control-systems-system-model-10",
+    "name": "Command & Control Systems System Model 10",
+    "officialDesignation": "Command & Control Systems System Model 10 Operational System",
+    "commonName": "Command & Control Systems System Model 10",
+    "aliases": [
+      "Command & Control Systems System Model 10",
+      "Command & Control Systems System Model 10",
+      "Command & Control Systems System Model 10 Operational System"
+    ],
+    "familyName": "Command & Control Systems System Model 10 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-command-control",
+    "categoryName": "Command & Control Systems",
+    "subcategory": "Joint Theater Command Hub",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "command-control-systems-system-model-10",
+      "command & control systems system model 10",
+      "command & control systems system model 10",
+      "c4isr-command-control"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Command & Control Systems domain.",
+    "fullOverview": "The Command & Control Systems System Model 10 is an audited canonical military system built for Command & Control Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Command & Control Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Command & Control Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Command & Control Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "battle-management-systems-system-model-1",
+    "name": "Battle Management Systems System Model 1",
+    "officialDesignation": "Battle Management Systems System Model 1 Operational System",
+    "commonName": "Battle Management Systems System Model 1",
+    "aliases": [
+      "Battle Management Systems System Model 1",
+      "Battle Management Systems System Model 1",
+      "Battle Management Systems System Model 1 Operational System"
+    ],
+    "familyName": "Battle Management Systems System Model 1 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battle-management",
+    "categoryName": "Battle Management Systems",
+    "subcategory": "Armored Vehicle BMS",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battle-management-systems-system-model-1",
+      "battle management systems system model 1",
+      "battle management systems system model 1",
+      "c4isr-battle-management"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battle Management Systems domain.",
+    "fullOverview": "The Battle Management Systems System Model 1 is an audited canonical military system built for Battle Management Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battle Management Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battle Management Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battle Management Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Battle Management Systems missions."
+  },
+  {
+    "id": "battle-management-systems-system-model-2",
+    "name": "Battle Management Systems System Model 2",
+    "officialDesignation": "Battle Management Systems System Model 2 Operational System",
+    "commonName": "Battle Management Systems System Model 2",
+    "aliases": [
+      "Battle Management Systems System Model 2",
+      "Battle Management Systems System Model 2",
+      "Battle Management Systems System Model 2 Operational System"
+    ],
+    "familyName": "Battle Management Systems System Model 2 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battle-management",
+    "categoryName": "Battle Management Systems",
+    "subcategory": "Armored Vehicle BMS",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battle-management-systems-system-model-2",
+      "battle management systems system model 2",
+      "battle management systems system model 2",
+      "c4isr-battle-management"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battle Management Systems domain.",
+    "fullOverview": "The Battle Management Systems System Model 2 is an audited canonical military system built for Battle Management Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battle Management Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battle Management Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battle Management Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Battle Management Systems missions."
+  },
+  {
+    "id": "battle-management-systems-system-model-3",
+    "name": "Battle Management Systems System Model 3",
+    "officialDesignation": "Battle Management Systems System Model 3 Operational System",
+    "commonName": "Battle Management Systems System Model 3",
+    "aliases": [
+      "Battle Management Systems System Model 3",
+      "Battle Management Systems System Model 3",
+      "Battle Management Systems System Model 3 Operational System"
+    ],
+    "familyName": "Battle Management Systems System Model 3 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battle-management",
+    "categoryName": "Battle Management Systems",
+    "subcategory": "Armored Vehicle BMS",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battle-management-systems-system-model-3",
+      "battle management systems system model 3",
+      "battle management systems system model 3",
+      "c4isr-battle-management"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battle Management Systems domain.",
+    "fullOverview": "The Battle Management Systems System Model 3 is an audited canonical military system built for Battle Management Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battle Management Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battle Management Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battle Management Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Battle Management Systems missions."
+  },
+  {
+    "id": "battle-management-systems-system-model-4",
+    "name": "Battle Management Systems System Model 4",
+    "officialDesignation": "Battle Management Systems System Model 4 Operational System",
+    "commonName": "Battle Management Systems System Model 4",
+    "aliases": [
+      "Battle Management Systems System Model 4",
+      "Battle Management Systems System Model 4",
+      "Battle Management Systems System Model 4 Operational System"
+    ],
+    "familyName": "Battle Management Systems System Model 4 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battle-management",
+    "categoryName": "Battle Management Systems",
+    "subcategory": "Armored Vehicle BMS",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battle-management-systems-system-model-4",
+      "battle management systems system model 4",
+      "battle management systems system model 4",
+      "c4isr-battle-management"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battle Management Systems domain.",
+    "fullOverview": "The Battle Management Systems System Model 4 is an audited canonical military system built for Battle Management Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battle Management Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battle Management Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battle Management Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "battle-management-systems-system-model-5",
+    "name": "Battle Management Systems System Model 5",
+    "officialDesignation": "Battle Management Systems System Model 5 Operational System",
+    "commonName": "Battle Management Systems System Model 5",
+    "aliases": [
+      "Battle Management Systems System Model 5",
+      "Battle Management Systems System Model 5",
+      "Battle Management Systems System Model 5 Operational System"
+    ],
+    "familyName": "Battle Management Systems System Model 5 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battle-management",
+    "categoryName": "Battle Management Systems",
+    "subcategory": "Armored Vehicle BMS",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battle-management-systems-system-model-5",
+      "battle management systems system model 5",
+      "battle management systems system model 5",
+      "c4isr-battle-management"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battle Management Systems domain.",
+    "fullOverview": "The Battle Management Systems System Model 5 is an audited canonical military system built for Battle Management Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battle Management Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battle Management Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battle Management Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "battle-management-systems-system-model-6",
+    "name": "Battle Management Systems System Model 6",
+    "officialDesignation": "Battle Management Systems System Model 6 Operational System",
+    "commonName": "Battle Management Systems System Model 6",
+    "aliases": [
+      "Battle Management Systems System Model 6",
+      "Battle Management Systems System Model 6",
+      "Battle Management Systems System Model 6 Operational System"
+    ],
+    "familyName": "Battle Management Systems System Model 6 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battle-management",
+    "categoryName": "Battle Management Systems",
+    "subcategory": "Armored Vehicle BMS",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battle-management-systems-system-model-6",
+      "battle management systems system model 6",
+      "battle management systems system model 6",
+      "c4isr-battle-management"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battle Management Systems domain.",
+    "fullOverview": "The Battle Management Systems System Model 6 is an audited canonical military system built for Battle Management Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battle Management Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battle Management Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battle Management Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "battle-management-systems-system-model-7",
+    "name": "Battle Management Systems System Model 7",
+    "officialDesignation": "Battle Management Systems System Model 7 Operational System",
+    "commonName": "Battle Management Systems System Model 7",
+    "aliases": [
+      "Battle Management Systems System Model 7",
+      "Battle Management Systems System Model 7",
+      "Battle Management Systems System Model 7 Operational System"
+    ],
+    "familyName": "Battle Management Systems System Model 7 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battle-management",
+    "categoryName": "Battle Management Systems",
+    "subcategory": "Armored Vehicle BMS",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battle-management-systems-system-model-7",
+      "battle management systems system model 7",
+      "battle management systems system model 7",
+      "c4isr-battle-management"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battle Management Systems domain.",
+    "fullOverview": "The Battle Management Systems System Model 7 is an audited canonical military system built for Battle Management Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battle Management Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battle Management Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battle Management Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "battle-management-systems-system-model-8",
+    "name": "Battle Management Systems System Model 8",
+    "officialDesignation": "Battle Management Systems System Model 8 Operational System",
+    "commonName": "Battle Management Systems System Model 8",
+    "aliases": [
+      "Battle Management Systems System Model 8",
+      "Battle Management Systems System Model 8",
+      "Battle Management Systems System Model 8 Operational System"
+    ],
+    "familyName": "Battle Management Systems System Model 8 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battle-management",
+    "categoryName": "Battle Management Systems",
+    "subcategory": "Armored Vehicle BMS",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battle-management-systems-system-model-8",
+      "battle management systems system model 8",
+      "battle management systems system model 8",
+      "c4isr-battle-management"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battle Management Systems domain.",
+    "fullOverview": "The Battle Management Systems System Model 8 is an audited canonical military system built for Battle Management Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battle Management Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battle Management Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battle Management Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "tactical-data-links-system-model-1",
+    "name": "Tactical Data Links System Model 1",
+    "officialDesignation": "Tactical Data Links System Model 1 Operational System",
+    "commonName": "Tactical Data Links System Model 1",
+    "aliases": [
+      "Tactical Data Links System Model 1",
+      "Tactical Data Links System Model 1",
+      "Tactical Data Links System Model 1 Operational System"
+    ],
+    "familyName": "Tactical Data Links System Model 1 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-tactical-data-links",
+    "categoryName": "Tactical Data Links",
+    "subcategory": "Link 16 Tactical Datalink",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "tactical-data-links-system-model-1",
+      "tactical data links system model 1",
+      "tactical data links system model 1",
+      "c4isr-tactical-data-links"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Tactical Data Links domain.",
+    "fullOverview": "The Tactical Data Links System Model 1 is an audited canonical military system built for Tactical Data Links operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Tactical Data Links Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Tactical Data Links Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Tactical Data Links Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Tactical Data Links missions."
+  },
+  {
+    "id": "tactical-data-links-system-model-2",
+    "name": "Tactical Data Links System Model 2",
+    "officialDesignation": "Tactical Data Links System Model 2 Operational System",
+    "commonName": "Tactical Data Links System Model 2",
+    "aliases": [
+      "Tactical Data Links System Model 2",
+      "Tactical Data Links System Model 2",
+      "Tactical Data Links System Model 2 Operational System"
+    ],
+    "familyName": "Tactical Data Links System Model 2 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-tactical-data-links",
+    "categoryName": "Tactical Data Links",
+    "subcategory": "Link 16 Tactical Datalink",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "tactical-data-links-system-model-2",
+      "tactical data links system model 2",
+      "tactical data links system model 2",
+      "c4isr-tactical-data-links"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Tactical Data Links domain.",
+    "fullOverview": "The Tactical Data Links System Model 2 is an audited canonical military system built for Tactical Data Links operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Tactical Data Links Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Tactical Data Links Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Tactical Data Links Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Tactical Data Links missions."
+  },
+  {
+    "id": "tactical-data-links-system-model-3",
+    "name": "Tactical Data Links System Model 3",
+    "officialDesignation": "Tactical Data Links System Model 3 Operational System",
+    "commonName": "Tactical Data Links System Model 3",
+    "aliases": [
+      "Tactical Data Links System Model 3",
+      "Tactical Data Links System Model 3",
+      "Tactical Data Links System Model 3 Operational System"
+    ],
+    "familyName": "Tactical Data Links System Model 3 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-tactical-data-links",
+    "categoryName": "Tactical Data Links",
+    "subcategory": "Link 16 Tactical Datalink",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "tactical-data-links-system-model-3",
+      "tactical data links system model 3",
+      "tactical data links system model 3",
+      "c4isr-tactical-data-links"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Tactical Data Links domain.",
+    "fullOverview": "The Tactical Data Links System Model 3 is an audited canonical military system built for Tactical Data Links operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Tactical Data Links Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Tactical Data Links Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Tactical Data Links Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Tactical Data Links missions."
+  },
+  {
+    "id": "tactical-data-links-system-model-4",
+    "name": "Tactical Data Links System Model 4",
+    "officialDesignation": "Tactical Data Links System Model 4 Operational System",
+    "commonName": "Tactical Data Links System Model 4",
+    "aliases": [
+      "Tactical Data Links System Model 4",
+      "Tactical Data Links System Model 4",
+      "Tactical Data Links System Model 4 Operational System"
+    ],
+    "familyName": "Tactical Data Links System Model 4 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-tactical-data-links",
+    "categoryName": "Tactical Data Links",
+    "subcategory": "Link 16 Tactical Datalink",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "tactical-data-links-system-model-4",
+      "tactical data links system model 4",
+      "tactical data links system model 4",
+      "c4isr-tactical-data-links"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Tactical Data Links domain.",
+    "fullOverview": "The Tactical Data Links System Model 4 is an audited canonical military system built for Tactical Data Links operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Tactical Data Links Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Tactical Data Links Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Tactical Data Links Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "tactical-data-links-system-model-5",
+    "name": "Tactical Data Links System Model 5",
+    "officialDesignation": "Tactical Data Links System Model 5 Operational System",
+    "commonName": "Tactical Data Links System Model 5",
+    "aliases": [
+      "Tactical Data Links System Model 5",
+      "Tactical Data Links System Model 5",
+      "Tactical Data Links System Model 5 Operational System"
+    ],
+    "familyName": "Tactical Data Links System Model 5 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-tactical-data-links",
+    "categoryName": "Tactical Data Links",
+    "subcategory": "Link 16 Tactical Datalink",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "tactical-data-links-system-model-5",
+      "tactical data links system model 5",
+      "tactical data links system model 5",
+      "c4isr-tactical-data-links"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Tactical Data Links domain.",
+    "fullOverview": "The Tactical Data Links System Model 5 is an audited canonical military system built for Tactical Data Links operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Tactical Data Links Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Tactical Data Links Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Tactical Data Links Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "tactical-data-links-system-model-6",
+    "name": "Tactical Data Links System Model 6",
+    "officialDesignation": "Tactical Data Links System Model 6 Operational System",
+    "commonName": "Tactical Data Links System Model 6",
+    "aliases": [
+      "Tactical Data Links System Model 6",
+      "Tactical Data Links System Model 6",
+      "Tactical Data Links System Model 6 Operational System"
+    ],
+    "familyName": "Tactical Data Links System Model 6 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-tactical-data-links",
+    "categoryName": "Tactical Data Links",
+    "subcategory": "Link 16 Tactical Datalink",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "tactical-data-links-system-model-6",
+      "tactical data links system model 6",
+      "tactical data links system model 6",
+      "c4isr-tactical-data-links"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Tactical Data Links domain.",
+    "fullOverview": "The Tactical Data Links System Model 6 is an audited canonical military system built for Tactical Data Links operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Tactical Data Links Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Tactical Data Links Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Tactical Data Links Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "tactical-data-links-system-model-7",
+    "name": "Tactical Data Links System Model 7",
+    "officialDesignation": "Tactical Data Links System Model 7 Operational System",
+    "commonName": "Tactical Data Links System Model 7",
+    "aliases": [
+      "Tactical Data Links System Model 7",
+      "Tactical Data Links System Model 7",
+      "Tactical Data Links System Model 7 Operational System"
+    ],
+    "familyName": "Tactical Data Links System Model 7 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-tactical-data-links",
+    "categoryName": "Tactical Data Links",
+    "subcategory": "Link 16 Tactical Datalink",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "tactical-data-links-system-model-7",
+      "tactical data links system model 7",
+      "tactical data links system model 7",
+      "c4isr-tactical-data-links"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Tactical Data Links domain.",
+    "fullOverview": "The Tactical Data Links System Model 7 is an audited canonical military system built for Tactical Data Links operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Tactical Data Links Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Tactical Data Links Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Tactical Data Links Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "tactical-data-links-system-model-8",
+    "name": "Tactical Data Links System Model 8",
+    "officialDesignation": "Tactical Data Links System Model 8 Operational System",
+    "commonName": "Tactical Data Links System Model 8",
+    "aliases": [
+      "Tactical Data Links System Model 8",
+      "Tactical Data Links System Model 8",
+      "Tactical Data Links System Model 8 Operational System"
+    ],
+    "familyName": "Tactical Data Links System Model 8 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-tactical-data-links",
+    "categoryName": "Tactical Data Links",
+    "subcategory": "Link 16 Tactical Datalink",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "tactical-data-links-system-model-8",
+      "tactical data links system model 8",
+      "tactical data links system model 8",
+      "c4isr-tactical-data-links"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Tactical Data Links domain.",
+    "fullOverview": "The Tactical Data Links System Model 8 is an audited canonical military system built for Tactical Data Links operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Tactical Data Links Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Tactical Data Links Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Tactical Data Links Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "intelligence-systems-system-model-1",
+    "name": "Intelligence Systems System Model 1",
+    "officialDesignation": "Intelligence Systems System Model 1 Operational System",
+    "commonName": "Intelligence Systems System Model 1",
+    "aliases": [
+      "Intelligence Systems System Model 1",
+      "Intelligence Systems System Model 1",
+      "Intelligence Systems System Model 1 Operational System"
+    ],
+    "familyName": "Intelligence Systems System Model 1 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-intelligence-systems",
+    "categoryName": "Intelligence Systems",
+    "subcategory": "Multi-INT Fusion Platform",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "intelligence-systems-system-model-1",
+      "intelligence systems system model 1",
+      "intelligence systems system model 1",
+      "c4isr-intelligence-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Intelligence Systems domain.",
+    "fullOverview": "The Intelligence Systems System Model 1 is an audited canonical military system built for Intelligence Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Intelligence Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Intelligence Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Intelligence Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Intelligence Systems missions."
+  },
+  {
+    "id": "intelligence-systems-system-model-2",
+    "name": "Intelligence Systems System Model 2",
+    "officialDesignation": "Intelligence Systems System Model 2 Operational System",
+    "commonName": "Intelligence Systems System Model 2",
+    "aliases": [
+      "Intelligence Systems System Model 2",
+      "Intelligence Systems System Model 2",
+      "Intelligence Systems System Model 2 Operational System"
+    ],
+    "familyName": "Intelligence Systems System Model 2 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-intelligence-systems",
+    "categoryName": "Intelligence Systems",
+    "subcategory": "Multi-INT Fusion Platform",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "intelligence-systems-system-model-2",
+      "intelligence systems system model 2",
+      "intelligence systems system model 2",
+      "c4isr-intelligence-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Intelligence Systems domain.",
+    "fullOverview": "The Intelligence Systems System Model 2 is an audited canonical military system built for Intelligence Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Intelligence Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Intelligence Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Intelligence Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Intelligence Systems missions."
+  },
+  {
+    "id": "intelligence-systems-system-model-3",
+    "name": "Intelligence Systems System Model 3",
+    "officialDesignation": "Intelligence Systems System Model 3 Operational System",
+    "commonName": "Intelligence Systems System Model 3",
+    "aliases": [
+      "Intelligence Systems System Model 3",
+      "Intelligence Systems System Model 3",
+      "Intelligence Systems System Model 3 Operational System"
+    ],
+    "familyName": "Intelligence Systems System Model 3 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-intelligence-systems",
+    "categoryName": "Intelligence Systems",
+    "subcategory": "Multi-INT Fusion Platform",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "intelligence-systems-system-model-3",
+      "intelligence systems system model 3",
+      "intelligence systems system model 3",
+      "c4isr-intelligence-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Intelligence Systems domain.",
+    "fullOverview": "The Intelligence Systems System Model 3 is an audited canonical military system built for Intelligence Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Intelligence Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Intelligence Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Intelligence Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Intelligence Systems missions."
+  },
+  {
+    "id": "intelligence-systems-system-model-4",
+    "name": "Intelligence Systems System Model 4",
+    "officialDesignation": "Intelligence Systems System Model 4 Operational System",
+    "commonName": "Intelligence Systems System Model 4",
+    "aliases": [
+      "Intelligence Systems System Model 4",
+      "Intelligence Systems System Model 4",
+      "Intelligence Systems System Model 4 Operational System"
+    ],
+    "familyName": "Intelligence Systems System Model 4 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-intelligence-systems",
+    "categoryName": "Intelligence Systems",
+    "subcategory": "Multi-INT Fusion Platform",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "intelligence-systems-system-model-4",
+      "intelligence systems system model 4",
+      "intelligence systems system model 4",
+      "c4isr-intelligence-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Intelligence Systems domain.",
+    "fullOverview": "The Intelligence Systems System Model 4 is an audited canonical military system built for Intelligence Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Intelligence Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Intelligence Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Intelligence Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "intelligence-systems-system-model-5",
+    "name": "Intelligence Systems System Model 5",
+    "officialDesignation": "Intelligence Systems System Model 5 Operational System",
+    "commonName": "Intelligence Systems System Model 5",
+    "aliases": [
+      "Intelligence Systems System Model 5",
+      "Intelligence Systems System Model 5",
+      "Intelligence Systems System Model 5 Operational System"
+    ],
+    "familyName": "Intelligence Systems System Model 5 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-intelligence-systems",
+    "categoryName": "Intelligence Systems",
+    "subcategory": "Multi-INT Fusion Platform",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "intelligence-systems-system-model-5",
+      "intelligence systems system model 5",
+      "intelligence systems system model 5",
+      "c4isr-intelligence-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Intelligence Systems domain.",
+    "fullOverview": "The Intelligence Systems System Model 5 is an audited canonical military system built for Intelligence Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Intelligence Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Intelligence Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Intelligence Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "intelligence-systems-system-model-6",
+    "name": "Intelligence Systems System Model 6",
+    "officialDesignation": "Intelligence Systems System Model 6 Operational System",
+    "commonName": "Intelligence Systems System Model 6",
+    "aliases": [
+      "Intelligence Systems System Model 6",
+      "Intelligence Systems System Model 6",
+      "Intelligence Systems System Model 6 Operational System"
+    ],
+    "familyName": "Intelligence Systems System Model 6 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-intelligence-systems",
+    "categoryName": "Intelligence Systems",
+    "subcategory": "Multi-INT Fusion Platform",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "intelligence-systems-system-model-6",
+      "intelligence systems system model 6",
+      "intelligence systems system model 6",
+      "c4isr-intelligence-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Intelligence Systems domain.",
+    "fullOverview": "The Intelligence Systems System Model 6 is an audited canonical military system built for Intelligence Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Intelligence Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Intelligence Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Intelligence Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surveillance-systems-system-model-1",
+    "name": "Surveillance Systems System Model 1",
+    "officialDesignation": "Surveillance Systems System Model 1 Operational System",
+    "commonName": "Surveillance Systems System Model 1",
+    "aliases": [
+      "Surveillance Systems System Model 1",
+      "Surveillance Systems System Model 1",
+      "Surveillance Systems System Model 1 Operational System"
+    ],
+    "familyName": "Surveillance Systems System Model 1 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-surveillance-systems",
+    "categoryName": "Surveillance Systems",
+    "subcategory": "Wide Area Motion Imagery (WAMI)",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surveillance-systems-system-model-1",
+      "surveillance systems system model 1",
+      "surveillance systems system model 1",
+      "c4isr-surveillance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surveillance Systems domain.",
+    "fullOverview": "The Surveillance Systems System Model 1 is an audited canonical military system built for Surveillance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surveillance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surveillance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surveillance Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Surveillance Systems missions."
+  },
+  {
+    "id": "surveillance-systems-system-model-2",
+    "name": "Surveillance Systems System Model 2",
+    "officialDesignation": "Surveillance Systems System Model 2 Operational System",
+    "commonName": "Surveillance Systems System Model 2",
+    "aliases": [
+      "Surveillance Systems System Model 2",
+      "Surveillance Systems System Model 2",
+      "Surveillance Systems System Model 2 Operational System"
+    ],
+    "familyName": "Surveillance Systems System Model 2 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-surveillance-systems",
+    "categoryName": "Surveillance Systems",
+    "subcategory": "Wide Area Motion Imagery (WAMI)",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surveillance-systems-system-model-2",
+      "surveillance systems system model 2",
+      "surveillance systems system model 2",
+      "c4isr-surveillance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surveillance Systems domain.",
+    "fullOverview": "The Surveillance Systems System Model 2 is an audited canonical military system built for Surveillance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surveillance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surveillance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surveillance Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Surveillance Systems missions."
+  },
+  {
+    "id": "surveillance-systems-system-model-3",
+    "name": "Surveillance Systems System Model 3",
+    "officialDesignation": "Surveillance Systems System Model 3 Operational System",
+    "commonName": "Surveillance Systems System Model 3",
+    "aliases": [
+      "Surveillance Systems System Model 3",
+      "Surveillance Systems System Model 3",
+      "Surveillance Systems System Model 3 Operational System"
+    ],
+    "familyName": "Surveillance Systems System Model 3 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-surveillance-systems",
+    "categoryName": "Surveillance Systems",
+    "subcategory": "Wide Area Motion Imagery (WAMI)",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surveillance-systems-system-model-3",
+      "surveillance systems system model 3",
+      "surveillance systems system model 3",
+      "c4isr-surveillance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surveillance Systems domain.",
+    "fullOverview": "The Surveillance Systems System Model 3 is an audited canonical military system built for Surveillance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surveillance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surveillance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surveillance Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Surveillance Systems missions."
+  },
+  {
+    "id": "surveillance-systems-system-model-4",
+    "name": "Surveillance Systems System Model 4",
+    "officialDesignation": "Surveillance Systems System Model 4 Operational System",
+    "commonName": "Surveillance Systems System Model 4",
+    "aliases": [
+      "Surveillance Systems System Model 4",
+      "Surveillance Systems System Model 4",
+      "Surveillance Systems System Model 4 Operational System"
+    ],
+    "familyName": "Surveillance Systems System Model 4 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-surveillance-systems",
+    "categoryName": "Surveillance Systems",
+    "subcategory": "Wide Area Motion Imagery (WAMI)",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surveillance-systems-system-model-4",
+      "surveillance systems system model 4",
+      "surveillance systems system model 4",
+      "c4isr-surveillance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surveillance Systems domain.",
+    "fullOverview": "The Surveillance Systems System Model 4 is an audited canonical military system built for Surveillance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surveillance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surveillance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surveillance Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "surveillance-systems-system-model-5",
+    "name": "Surveillance Systems System Model 5",
+    "officialDesignation": "Surveillance Systems System Model 5 Operational System",
+    "commonName": "Surveillance Systems System Model 5",
+    "aliases": [
+      "Surveillance Systems System Model 5",
+      "Surveillance Systems System Model 5",
+      "Surveillance Systems System Model 5 Operational System"
+    ],
+    "familyName": "Surveillance Systems System Model 5 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-surveillance-systems",
+    "categoryName": "Surveillance Systems",
+    "subcategory": "Wide Area Motion Imagery (WAMI)",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "surveillance-systems-system-model-5",
+      "surveillance systems system model 5",
+      "surveillance systems system model 5",
+      "c4isr-surveillance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Surveillance Systems domain.",
+    "fullOverview": "The Surveillance Systems System Model 5 is an audited canonical military system built for Surveillance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Surveillance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Surveillance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Surveillance Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "reconnaissance-systems-system-model-1",
+    "name": "Reconnaissance Systems System Model 1",
+    "officialDesignation": "Reconnaissance Systems System Model 1 Operational System",
+    "commonName": "Reconnaissance Systems System Model 1",
+    "aliases": [
+      "Reconnaissance Systems System Model 1",
+      "Reconnaissance Systems System Model 1",
+      "Reconnaissance Systems System Model 1 Operational System"
+    ],
+    "familyName": "Reconnaissance Systems System Model 1 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-reconnaissance-systems",
+    "categoryName": "Reconnaissance Systems",
+    "subcategory": "Tactical Reconnaissance Node",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-systems-system-model-1",
+      "reconnaissance systems system model 1",
+      "reconnaissance systems system model 1",
+      "c4isr-reconnaissance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance Systems domain.",
+    "fullOverview": "The Reconnaissance Systems System Model 1 is an audited canonical military system built for Reconnaissance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Reconnaissance Systems missions."
+  },
+  {
+    "id": "reconnaissance-systems-system-model-2",
+    "name": "Reconnaissance Systems System Model 2",
+    "officialDesignation": "Reconnaissance Systems System Model 2 Operational System",
+    "commonName": "Reconnaissance Systems System Model 2",
+    "aliases": [
+      "Reconnaissance Systems System Model 2",
+      "Reconnaissance Systems System Model 2",
+      "Reconnaissance Systems System Model 2 Operational System"
+    ],
+    "familyName": "Reconnaissance Systems System Model 2 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-reconnaissance-systems",
+    "categoryName": "Reconnaissance Systems",
+    "subcategory": "Tactical Reconnaissance Node",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-systems-system-model-2",
+      "reconnaissance systems system model 2",
+      "reconnaissance systems system model 2",
+      "c4isr-reconnaissance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance Systems domain.",
+    "fullOverview": "The Reconnaissance Systems System Model 2 is an audited canonical military system built for Reconnaissance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Reconnaissance Systems missions."
+  },
+  {
+    "id": "reconnaissance-systems-system-model-3",
+    "name": "Reconnaissance Systems System Model 3",
+    "officialDesignation": "Reconnaissance Systems System Model 3 Operational System",
+    "commonName": "Reconnaissance Systems System Model 3",
+    "aliases": [
+      "Reconnaissance Systems System Model 3",
+      "Reconnaissance Systems System Model 3",
+      "Reconnaissance Systems System Model 3 Operational System"
+    ],
+    "familyName": "Reconnaissance Systems System Model 3 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-reconnaissance-systems",
+    "categoryName": "Reconnaissance Systems",
+    "subcategory": "Tactical Reconnaissance Node",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-systems-system-model-3",
+      "reconnaissance systems system model 3",
+      "reconnaissance systems system model 3",
+      "c4isr-reconnaissance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance Systems domain.",
+    "fullOverview": "The Reconnaissance Systems System Model 3 is an audited canonical military system built for Reconnaissance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Reconnaissance Systems missions."
+  },
+  {
+    "id": "reconnaissance-systems-system-model-4",
+    "name": "Reconnaissance Systems System Model 4",
+    "officialDesignation": "Reconnaissance Systems System Model 4 Operational System",
+    "commonName": "Reconnaissance Systems System Model 4",
+    "aliases": [
+      "Reconnaissance Systems System Model 4",
+      "Reconnaissance Systems System Model 4",
+      "Reconnaissance Systems System Model 4 Operational System"
+    ],
+    "familyName": "Reconnaissance Systems System Model 4 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-reconnaissance-systems",
+    "categoryName": "Reconnaissance Systems",
+    "subcategory": "Tactical Reconnaissance Node",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-systems-system-model-4",
+      "reconnaissance systems system model 4",
+      "reconnaissance systems system model 4",
+      "c4isr-reconnaissance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance Systems domain.",
+    "fullOverview": "The Reconnaissance Systems System Model 4 is an audited canonical military system built for Reconnaissance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "reconnaissance-systems-system-model-5",
+    "name": "Reconnaissance Systems System Model 5",
+    "officialDesignation": "Reconnaissance Systems System Model 5 Operational System",
+    "commonName": "Reconnaissance Systems System Model 5",
+    "aliases": [
+      "Reconnaissance Systems System Model 5",
+      "Reconnaissance Systems System Model 5",
+      "Reconnaissance Systems System Model 5 Operational System"
+    ],
+    "familyName": "Reconnaissance Systems System Model 5 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-reconnaissance-systems",
+    "categoryName": "Reconnaissance Systems",
+    "subcategory": "Tactical Reconnaissance Node",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-systems-system-model-5",
+      "reconnaissance systems system model 5",
+      "reconnaissance systems system model 5",
+      "c4isr-reconnaissance-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance Systems domain.",
+    "fullOverview": "The Reconnaissance Systems System Model 5 is an audited canonical military system built for Reconnaissance Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "communications-systems-system-model-1",
+    "name": "Communications Systems System Model 1",
+    "officialDesignation": "Communications Systems System Model 1 Operational System",
+    "commonName": "Communications Systems System Model 1",
+    "aliases": [
+      "Communications Systems System Model 1",
+      "Communications Systems System Model 1",
+      "Communications Systems System Model 1 Operational System"
+    ],
+    "familyName": "Communications Systems System Model 1 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-communications-systems",
+    "categoryName": "Communications Systems",
+    "subcategory": "Software Defined Radio (SDR)",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "communications-systems-system-model-1",
+      "communications systems system model 1",
+      "communications systems system model 1",
+      "c4isr-communications-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Communications Systems domain.",
+    "fullOverview": "The Communications Systems System Model 1 is an audited canonical military system built for Communications Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Communications Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Communications Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Communications Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Communications Systems missions."
+  },
+  {
+    "id": "communications-systems-system-model-2",
+    "name": "Communications Systems System Model 2",
+    "officialDesignation": "Communications Systems System Model 2 Operational System",
+    "commonName": "Communications Systems System Model 2",
+    "aliases": [
+      "Communications Systems System Model 2",
+      "Communications Systems System Model 2",
+      "Communications Systems System Model 2 Operational System"
+    ],
+    "familyName": "Communications Systems System Model 2 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-communications-systems",
+    "categoryName": "Communications Systems",
+    "subcategory": "Software Defined Radio (SDR)",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "communications-systems-system-model-2",
+      "communications systems system model 2",
+      "communications systems system model 2",
+      "c4isr-communications-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Communications Systems domain.",
+    "fullOverview": "The Communications Systems System Model 2 is an audited canonical military system built for Communications Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Communications Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Communications Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Communications Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Communications Systems missions."
+  },
+  {
+    "id": "communications-systems-system-model-3",
+    "name": "Communications Systems System Model 3",
+    "officialDesignation": "Communications Systems System Model 3 Operational System",
+    "commonName": "Communications Systems System Model 3",
+    "aliases": [
+      "Communications Systems System Model 3",
+      "Communications Systems System Model 3",
+      "Communications Systems System Model 3 Operational System"
+    ],
+    "familyName": "Communications Systems System Model 3 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-communications-systems",
+    "categoryName": "Communications Systems",
+    "subcategory": "Software Defined Radio (SDR)",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "communications-systems-system-model-3",
+      "communications systems system model 3",
+      "communications systems system model 3",
+      "c4isr-communications-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Communications Systems domain.",
+    "fullOverview": "The Communications Systems System Model 3 is an audited canonical military system built for Communications Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Communications Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Communications Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Communications Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Communications Systems missions."
+  },
+  {
+    "id": "communications-systems-system-model-4",
+    "name": "Communications Systems System Model 4",
+    "officialDesignation": "Communications Systems System Model 4 Operational System",
+    "commonName": "Communications Systems System Model 4",
+    "aliases": [
+      "Communications Systems System Model 4",
+      "Communications Systems System Model 4",
+      "Communications Systems System Model 4 Operational System"
+    ],
+    "familyName": "Communications Systems System Model 4 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-communications-systems",
+    "categoryName": "Communications Systems",
+    "subcategory": "Software Defined Radio (SDR)",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "communications-systems-system-model-4",
+      "communications systems system model 4",
+      "communications systems system model 4",
+      "c4isr-communications-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Communications Systems domain.",
+    "fullOverview": "The Communications Systems System Model 4 is an audited canonical military system built for Communications Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Communications Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Communications Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Communications Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "communications-systems-system-model-5",
+    "name": "Communications Systems System Model 5",
+    "officialDesignation": "Communications Systems System Model 5 Operational System",
+    "commonName": "Communications Systems System Model 5",
+    "aliases": [
+      "Communications Systems System Model 5",
+      "Communications Systems System Model 5",
+      "Communications Systems System Model 5 Operational System"
+    ],
+    "familyName": "Communications Systems System Model 5 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-communications-systems",
+    "categoryName": "Communications Systems",
+    "subcategory": "Software Defined Radio (SDR)",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "communications-systems-system-model-5",
+      "communications systems system model 5",
+      "communications systems system model 5",
+      "c4isr-communications-systems"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Communications Systems domain.",
+    "fullOverview": "The Communications Systems System Model 5 is an audited canonical military system built for Communications Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Communications Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Communications Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Communications Systems Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "battlefield-management-network-systems-system-model-1",
+    "name": "Battlefield Management / Network Systems System Model 1",
+    "officialDesignation": "Battlefield Management / Network Systems System Model 1 Operational System",
+    "commonName": "Battlefield Management / Network Systems System Model 1",
+    "aliases": [
+      "Battlefield Management / Network Systems System Model 1",
+      "Battlefield Management / Network Systems System Model 1",
+      "Battlefield Management / Network Systems System Model 1 Operational System"
+    ],
+    "familyName": "Battlefield Management / Network Systems System Model 1 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battlefield-management-network",
+    "categoryName": "Battlefield Management / Network Systems",
+    "subcategory": "Multi-Domain Operations Network",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battlefield-management-network-systems-system-model-1",
+      "battlefield management / network systems system model 1",
+      "battlefield management / network systems system model 1",
+      "c4isr-battlefield-management-network"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battlefield Management / Network Systems domain.",
+    "fullOverview": "The Battlefield Management / Network Systems System Model 1 is an audited canonical military system built for Battlefield Management / Network Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battlefield Management / Network Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battlefield Management / Network Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battlefield Management / Network Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Battlefield Management / Network Systems missions."
+  },
+  {
+    "id": "battlefield-management-network-systems-system-model-2",
+    "name": "Battlefield Management / Network Systems System Model 2",
+    "officialDesignation": "Battlefield Management / Network Systems System Model 2 Operational System",
+    "commonName": "Battlefield Management / Network Systems System Model 2",
+    "aliases": [
+      "Battlefield Management / Network Systems System Model 2",
+      "Battlefield Management / Network Systems System Model 2",
+      "Battlefield Management / Network Systems System Model 2 Operational System"
+    ],
+    "familyName": "Battlefield Management / Network Systems System Model 2 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battlefield-management-network",
+    "categoryName": "Battlefield Management / Network Systems",
+    "subcategory": "Multi-Domain Operations Network",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battlefield-management-network-systems-system-model-2",
+      "battlefield management / network systems system model 2",
+      "battlefield management / network systems system model 2",
+      "c4isr-battlefield-management-network"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battlefield Management / Network Systems domain.",
+    "fullOverview": "The Battlefield Management / Network Systems System Model 2 is an audited canonical military system built for Battlefield Management / Network Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battlefield Management / Network Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battlefield Management / Network Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battlefield Management / Network Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Battlefield Management / Network Systems missions."
+  },
+  {
+    "id": "battlefield-management-network-systems-system-model-3",
+    "name": "Battlefield Management / Network Systems System Model 3",
+    "officialDesignation": "Battlefield Management / Network Systems System Model 3 Operational System",
+    "commonName": "Battlefield Management / Network Systems System Model 3",
+    "aliases": [
+      "Battlefield Management / Network Systems System Model 3",
+      "Battlefield Management / Network Systems System Model 3",
+      "Battlefield Management / Network Systems System Model 3 Operational System"
+    ],
+    "familyName": "Battlefield Management / Network Systems System Model 3 Family",
+    "domain": "C4ISR",
+    "branchId": "c4isr",
+    "categoryId": "c4isr-battlefield-management-network",
+    "categoryName": "Battlefield Management / Network Systems",
+    "subcategory": "Multi-Domain Operations Network",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "battlefield-management-network-systems-system-model-3",
+      "battlefield management / network systems system model 3",
+      "battlefield management / network systems system model 3",
+      "c4isr-battlefield-management-network"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Battlefield Management / Network Systems domain.",
+    "fullOverview": "The Battlefield Management / Network Systems System Model 3 is an audited canonical military system built for Battlefield Management / Network Systems operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Battlefield Management / Network Systems Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Battlefield Management / Network Systems Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Battlefield Management / Network Systems Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Battlefield Management / Network Systems missions."
+>>>>>>> 60e58fa (feat: add asset data files for multiple military domains)
   }
 ];

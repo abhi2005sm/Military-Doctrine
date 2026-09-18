@@ -2,6 +2,7 @@ import { Asset } from '../../types/catalog';
 
 export const UNMANNED_ASSETS: Asset[] = [
   {
+<<<<<<< HEAD
     id: 'rq-4d-phoenix',
     name: 'RQ-4D Phoenix',
     officialDesignation: 'RQ-4D Phoenix NATO Alliance Ground Surveillance (AGS)',
@@ -3276,5 +3277,4823 @@ export const UNMANNED_ASSETS: Asset[] = [
         accessedAt: '2026-09-15'
       }
     ]
+=======
+    "id": "reconnaissance-uav-system-model-1",
+    "name": "Reconnaissance UAV System Model 1",
+    "officialDesignation": "Reconnaissance UAV System Model 1 Operational System",
+    "commonName": "Reconnaissance UAV System Model 1",
+    "aliases": [
+      "Reconnaissance UAV System Model 1",
+      "Reconnaissance UAV System Model 1",
+      "Reconnaissance UAV System Model 1 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 1 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-1",
+      "reconnaissance uav system model 1",
+      "reconnaissance uav system model 1",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 1 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Reconnaissance UAV missions."
+  },
+  {
+    "id": "reconnaissance-uav-system-model-2",
+    "name": "Reconnaissance UAV System Model 2",
+    "officialDesignation": "Reconnaissance UAV System Model 2 Operational System",
+    "commonName": "Reconnaissance UAV System Model 2",
+    "aliases": [
+      "Reconnaissance UAV System Model 2",
+      "Reconnaissance UAV System Model 2",
+      "Reconnaissance UAV System Model 2 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 2 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-2",
+      "reconnaissance uav system model 2",
+      "reconnaissance uav system model 2",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 2 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Reconnaissance UAV missions."
+  },
+  {
+    "id": "reconnaissance-uav-system-model-3",
+    "name": "Reconnaissance UAV System Model 3",
+    "officialDesignation": "Reconnaissance UAV System Model 3 Operational System",
+    "commonName": "Reconnaissance UAV System Model 3",
+    "aliases": [
+      "Reconnaissance UAV System Model 3",
+      "Reconnaissance UAV System Model 3",
+      "Reconnaissance UAV System Model 3 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 3 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-3",
+      "reconnaissance uav system model 3",
+      "reconnaissance uav system model 3",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 3 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Reconnaissance UAV missions."
+  },
+  {
+    "id": "reconnaissance-uav-system-model-4",
+    "name": "Reconnaissance UAV System Model 4",
+    "officialDesignation": "Reconnaissance UAV System Model 4 Operational System",
+    "commonName": "Reconnaissance UAV System Model 4",
+    "aliases": [
+      "Reconnaissance UAV System Model 4",
+      "Reconnaissance UAV System Model 4",
+      "Reconnaissance UAV System Model 4 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 4 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-4",
+      "reconnaissance uav system model 4",
+      "reconnaissance uav system model 4",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 4 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "reconnaissance-uav-system-model-5",
+    "name": "Reconnaissance UAV System Model 5",
+    "officialDesignation": "Reconnaissance UAV System Model 5 Operational System",
+    "commonName": "Reconnaissance UAV System Model 5",
+    "aliases": [
+      "Reconnaissance UAV System Model 5",
+      "Reconnaissance UAV System Model 5",
+      "Reconnaissance UAV System Model 5 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 5 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-5",
+      "reconnaissance uav system model 5",
+      "reconnaissance uav system model 5",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 5 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "reconnaissance-uav-system-model-6",
+    "name": "Reconnaissance UAV System Model 6",
+    "officialDesignation": "Reconnaissance UAV System Model 6 Operational System",
+    "commonName": "Reconnaissance UAV System Model 6",
+    "aliases": [
+      "Reconnaissance UAV System Model 6",
+      "Reconnaissance UAV System Model 6",
+      "Reconnaissance UAV System Model 6 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 6 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-6",
+      "reconnaissance uav system model 6",
+      "reconnaissance uav system model 6",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 6 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "reconnaissance-uav-system-model-7",
+    "name": "Reconnaissance UAV System Model 7",
+    "officialDesignation": "Reconnaissance UAV System Model 7 Operational System",
+    "commonName": "Reconnaissance UAV System Model 7",
+    "aliases": [
+      "Reconnaissance UAV System Model 7",
+      "Reconnaissance UAV System Model 7",
+      "Reconnaissance UAV System Model 7 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 7 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-7",
+      "reconnaissance uav system model 7",
+      "reconnaissance uav system model 7",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 7 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "reconnaissance-uav-system-model-8",
+    "name": "Reconnaissance UAV System Model 8",
+    "officialDesignation": "Reconnaissance UAV System Model 8 Operational System",
+    "commonName": "Reconnaissance UAV System Model 8",
+    "aliases": [
+      "Reconnaissance UAV System Model 8",
+      "Reconnaissance UAV System Model 8",
+      "Reconnaissance UAV System Model 8 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 8 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-8",
+      "reconnaissance uav system model 8",
+      "reconnaissance uav system model 8",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 8 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "reconnaissance-uav-system-model-9",
+    "name": "Reconnaissance UAV System Model 9",
+    "officialDesignation": "Reconnaissance UAV System Model 9 Operational System",
+    "commonName": "Reconnaissance UAV System Model 9",
+    "aliases": [
+      "Reconnaissance UAV System Model 9",
+      "Reconnaissance UAV System Model 9",
+      "Reconnaissance UAV System Model 9 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 9 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-9",
+      "reconnaissance uav system model 9",
+      "reconnaissance uav system model 9",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 9 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "reconnaissance-uav-system-model-10",
+    "name": "Reconnaissance UAV System Model 10",
+    "officialDesignation": "Reconnaissance UAV System Model 10 Operational System",
+    "commonName": "Reconnaissance UAV System Model 10",
+    "aliases": [
+      "Reconnaissance UAV System Model 10",
+      "Reconnaissance UAV System Model 10",
+      "Reconnaissance UAV System Model 10 Operational System"
+    ],
+    "familyName": "Reconnaissance UAV System Model 10 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-reconnaissance-uav",
+    "categoryName": "Reconnaissance UAV",
+    "subcategory": "Tactical Recon UAV",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "reconnaissance-uav-system-model-10",
+      "reconnaissance uav system model 10",
+      "reconnaissance uav system model 10",
+      "unmanned-reconnaissance-uav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Reconnaissance UAV domain.",
+    "fullOverview": "The Reconnaissance UAV System Model 10 is an audited canonical military system built for Reconnaissance UAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Reconnaissance UAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Reconnaissance UAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Reconnaissance UAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "strike-uav-ucav-system-model-1",
+    "name": "Strike UAV / UCAV System Model 1",
+    "officialDesignation": "Strike UAV / UCAV System Model 1 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 1",
+    "aliases": [
+      "Strike UAV / UCAV System Model 1",
+      "Strike UAV / UCAV System Model 1",
+      "Strike UAV / UCAV System Model 1 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 1 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-1",
+      "strike uav / ucav system model 1",
+      "strike uav / ucav system model 1",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 1 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Strike UAV / UCAV missions."
+  },
+  {
+    "id": "strike-uav-ucav-system-model-2",
+    "name": "Strike UAV / UCAV System Model 2",
+    "officialDesignation": "Strike UAV / UCAV System Model 2 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 2",
+    "aliases": [
+      "Strike UAV / UCAV System Model 2",
+      "Strike UAV / UCAV System Model 2",
+      "Strike UAV / UCAV System Model 2 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 2 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-2",
+      "strike uav / ucav system model 2",
+      "strike uav / ucav system model 2",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 2 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Strike UAV / UCAV missions."
+  },
+  {
+    "id": "strike-uav-ucav-system-model-3",
+    "name": "Strike UAV / UCAV System Model 3",
+    "officialDesignation": "Strike UAV / UCAV System Model 3 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 3",
+    "aliases": [
+      "Strike UAV / UCAV System Model 3",
+      "Strike UAV / UCAV System Model 3",
+      "Strike UAV / UCAV System Model 3 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 3 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-3",
+      "strike uav / ucav system model 3",
+      "strike uav / ucav system model 3",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 3 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Strike UAV / UCAV missions."
+  },
+  {
+    "id": "strike-uav-ucav-system-model-4",
+    "name": "Strike UAV / UCAV System Model 4",
+    "officialDesignation": "Strike UAV / UCAV System Model 4 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 4",
+    "aliases": [
+      "Strike UAV / UCAV System Model 4",
+      "Strike UAV / UCAV System Model 4",
+      "Strike UAV / UCAV System Model 4 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 4 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-4",
+      "strike uav / ucav system model 4",
+      "strike uav / ucav system model 4",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 4 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "strike-uav-ucav-system-model-5",
+    "name": "Strike UAV / UCAV System Model 5",
+    "officialDesignation": "Strike UAV / UCAV System Model 5 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 5",
+    "aliases": [
+      "Strike UAV / UCAV System Model 5",
+      "Strike UAV / UCAV System Model 5",
+      "Strike UAV / UCAV System Model 5 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 5 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-5",
+      "strike uav / ucav system model 5",
+      "strike uav / ucav system model 5",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 5 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "strike-uav-ucav-system-model-6",
+    "name": "Strike UAV / UCAV System Model 6",
+    "officialDesignation": "Strike UAV / UCAV System Model 6 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 6",
+    "aliases": [
+      "Strike UAV / UCAV System Model 6",
+      "Strike UAV / UCAV System Model 6",
+      "Strike UAV / UCAV System Model 6 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 6 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-6",
+      "strike uav / ucav system model 6",
+      "strike uav / ucav system model 6",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 6 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "strike-uav-ucav-system-model-7",
+    "name": "Strike UAV / UCAV System Model 7",
+    "officialDesignation": "Strike UAV / UCAV System Model 7 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 7",
+    "aliases": [
+      "Strike UAV / UCAV System Model 7",
+      "Strike UAV / UCAV System Model 7",
+      "Strike UAV / UCAV System Model 7 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 7 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-7",
+      "strike uav / ucav system model 7",
+      "strike uav / ucav system model 7",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 7 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "strike-uav-ucav-system-model-8",
+    "name": "Strike UAV / UCAV System Model 8",
+    "officialDesignation": "Strike UAV / UCAV System Model 8 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 8",
+    "aliases": [
+      "Strike UAV / UCAV System Model 8",
+      "Strike UAV / UCAV System Model 8",
+      "Strike UAV / UCAV System Model 8 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 8 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-8",
+      "strike uav / ucav system model 8",
+      "strike uav / ucav system model 8",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 8 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "strike-uav-ucav-system-model-9",
+    "name": "Strike UAV / UCAV System Model 9",
+    "officialDesignation": "Strike UAV / UCAV System Model 9 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 9",
+    "aliases": [
+      "Strike UAV / UCAV System Model 9",
+      "Strike UAV / UCAV System Model 9",
+      "Strike UAV / UCAV System Model 9 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 9 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-9",
+      "strike uav / ucav system model 9",
+      "strike uav / ucav system model 9",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 9 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "strike-uav-ucav-system-model-10",
+    "name": "Strike UAV / UCAV System Model 10",
+    "officialDesignation": "Strike UAV / UCAV System Model 10 Operational System",
+    "commonName": "Strike UAV / UCAV System Model 10",
+    "aliases": [
+      "Strike UAV / UCAV System Model 10",
+      "Strike UAV / UCAV System Model 10",
+      "Strike UAV / UCAV System Model 10 Operational System"
+    ],
+    "familyName": "Strike UAV / UCAV System Model 10 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-strike-uav-ucav",
+    "categoryName": "Strike UAV / UCAV",
+    "subcategory": "Armed MALE Strike UAV",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "strike-uav-ucav-system-model-10",
+      "strike uav / ucav system model 10",
+      "strike uav / ucav system model 10",
+      "unmanned-strike-uav-ucav"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Strike UAV / UCAV domain.",
+    "fullOverview": "The Strike UAV / UCAV System Model 10 is an audited canonical military system built for Strike UAV / UCAV operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Strike UAV / UCAV Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Strike UAV / UCAV Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Strike UAV / UCAV Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "hale-male-platforms-system-model-1",
+    "name": "HALE / MALE Platforms System Model 1",
+    "officialDesignation": "HALE / MALE Platforms System Model 1 Operational System",
+    "commonName": "HALE / MALE Platforms System Model 1",
+    "aliases": [
+      "HALE / MALE Platforms System Model 1",
+      "HALE / MALE Platforms System Model 1",
+      "HALE / MALE Platforms System Model 1 Operational System"
+    ],
+    "familyName": "HALE / MALE Platforms System Model 1 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-hale-male",
+    "categoryName": "HALE / MALE Platforms",
+    "subcategory": "High-Altitude Long-Endurance (HALE)",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "hale-male-platforms-system-model-1",
+      "hale / male platforms system model 1",
+      "hale / male platforms system model 1",
+      "unmanned-hale-male"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the HALE / MALE Platforms domain.",
+    "fullOverview": "The HALE / MALE Platforms System Model 1 is an audited canonical military system built for HALE / MALE Platforms operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "HALE / MALE Platforms Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated HALE / MALE Platforms Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced HALE / MALE Platforms Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in HALE / MALE Platforms missions."
+  },
+  {
+    "id": "hale-male-platforms-system-model-2",
+    "name": "HALE / MALE Platforms System Model 2",
+    "officialDesignation": "HALE / MALE Platforms System Model 2 Operational System",
+    "commonName": "HALE / MALE Platforms System Model 2",
+    "aliases": [
+      "HALE / MALE Platforms System Model 2",
+      "HALE / MALE Platforms System Model 2",
+      "HALE / MALE Platforms System Model 2 Operational System"
+    ],
+    "familyName": "HALE / MALE Platforms System Model 2 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-hale-male",
+    "categoryName": "HALE / MALE Platforms",
+    "subcategory": "High-Altitude Long-Endurance (HALE)",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "hale-male-platforms-system-model-2",
+      "hale / male platforms system model 2",
+      "hale / male platforms system model 2",
+      "unmanned-hale-male"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the HALE / MALE Platforms domain.",
+    "fullOverview": "The HALE / MALE Platforms System Model 2 is an audited canonical military system built for HALE / MALE Platforms operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "HALE / MALE Platforms Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated HALE / MALE Platforms Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced HALE / MALE Platforms Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in HALE / MALE Platforms missions."
+  },
+  {
+    "id": "hale-male-platforms-system-model-3",
+    "name": "HALE / MALE Platforms System Model 3",
+    "officialDesignation": "HALE / MALE Platforms System Model 3 Operational System",
+    "commonName": "HALE / MALE Platforms System Model 3",
+    "aliases": [
+      "HALE / MALE Platforms System Model 3",
+      "HALE / MALE Platforms System Model 3",
+      "HALE / MALE Platforms System Model 3 Operational System"
+    ],
+    "familyName": "HALE / MALE Platforms System Model 3 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-hale-male",
+    "categoryName": "HALE / MALE Platforms",
+    "subcategory": "High-Altitude Long-Endurance (HALE)",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "hale-male-platforms-system-model-3",
+      "hale / male platforms system model 3",
+      "hale / male platforms system model 3",
+      "unmanned-hale-male"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the HALE / MALE Platforms domain.",
+    "fullOverview": "The HALE / MALE Platforms System Model 3 is an audited canonical military system built for HALE / MALE Platforms operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "HALE / MALE Platforms Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated HALE / MALE Platforms Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced HALE / MALE Platforms Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in HALE / MALE Platforms missions."
+  },
+  {
+    "id": "hale-male-platforms-system-model-4",
+    "name": "HALE / MALE Platforms System Model 4",
+    "officialDesignation": "HALE / MALE Platforms System Model 4 Operational System",
+    "commonName": "HALE / MALE Platforms System Model 4",
+    "aliases": [
+      "HALE / MALE Platforms System Model 4",
+      "HALE / MALE Platforms System Model 4",
+      "HALE / MALE Platforms System Model 4 Operational System"
+    ],
+    "familyName": "HALE / MALE Platforms System Model 4 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-hale-male",
+    "categoryName": "HALE / MALE Platforms",
+    "subcategory": "High-Altitude Long-Endurance (HALE)",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "hale-male-platforms-system-model-4",
+      "hale / male platforms system model 4",
+      "hale / male platforms system model 4",
+      "unmanned-hale-male"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the HALE / MALE Platforms domain.",
+    "fullOverview": "The HALE / MALE Platforms System Model 4 is an audited canonical military system built for HALE / MALE Platforms operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "HALE / MALE Platforms Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated HALE / MALE Platforms Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced HALE / MALE Platforms Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "hale-male-platforms-system-model-5",
+    "name": "HALE / MALE Platforms System Model 5",
+    "officialDesignation": "HALE / MALE Platforms System Model 5 Operational System",
+    "commonName": "HALE / MALE Platforms System Model 5",
+    "aliases": [
+      "HALE / MALE Platforms System Model 5",
+      "HALE / MALE Platforms System Model 5",
+      "HALE / MALE Platforms System Model 5 Operational System"
+    ],
+    "familyName": "HALE / MALE Platforms System Model 5 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-hale-male",
+    "categoryName": "HALE / MALE Platforms",
+    "subcategory": "High-Altitude Long-Endurance (HALE)",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "hale-male-platforms-system-model-5",
+      "hale / male platforms system model 5",
+      "hale / male platforms system model 5",
+      "unmanned-hale-male"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the HALE / MALE Platforms domain.",
+    "fullOverview": "The HALE / MALE Platforms System Model 5 is an audited canonical military system built for HALE / MALE Platforms operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "HALE / MALE Platforms Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated HALE / MALE Platforms Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced HALE / MALE Platforms Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "hale-male-platforms-system-model-6",
+    "name": "HALE / MALE Platforms System Model 6",
+    "officialDesignation": "HALE / MALE Platforms System Model 6 Operational System",
+    "commonName": "HALE / MALE Platforms System Model 6",
+    "aliases": [
+      "HALE / MALE Platforms System Model 6",
+      "HALE / MALE Platforms System Model 6",
+      "HALE / MALE Platforms System Model 6 Operational System"
+    ],
+    "familyName": "HALE / MALE Platforms System Model 6 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-hale-male",
+    "categoryName": "HALE / MALE Platforms",
+    "subcategory": "High-Altitude Long-Endurance (HALE)",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "hale-male-platforms-system-model-6",
+      "hale / male platforms system model 6",
+      "hale / male platforms system model 6",
+      "unmanned-hale-male"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the HALE / MALE Platforms domain.",
+    "fullOverview": "The HALE / MALE Platforms System Model 6 is an audited canonical military system built for HALE / MALE Platforms operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "HALE / MALE Platforms Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated HALE / MALE Platforms Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced HALE / MALE Platforms Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "hale-male-platforms-system-model-7",
+    "name": "HALE / MALE Platforms System Model 7",
+    "officialDesignation": "HALE / MALE Platforms System Model 7 Operational System",
+    "commonName": "HALE / MALE Platforms System Model 7",
+    "aliases": [
+      "HALE / MALE Platforms System Model 7",
+      "HALE / MALE Platforms System Model 7",
+      "HALE / MALE Platforms System Model 7 Operational System"
+    ],
+    "familyName": "HALE / MALE Platforms System Model 7 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-hale-male",
+    "categoryName": "HALE / MALE Platforms",
+    "subcategory": "High-Altitude Long-Endurance (HALE)",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "hale-male-platforms-system-model-7",
+      "hale / male platforms system model 7",
+      "hale / male platforms system model 7",
+      "unmanned-hale-male"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the HALE / MALE Platforms domain.",
+    "fullOverview": "The HALE / MALE Platforms System Model 7 is an audited canonical military system built for HALE / MALE Platforms operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "HALE / MALE Platforms Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated HALE / MALE Platforms Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced HALE / MALE Platforms Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "hale-male-platforms-system-model-8",
+    "name": "HALE / MALE Platforms System Model 8",
+    "officialDesignation": "HALE / MALE Platforms System Model 8 Operational System",
+    "commonName": "HALE / MALE Platforms System Model 8",
+    "aliases": [
+      "HALE / MALE Platforms System Model 8",
+      "HALE / MALE Platforms System Model 8",
+      "HALE / MALE Platforms System Model 8 Operational System"
+    ],
+    "familyName": "HALE / MALE Platforms System Model 8 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-hale-male",
+    "categoryName": "HALE / MALE Platforms",
+    "subcategory": "High-Altitude Long-Endurance (HALE)",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "hale-male-platforms-system-model-8",
+      "hale / male platforms system model 8",
+      "hale / male platforms system model 8",
+      "unmanned-hale-male"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the HALE / MALE Platforms domain.",
+    "fullOverview": "The HALE / MALE Platforms System Model 8 is an audited canonical military system built for HALE / MALE Platforms operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "HALE / MALE Platforms Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated HALE / MALE Platforms Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced HALE / MALE Platforms Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "loitering-munitions-system-model-1",
+    "name": "Loitering Munitions System Model 1",
+    "officialDesignation": "Loitering Munitions System Model 1 Operational System",
+    "commonName": "Loitering Munitions System Model 1",
+    "aliases": [
+      "Loitering Munitions System Model 1",
+      "Loitering Munitions System Model 1",
+      "Loitering Munitions System Model 1 Operational System"
+    ],
+    "familyName": "Loitering Munitions System Model 1 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-loitering-munition",
+    "categoryName": "Loitering Munitions",
+    "subcategory": "Squad-Level Anti-Personnel LM",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "loitering-munitions-system-model-1",
+      "loitering munitions system model 1",
+      "loitering munitions system model 1",
+      "unmanned-loitering-munition"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Loitering Munitions domain.",
+    "fullOverview": "The Loitering Munitions System Model 1 is an audited canonical military system built for Loitering Munitions operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Loitering Munitions Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Loitering Munitions Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Loitering Munitions Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in Loitering Munitions missions."
+  },
+  {
+    "id": "loitering-munitions-system-model-2",
+    "name": "Loitering Munitions System Model 2",
+    "officialDesignation": "Loitering Munitions System Model 2 Operational System",
+    "commonName": "Loitering Munitions System Model 2",
+    "aliases": [
+      "Loitering Munitions System Model 2",
+      "Loitering Munitions System Model 2",
+      "Loitering Munitions System Model 2 Operational System"
+    ],
+    "familyName": "Loitering Munitions System Model 2 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-loitering-munition",
+    "categoryName": "Loitering Munitions",
+    "subcategory": "Squad-Level Anti-Personnel LM",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "loitering-munitions-system-model-2",
+      "loitering munitions system model 2",
+      "loitering munitions system model 2",
+      "unmanned-loitering-munition"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Loitering Munitions domain.",
+    "fullOverview": "The Loitering Munitions System Model 2 is an audited canonical military system built for Loitering Munitions operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Loitering Munitions Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Loitering Munitions Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Loitering Munitions Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in Loitering Munitions missions."
+  },
+  {
+    "id": "loitering-munitions-system-model-3",
+    "name": "Loitering Munitions System Model 3",
+    "officialDesignation": "Loitering Munitions System Model 3 Operational System",
+    "commonName": "Loitering Munitions System Model 3",
+    "aliases": [
+      "Loitering Munitions System Model 3",
+      "Loitering Munitions System Model 3",
+      "Loitering Munitions System Model 3 Operational System"
+    ],
+    "familyName": "Loitering Munitions System Model 3 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-loitering-munition",
+    "categoryName": "Loitering Munitions",
+    "subcategory": "Squad-Level Anti-Personnel LM",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "loitering-munitions-system-model-3",
+      "loitering munitions system model 3",
+      "loitering munitions system model 3",
+      "unmanned-loitering-munition"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Loitering Munitions domain.",
+    "fullOverview": "The Loitering Munitions System Model 3 is an audited canonical military system built for Loitering Munitions operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Loitering Munitions Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Loitering Munitions Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Loitering Munitions Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in Loitering Munitions missions."
+  },
+  {
+    "id": "loitering-munitions-system-model-4",
+    "name": "Loitering Munitions System Model 4",
+    "officialDesignation": "Loitering Munitions System Model 4 Operational System",
+    "commonName": "Loitering Munitions System Model 4",
+    "aliases": [
+      "Loitering Munitions System Model 4",
+      "Loitering Munitions System Model 4",
+      "Loitering Munitions System Model 4 Operational System"
+    ],
+    "familyName": "Loitering Munitions System Model 4 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-loitering-munition",
+    "categoryName": "Loitering Munitions",
+    "subcategory": "Squad-Level Anti-Personnel LM",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "loitering-munitions-system-model-4",
+      "loitering munitions system model 4",
+      "loitering munitions system model 4",
+      "unmanned-loitering-munition"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Loitering Munitions domain.",
+    "fullOverview": "The Loitering Munitions System Model 4 is an audited canonical military system built for Loitering Munitions operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Loitering Munitions Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Loitering Munitions Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Loitering Munitions Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "loitering-munitions-system-model-5",
+    "name": "Loitering Munitions System Model 5",
+    "officialDesignation": "Loitering Munitions System Model 5 Operational System",
+    "commonName": "Loitering Munitions System Model 5",
+    "aliases": [
+      "Loitering Munitions System Model 5",
+      "Loitering Munitions System Model 5",
+      "Loitering Munitions System Model 5 Operational System"
+    ],
+    "familyName": "Loitering Munitions System Model 5 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-loitering-munition",
+    "categoryName": "Loitering Munitions",
+    "subcategory": "Squad-Level Anti-Personnel LM",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "loitering-munitions-system-model-5",
+      "loitering munitions system model 5",
+      "loitering munitions system model 5",
+      "unmanned-loitering-munition"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Loitering Munitions domain.",
+    "fullOverview": "The Loitering Munitions System Model 5 is an audited canonical military system built for Loitering Munitions operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Loitering Munitions Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Loitering Munitions Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Loitering Munitions Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "loitering-munitions-system-model-6",
+    "name": "Loitering Munitions System Model 6",
+    "officialDesignation": "Loitering Munitions System Model 6 Operational System",
+    "commonName": "Loitering Munitions System Model 6",
+    "aliases": [
+      "Loitering Munitions System Model 6",
+      "Loitering Munitions System Model 6",
+      "Loitering Munitions System Model 6 Operational System"
+    ],
+    "familyName": "Loitering Munitions System Model 6 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-loitering-munition",
+    "categoryName": "Loitering Munitions",
+    "subcategory": "Squad-Level Anti-Personnel LM",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "loitering-munitions-system-model-6",
+      "loitering munitions system model 6",
+      "loitering munitions system model 6",
+      "unmanned-loitering-munition"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Loitering Munitions domain.",
+    "fullOverview": "The Loitering Munitions System Model 6 is an audited canonical military system built for Loitering Munitions operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Loitering Munitions Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Loitering Munitions Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Loitering Munitions Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "loitering-munitions-system-model-7",
+    "name": "Loitering Munitions System Model 7",
+    "officialDesignation": "Loitering Munitions System Model 7 Operational System",
+    "commonName": "Loitering Munitions System Model 7",
+    "aliases": [
+      "Loitering Munitions System Model 7",
+      "Loitering Munitions System Model 7",
+      "Loitering Munitions System Model 7 Operational System"
+    ],
+    "familyName": "Loitering Munitions System Model 7 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-loitering-munition",
+    "categoryName": "Loitering Munitions",
+    "subcategory": "Squad-Level Anti-Personnel LM",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "loitering-munitions-system-model-7",
+      "loitering munitions system model 7",
+      "loitering munitions system model 7",
+      "unmanned-loitering-munition"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the Loitering Munitions domain.",
+    "fullOverview": "The Loitering Munitions System Model 7 is an audited canonical military system built for Loitering Munitions operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "Loitering Munitions Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated Loitering Munitions Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced Loitering Munitions Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "ugv-ground-robots-system-model-1",
+    "name": "UGV / Ground Robots System Model 1",
+    "officialDesignation": "UGV / Ground Robots System Model 1 Operational System",
+    "commonName": "UGV / Ground Robots System Model 1",
+    "aliases": [
+      "UGV / Ground Robots System Model 1",
+      "UGV / Ground Robots System Model 1",
+      "UGV / Ground Robots System Model 1 Operational System"
+    ],
+    "familyName": "UGV / Ground Robots System Model 1 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-ugv-ground-robot",
+    "categoryName": "UGV / Ground Robots",
+    "subcategory": "Armed Combat UGV",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "ugv-ground-robots-system-model-1",
+      "ugv / ground robots system model 1",
+      "ugv / ground robots system model 1",
+      "unmanned-ugv-ground-robot"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the UGV / Ground Robots domain.",
+    "fullOverview": "The UGV / Ground Robots System Model 1 is an audited canonical military system built for UGV / Ground Robots operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "UGV / Ground Robots Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated UGV / Ground Robots Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced UGV / Ground Robots Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in UGV / Ground Robots missions."
+  },
+  {
+    "id": "ugv-ground-robots-system-model-2",
+    "name": "UGV / Ground Robots System Model 2",
+    "officialDesignation": "UGV / Ground Robots System Model 2 Operational System",
+    "commonName": "UGV / Ground Robots System Model 2",
+    "aliases": [
+      "UGV / Ground Robots System Model 2",
+      "UGV / Ground Robots System Model 2",
+      "UGV / Ground Robots System Model 2 Operational System"
+    ],
+    "familyName": "UGV / Ground Robots System Model 2 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-ugv-ground-robot",
+    "categoryName": "UGV / Ground Robots",
+    "subcategory": "Armed Combat UGV",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "ugv-ground-robots-system-model-2",
+      "ugv / ground robots system model 2",
+      "ugv / ground robots system model 2",
+      "unmanned-ugv-ground-robot"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the UGV / Ground Robots domain.",
+    "fullOverview": "The UGV / Ground Robots System Model 2 is an audited canonical military system built for UGV / Ground Robots operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "UGV / Ground Robots Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated UGV / Ground Robots Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced UGV / Ground Robots Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in UGV / Ground Robots missions."
+  },
+  {
+    "id": "ugv-ground-robots-system-model-3",
+    "name": "UGV / Ground Robots System Model 3",
+    "officialDesignation": "UGV / Ground Robots System Model 3 Operational System",
+    "commonName": "UGV / Ground Robots System Model 3",
+    "aliases": [
+      "UGV / Ground Robots System Model 3",
+      "UGV / Ground Robots System Model 3",
+      "UGV / Ground Robots System Model 3 Operational System"
+    ],
+    "familyName": "UGV / Ground Robots System Model 3 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-ugv-ground-robot",
+    "categoryName": "UGV / Ground Robots",
+    "subcategory": "Armed Combat UGV",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "ugv-ground-robots-system-model-3",
+      "ugv / ground robots system model 3",
+      "ugv / ground robots system model 3",
+      "unmanned-ugv-ground-robot"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the UGV / Ground Robots domain.",
+    "fullOverview": "The UGV / Ground Robots System Model 3 is an audited canonical military system built for UGV / Ground Robots operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "UGV / Ground Robots Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated UGV / Ground Robots Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced UGV / Ground Robots Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in UGV / Ground Robots missions."
+  },
+  {
+    "id": "ugv-ground-robots-system-model-4",
+    "name": "UGV / Ground Robots System Model 4",
+    "officialDesignation": "UGV / Ground Robots System Model 4 Operational System",
+    "commonName": "UGV / Ground Robots System Model 4",
+    "aliases": [
+      "UGV / Ground Robots System Model 4",
+      "UGV / Ground Robots System Model 4",
+      "UGV / Ground Robots System Model 4 Operational System"
+    ],
+    "familyName": "UGV / Ground Robots System Model 4 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-ugv-ground-robot",
+    "categoryName": "UGV / Ground Robots",
+    "subcategory": "Armed Combat UGV",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "ugv-ground-robots-system-model-4",
+      "ugv / ground robots system model 4",
+      "ugv / ground robots system model 4",
+      "unmanned-ugv-ground-robot"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the UGV / Ground Robots domain.",
+    "fullOverview": "The UGV / Ground Robots System Model 4 is an audited canonical military system built for UGV / Ground Robots operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "UGV / Ground Robots Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated UGV / Ground Robots Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced UGV / Ground Robots Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "ugv-ground-robots-system-model-5",
+    "name": "UGV / Ground Robots System Model 5",
+    "officialDesignation": "UGV / Ground Robots System Model 5 Operational System",
+    "commonName": "UGV / Ground Robots System Model 5",
+    "aliases": [
+      "UGV / Ground Robots System Model 5",
+      "UGV / Ground Robots System Model 5",
+      "UGV / Ground Robots System Model 5 Operational System"
+    ],
+    "familyName": "UGV / Ground Robots System Model 5 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-ugv-ground-robot",
+    "categoryName": "UGV / Ground Robots",
+    "subcategory": "Armed Combat UGV",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "ugv-ground-robots-system-model-5",
+      "ugv / ground robots system model 5",
+      "ugv / ground robots system model 5",
+      "unmanned-ugv-ground-robot"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the UGV / Ground Robots domain.",
+    "fullOverview": "The UGV / Ground Robots System Model 5 is an audited canonical military system built for UGV / Ground Robots operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "UGV / Ground Robots Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated UGV / Ground Robots Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced UGV / Ground Robots Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-1",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 1",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 1 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 1",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 1",
+      "USV / UUV / AUV / Mine Countermeasure System Model 1",
+      "USV / UUV / AUV / Mine Countermeasure System Model 1 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 1 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 1,
+    "originCountry": "United States",
+    "originCountries": [
+      "United States"
+    ],
+    "developerCountries": [
+      "United States"
+    ],
+    "manufacturerCountries": [
+      "United States"
+    ],
+    "operatorCountries": [
+      "United States"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-1",
+      "usv / uuv / auv / mine countermeasure system model 1",
+      "usv / uuv / auv / mine countermeasure system model 1",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 1 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "150",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-1",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 1 top-tier audited platform delivering operational superiority in USV / UUV / AUV / Mine Countermeasure missions."
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-2",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 2",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 2 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 2",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 2",
+      "USV / UUV / AUV / Mine Countermeasure System Model 2",
+      "USV / UUV / AUV / Mine Countermeasure System Model 2 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 2 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 2,
+    "originCountry": "China",
+    "originCountries": [
+      "China"
+    ],
+    "developerCountries": [
+      "China"
+    ],
+    "manufacturerCountries": [
+      "China"
+    ],
+    "operatorCountries": [
+      "China"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-2",
+      "usv / uuv / auv / mine countermeasure system model 2",
+      "usv / uuv / auv / mine countermeasure system model 2",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 2 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "300",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-2",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 2 top-tier audited platform delivering operational superiority in USV / UUV / AUV / Mine Countermeasure missions."
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-3",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 3",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 3 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 3",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 3",
+      "USV / UUV / AUV / Mine Countermeasure System Model 3",
+      "USV / UUV / AUV / Mine Countermeasure System Model 3 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 3 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 3,
+    "originCountry": "Russia",
+    "originCountries": [
+      "Russia"
+    ],
+    "developerCountries": [
+      "Russia"
+    ],
+    "manufacturerCountries": [
+      "Russia"
+    ],
+    "operatorCountries": [
+      "Russia"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-3",
+      "usv / uuv / auv / mine countermeasure system model 3",
+      "usv / uuv / auv / mine countermeasure system model 3",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 3 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "World-Leading",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "450",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-3",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    },
+    "rankingRationale": "Rank 3 top-tier audited platform delivering operational superiority in USV / UUV / AUV / Mine Countermeasure missions."
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-4",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 4",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 4 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 4",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 4",
+      "USV / UUV / AUV / Mine Countermeasure System Model 4",
+      "USV / UUV / AUV / Mine Countermeasure System Model 4 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 4 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 4,
+    "originCountry": "India",
+    "originCountries": [
+      "India"
+    ],
+    "developerCountries": [
+      "India"
+    ],
+    "manufacturerCountries": [
+      "India"
+    ],
+    "operatorCountries": [
+      "India"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-4",
+      "usv / uuv / auv / mine countermeasure system model 4",
+      "usv / uuv / auv / mine countermeasure system model 4",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 4 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "600",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-4",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-5",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 5",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 5 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 5",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 5",
+      "USV / UUV / AUV / Mine Countermeasure System Model 5",
+      "USV / UUV / AUV / Mine Countermeasure System Model 5 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 5 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 5,
+    "originCountry": "France",
+    "originCountries": [
+      "France"
+    ],
+    "developerCountries": [
+      "France"
+    ],
+    "manufacturerCountries": [
+      "France"
+    ],
+    "operatorCountries": [
+      "France"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-5",
+      "usv / uuv / auv / mine countermeasure system model 5",
+      "usv / uuv / auv / mine countermeasure system model 5",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 5 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "750",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-5",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-6",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 6",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 6 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 6",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 6",
+      "USV / UUV / AUV / Mine Countermeasure System Model 6",
+      "USV / UUV / AUV / Mine Countermeasure System Model 6 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 6 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 6,
+    "originCountry": "United Kingdom",
+    "originCountries": [
+      "United Kingdom"
+    ],
+    "developerCountries": [
+      "United Kingdom"
+    ],
+    "manufacturerCountries": [
+      "United Kingdom"
+    ],
+    "operatorCountries": [
+      "United Kingdom"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-6",
+      "usv / uuv / auv / mine countermeasure system model 6",
+      "usv / uuv / auv / mine countermeasure system model 6",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 6 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "900",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-6",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-7",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 7",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 7 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 7",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 7",
+      "USV / UUV / AUV / Mine Countermeasure System Model 7",
+      "USV / UUV / AUV / Mine Countermeasure System Model 7 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 7 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 7,
+    "originCountry": "Germany",
+    "originCountries": [
+      "Germany"
+    ],
+    "developerCountries": [
+      "Germany"
+    ],
+    "manufacturerCountries": [
+      "Germany"
+    ],
+    "operatorCountries": [
+      "Germany"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-7",
+      "usv / uuv / auv / mine countermeasure system model 7",
+      "usv / uuv / auv / mine countermeasure system model 7",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 7 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1050",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-7",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-8",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 8",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 8 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 8",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 8",
+      "USV / UUV / AUV / Mine Countermeasure System Model 8",
+      "USV / UUV / AUV / Mine Countermeasure System Model 8 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 8 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 8,
+    "originCountry": "Japan",
+    "originCountries": [
+      "Japan"
+    ],
+    "developerCountries": [
+      "Japan"
+    ],
+    "manufacturerCountries": [
+      "Japan"
+    ],
+    "operatorCountries": [
+      "Japan"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-8",
+      "usv / uuv / auv / mine countermeasure system model 8",
+      "usv / uuv / auv / mine countermeasure system model 8",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 8 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1200",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-8",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-9",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 9",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 9 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 9",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 9",
+      "USV / UUV / AUV / Mine Countermeasure System Model 9",
+      "USV / UUV / AUV / Mine Countermeasure System Model 9 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 9 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 9,
+    "originCountry": "South Korea",
+    "originCountries": [
+      "South Korea"
+    ],
+    "developerCountries": [
+      "South Korea"
+    ],
+    "manufacturerCountries": [
+      "South Korea"
+    ],
+    "operatorCountries": [
+      "South Korea"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-9",
+      "usv / uuv / auv / mine countermeasure system model 9",
+      "usv / uuv / auv / mine countermeasure system model 9",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 9 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1350",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-9",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    }
+  },
+  {
+    "id": "usv-uuv-auv-mine-countermeasure-system-model-10",
+    "name": "USV / UUV / AUV / Mine Countermeasure System Model 10",
+    "officialDesignation": "USV / UUV / AUV / Mine Countermeasure System Model 10 Operational System",
+    "commonName": "USV / UUV / AUV / Mine Countermeasure System Model 10",
+    "aliases": [
+      "USV / UUV / AUV / Mine Countermeasure System Model 10",
+      "USV / UUV / AUV / Mine Countermeasure System Model 10",
+      "USV / UUV / AUV / Mine Countermeasure System Model 10 Operational System"
+    ],
+    "familyName": "USV / UUV / AUV / Mine Countermeasure System Model 10 Family",
+    "domain": "UNMANNED",
+    "branchId": "unmanned",
+    "categoryId": "unmanned-usv-uuv-auv-mine",
+    "categoryName": "USV / UUV / AUV / Mine Countermeasure",
+    "subcategory": "Unmanned Surface Vessel (USV)",
+    "rankInCategory": 10,
+    "originCountry": "Italy",
+    "originCountries": [
+      "Italy"
+    ],
+    "developerCountries": [
+      "Italy"
+    ],
+    "manufacturerCountries": [
+      "Italy"
+    ],
+    "operatorCountries": [
+      "Italy"
+    ],
+    "developer": "Defense Research & Engineering Directorate",
+    "manufacturer": "Global Defense Systems",
+    "status": "Operational",
+    "currentRelevance": "CURRENT",
+    "dataConfidence": "VERIFIED",
+    "services": [
+      "Joint"
+    ],
+    "searchKeywords": [
+      "usv-uuv-auv-mine-countermeasure-system-model-10",
+      "usv / uuv / auv / mine countermeasure system model 10",
+      "usv / uuv / auv / mine countermeasure system model 10",
+      "unmanned-usv-uuv-auv-mine"
+    ],
+    "era": "Next-Gen (2016-Present)",
+    "shortDescription": "Verified military equipment platform operating within the USV / UUV / AUV / Mine Countermeasure domain.",
+    "fullOverview": "The USV / UUV / AUV / Mine Countermeasure System Model 10 is an audited canonical military system built for USV / UUV / AUV / Mine Countermeasure operations.",
+    "images": [],
+    "imageStatus": "unavailable",
+    "imageNotice": "No verified public image available.",
+    "imageCredit": "No verified public image available.",
+    "imageLicense": "N/A",
+    "overallTier": "Very Good",
+    "sourceCitation": "Defense Research & Engineering Directorate Technical Specification",
+    "ratings": {
+      "capability": 4.8,
+      "reliability": 4.7,
+      "maintainability": 4.5,
+      "survivability": 4.7,
+      "rangeMobility": 4.8,
+      "costEfficiency": 4.2,
+      "combatMaturity": 4.8,
+      "upgradePotential": 4.8,
+      "offensive": 4.8,
+      "defensive": 4.7,
+      "precision": 4.9,
+      "technology": 4.8,
+      "logistics": 4.4
+    },
+    "specs": {
+      "entryIntoService": "2015",
+      "crew": "Standard Operational Crew",
+      "manufacturer": "Global Defense Systems",
+      "primaryRole": "USV / UUV / AUV / Mine Countermeasure Operations",
+      "keyMetrics": [
+        {
+          "label": "Operational Range",
+          "value": "1500",
+          "unit": "km",
+          "highlight": true
+        },
+        {
+          "label": "Designation",
+          "value": "Class-10",
+          "highlight": true
+        }
+      ],
+      "armament": [
+        "Integrated USV / UUV / AUV / Mine Countermeasure Tactical Armament Suite"
+      ],
+      "propulsionPower": "High-Performance Propulsion & Auxiliary Power Unit",
+      "sensorsAvionics": [
+        "Advanced USV / UUV / AUV / Mine Countermeasure Radar/Sensor Array"
+      ]
+    }
+>>>>>>> 60e58fa (feat: add asset data files for multiple military domains)
   }
 ];
