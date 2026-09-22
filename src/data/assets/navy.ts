@@ -14321,7 +14321,7 @@ export const NAVY_ASSETS: (Asset | RawAsset)[] = [
       }
     ],
     "sourceData": {
-      "id": "visby-class-corvette",
+      "id": "visby-class-stealth-corvette",
       "name": "Visby-Class Corvette",
       "officialDesignation": "Visby-Class Stealth Corvette",
       "alternateNames": [
@@ -44391,4 +44391,230 @@ export const NAVY_ASSETS: (Asset | RawAsset)[] = [
       ]
     }
   }
+,
+{
+  "id": "visby-class-stealth-corvette",
+  "name": "Visby-class Corvette",
+  "officialDesignation": "Visby-class Stealth Corvette (K31-K35)",
+  "commonName": "Visby Corvette",
+  "aliases": [
+    "Visby Class",
+    "K31 Visby"
+  ],
+  "familyName": "Corvettes Family",
+  "domain": "NAVAL",
+  "branchId": "navy",
+  "categoryId": "navy-corvettes",
+  "categoryName": "Navy — Corvettes",
+  "subcategory": "Stealth Multirole Corvette",
+  "rankInCategory": 1,
+  "rankingRationale": "Pioneering carbon-fiber composite stealth corvette with low radar cross-section and mine countermeasures.",
+  "originCountry": "Sweden",
+  "originCountries": [
+    "Sweden"
+  ],
+  "developerCountries": [
+    "Sweden"
+  ],
+  "manufacturerCountries": [
+    "Sweden"
+  ],
+  "operatorCountries": [
+    "Sweden"
+  ],
+  "developer": "Saab Kockums",
+  "manufacturer": "Saab Kockums",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Navy"
+  ],
+  "searchKeywords": [
+    "visby",
+    "corvette",
+    "saab",
+    "stealth",
+    "swedish navy"
+  ],
+  "era": "2000–Present",
+  "shortDescription": "640-tonne carbon-fiber composite stealth corvette equipped with RBS-15 anti-ship missiles and 57mm Bofors gun.",
+  "fullOverview": "The Visby class is a breakthrough stealth corvette built for the Swedish Navy using carbon-fiber reinforced plastic. Features integrated RBS-15 anti-ship missiles, Bofors 57mm Mk3 stealth gun, ASW torpedoes, and Sea Giraffe 3D radar.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Saab Kockums Visby-Class Datasheet",
+  "specs": {
+    "entryIntoService": "2002",
+    "crew": "43 (16 Officers + 27 Ratings)",
+    "manufacturer": "Saab Kockums",
+    "primaryRole": "Stealth Multirole Corvette",
+    "keyMetrics": [
+      {
+        "label": "Max Speed",
+        "value": "35",
+        "unit": "knots",
+        "highlight": true
+      },
+      {
+        "label": "Displacement",
+        "value": "640",
+        "unit": "tonnes",
+        "highlight": true
+      },
+      {
+        "label": "Operational Range",
+        "value": "4600",
+        "unit": "km"
+      }
+    ],
+    "armament": [
+      "8x RBS-15 Mk2/Mk3 Anti-Ship Missiles",
+      "1x Bofors 57mm Mk3 Stealth Cannon",
+      "4x 400mm ASW Torpedo Tubes"
+    ],
+    "propulsionPower": "CODAG: 4x Vericor TF50A Gas Turbines (16,000 kW) + 2x MTU Diesels",
+    "sensorsAvionics": [
+      "Saab Sea Giraffe AMB 3D Radar",
+      "Ceros 200 Stealth Radar/Optronic Fire Control",
+      "GDC ASW Towed Array Sonar"
+    ],
+    "technicalDetails": {
+      "dimensions": {
+        "lengthM": 72.7,
+        "beamM": 10.4,
+        "draftM": 2.4,
+        "displacementTonnes": 640
+      },
+      "speedAndRange": {
+        "maxSpeedKnots": 35,
+        "operationalRangeKm": 4600
+      },
+      "crew": {
+        "totalPersonnel": 43
+      }
+    }
+  },
+  "sources": [
+    {
+      "name": "Saab Kockums Visby Datasheet",
+      "accessedYear": 2026
+    }
+  ]
+},
+{
+  "id": "skjold-class-corvette",
+  "name": "Skjold-class Corvette",
+  "officialDesignation": "Skjold-class Surface Effect Missile Craft",
+  "commonName": "Skjold Corvette",
+  "aliases": [
+    "Skjold Class",
+    "P960 Skjold"
+  ],
+  "familyName": "Corvettes Family",
+  "domain": "NAVAL",
+  "branchId": "navy",
+  "categoryId": "navy-corvettes",
+  "categoryName": "Navy — Corvettes",
+  "subcategory": "Fast Surface-Effect Stealth Corvette",
+  "rankInCategory": 2,
+  "rankingRationale": "Ultra-fast 60-knot air-cushion catamaran stealth missile craft designed for littoral defense.",
+  "originCountry": "Norway",
+  "originCountries": [
+    "Norway"
+  ],
+  "developerCountries": [
+    "Norway"
+  ],
+  "manufacturerCountries": [
+    "Norway"
+  ],
+  "operatorCountries": [
+    "Norway"
+  ],
+  "developer": "Umoe Mandal",
+  "manufacturer": "Umoe Mandal",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Navy"
+  ],
+  "searchKeywords": [
+    "skjold",
+    "corvette",
+    "norway",
+    "naval strike missile",
+    "nsm",
+    "stealth"
+  ],
+  "era": "2000–Present",
+  "shortDescription": "60-knot surface-effect air-cushion stealth corvette armed with 8x Naval Strike Missiles (NSM).",
+  "fullOverview": "The Skjold class of the Royal Norwegian Navy is among the fastest warships in the world, exceeding 60 knots. Constructed from radar-absorbing composite materials and carrying 8x NSM anti-ship missiles inside internal bays.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Royal Norwegian Navy Skjold Program Sheet",
+  "specs": {
+    "entryIntoService": "2002",
+    "crew": "15 (Officers and Crew)",
+    "manufacturer": "Umoe Mandal",
+    "primaryRole": "Fast Surface-Effect Stealth Corvette",
+    "keyMetrics": [
+      {
+        "label": "Max Speed",
+        "value": "60",
+        "unit": "knots",
+        "highlight": true
+      },
+      {
+        "label": "Displacement",
+        "value": "274",
+        "unit": "tonnes",
+        "highlight": true
+      },
+      {
+        "label": "Operational Range",
+        "value": "1480",
+        "unit": "km"
+      }
+    ],
+    "armament": [
+      "8x Kongsberg Naval Strike Missiles (NSM)",
+      "1x Oto Melara 76mm Super Rapid Gun",
+      "1x Mistral MANPADS Air Defense System"
+    ],
+    "propulsionPower": "COGAG: 2x Pratt & Whitney ST18M Gas Turbines (16,000 hp) + Waterjets",
+    "sensorsAvionics": [
+      "Thales MRR-3D-NG Air/Surface Surveillance Radar",
+      "Saab Ceros 200 FCS",
+      "CS-3701 ESM Suite"
+    ],
+    "technicalDetails": {
+      "dimensions": {
+        "lengthM": 47.5,
+        "beamM": 13.5,
+        "draftM": 1,
+        "displacementTonnes": 274
+      },
+      "speedAndRange": {
+        "maxSpeedKnots": 60,
+        "operationalRangeKm": 1480
+      },
+      "crew": {
+        "totalPersonnel": 15
+      }
+    }
+  },
+  "sources": [
+    {
+      "name": "Royal Norwegian Navy Skjold Datasheet",
+      "accessedYear": 2026
+    }
+  ]
+}
 ];
