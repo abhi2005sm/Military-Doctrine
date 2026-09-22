@@ -210,7 +210,7 @@ export const AIR_DEFENCE_ASSETS: (Asset | RawAsset)[] = [
     }
   },
   {
-    "id": "mistral-3-vshorad",
+    "id": "mistral-3-atlas-rc",
     "name": "Mistral 3",
     "officialDesignation": "MBDA Mistral 3 Very Short-Range Air Defence Missile",
     "commonName": "Mistral 3",
@@ -15124,4 +15124,204 @@ export const AIR_DEFENCE_ASSETS: (Asset | RawAsset)[] = [
       ]
     }
   }
+,
+{
+  "id": "iron-beam-helws",
+  "name": "Iron Beam",
+  "officialDesignation": "Iron Beam High-Energy Laser Air Defence System",
+  "commonName": "Iron Beam",
+  "aliases": [
+    "Iron Beam HELWS",
+    "Magen Or"
+  ],
+  "familyName": "High-Energy Laser Family",
+  "domain": "AIR_DEFENCE",
+  "branchId": "air-defence",
+  "categoryId": "air-defence-counter-uas",
+  "categoryName": "Air Defence — Counter-UAS / Anti-Drone",
+  "subcategory": "100kW High-Energy Laser Air Defence",
+  "rankInCategory": 1,
+  "rankingRationale": "100kW solid-state laser interceptor delivering zero-cost per-shot interception against rockets, mortars, and drones.",
+  "originCountry": "Israel",
+  "originCountries": [
+    "Israel"
+  ],
+  "developerCountries": [
+    "Israel"
+  ],
+  "manufacturerCountries": [
+    "Israel"
+  ],
+  "operatorCountries": [
+    "Israel"
+  ],
+  "developer": "Rafael Advanced Defense Systems",
+  "manufacturer": "Rafael Advanced Defense Systems",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Air Defence"
+  ],
+  "searchKeywords": [
+    "iron beam",
+    "rafael",
+    "laser",
+    "helws",
+    "c-uas",
+    "israel air defense"
+  ],
+  "era": "2020–Present",
+  "shortDescription": "100kW class high-energy laser air defense system designed to intercept rockets, artillery, mortars, and unmanned aerial vehicles.",
+  "fullOverview": "Iron Beam is Rafael's ground-based 100kW high-energy laser weapon system. It complements Iron Dome by targeting short-range rockets, mortars, and UAVs with speed-of-light directed energy pulses at negligible cost per engagement.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Rafael Iron Beam High-Energy Laser Technical Datasheet",
+  "specs": {
+    "entryIntoService": "2024",
+    "crew": "2 Operators",
+    "manufacturer": "Rafael Advanced Defense Systems",
+    "primaryRole": "100kW High-Energy Laser Air Defence",
+    "keyMetrics": [
+      {
+        "label": "Max Engagement Range",
+        "value": "7",
+        "unit": "km",
+        "highlight": true
+      },
+      {
+        "label": "Laser Power Output",
+        "value": "100",
+        "unit": "kW",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "100kW Fiber-Optic Solid-State Laser Transmitter Beam"
+    ],
+    "propulsionPower": "Containerized High-Output Mobile Diesel Electrical Generator",
+    "sensorsAvionics": [
+      "Thermal Electro-Optical Target Acquisition & Beam Steering Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "systemWeightKg": 8500,
+        "launcherType": "Containerized Laser Turret Mast"
+      },
+      "performance": {
+        "maxEngagementRangeKm": 7,
+        "maxEngagementAltitudeM": 4000
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "Rafael Iron Beam Technical Specifications",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "vampire-cuas-system",
+  "name": "VAMPIRE C-UAS",
+  "officialDesignation": "Vehicle-Agnostic Modular Palletized ISR Rocket Equipment (VAMPIRE)",
+  "commonName": "VAMPIRE",
+  "aliases": [
+    "L3Harris VAMPIRE",
+    "VAMPIRE C-UAS"
+  ],
+  "familyName": "Counter-UAS / Anti-Drone Family",
+  "domain": "AIR_DEFENCE",
+  "branchId": "air-defence",
+  "categoryId": "air-defence-counter-uas",
+  "categoryName": "Air Defence — Counter-UAS / Anti-Drone",
+  "subcategory": "Modular Vehicle-Mounted Counter-UAS",
+  "rankInCategory": 2,
+  "rankingRationale": "Palletized C-UAS launcher deploying APKWS II laser-guided 70mm rockets against Class 1-3 UAVs.",
+  "originCountry": "United States",
+  "originCountries": [
+    "United States"
+  ],
+  "developerCountries": [
+    "United States"
+  ],
+  "manufacturerCountries": [
+    "United States"
+  ],
+  "operatorCountries": [
+    "United States",
+    "Ukraine"
+  ],
+  "developer": "L3Harris Technologies",
+  "manufacturer": "L3Harris Technologies",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Air Defence",
+    "Army"
+  ],
+  "searchKeywords": [
+    "vampire",
+    "l3harris",
+    "apkws",
+    "c-uas",
+    "anti-drone",
+    "ukraine"
+  ],
+  "era": "2021–Present",
+  "shortDescription": "Palletized 4-cell 70mm rocket launcher utilizing laser-guided APKWS rockets with proximity fuzes for precision drone destruction.",
+  "fullOverview": "The L3Harris VAMPIRE is a portable kit mounted on pickup trucks or tactical vehicles. Features a 4-pack launcher for AGR-20 APKWS laser-guided 70mm rockets and WESCAM MX-10 RSTA electro-optical targeting ball.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "L3Harris VAMPIRE System Overview",
+  "specs": {
+    "entryIntoService": "2023",
+    "crew": "2 (Driver & Gunner)",
+    "manufacturer": "L3Harris Technologies",
+    "primaryRole": "Modular Vehicle-Mounted Counter-UAS",
+    "keyMetrics": [
+      {
+        "label": "Effective Range",
+        "value": "6",
+        "unit": "km",
+        "highlight": true
+      },
+      {
+        "label": "Ordnance",
+        "value": "70mm Laser-Guided APKWS II",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "4-Pack 70mm Launcher for AGR-20 APKWS II Guided Rockets"
+    ],
+    "propulsionPower": "Vehicle Electrical System",
+    "sensorsAvionics": [
+      "L3Harris WESCAM MX-10D EO/IR Sensor & Laser Designator"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "systemWeightKg": 650,
+        "launcherType": "4-Cell LAND-LGR Rocket Pod"
+      },
+      "performance": {
+        "maxEngagementRangeKm": 6,
+        "maxEngagementAltitudeM": 3500
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "L3Harris VAMPIRE Datasheet",
+      "accessedAt": "2026-08-15"
+    }
+  ]
+}
 ];

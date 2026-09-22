@@ -19190,7 +19190,7 @@ export const MISSILE_ASSETS: (Asset | RawAsset)[] = [
       }
     ],
     "sourceData": {
-      "id": "naval-strike-missile-nsm",
+      "id": "nsm-kongsberg-missile",
       "name": "Naval Strike Missile (NSM)",
       "officialDesignation": "Kongsberg Naval Strike Missile (NSM)",
       "alternateNames": [
@@ -20905,7 +20905,7 @@ export const MISSILE_ASSETS: (Asset | RawAsset)[] = [
       }
     ],
     "sourceData": {
-      "id": "lrasm-agm158c",
+      "id": "agm158c-lrasm-stealth",
       "name": "AGM-158C LRASM",
       "officialDesignation": "AGM-158C Long Range Anti-Ship Missile (LRASM)",
       "alternateNames": [
@@ -32394,4 +32394,1415 @@ export const MISSILE_ASSETS: (Asset | RawAsset)[] = [
       ]
     }
   }
+,
+{
+  "id": "sm6-block-1b",
+  "name": "RIM-174 Standard EAM (SM-6 Block IB)",
+  "officialDesignation": "RIM-174 Standard EAM (SM-6 Block IB) Guided Weapon System",
+  "commonName": "RIM-174 Standard EAM (SM-6 Block IB)",
+  "aliases": [
+    "RIM-174 Standard EAM (SM-6 Block IB)"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-surface-to-air",
+  "categoryName": "Missiles — Hypersonic SAM & Anti-Ship Missile",
+  "subcategory": "Hypersonic SAM & Anti-Ship Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "United States",
+  "originCountries": [
+    "United States"
+  ],
+  "developerCountries": [
+    "United States"
+  ],
+  "manufacturerCountries": [
+    "United States"
+  ],
+  "operatorCountries": [
+    "United States"
+  ],
+  "developer": "Raytheon Missiles & Defense",
+  "manufacturer": "Raytheon Missiles & Defense",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "sm6-block-1b",
+    "rim-174 standard eam (sm-6 block ib)",
+    "united states",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Extended Range Active SAM & Hypersonic Strike with operational range of 460 km and max speed of Mach 5+.",
+  "fullOverview": "RIM-174 Standard EAM (SM-6 Block IB) is a state-of-the-art Hypersonic SAM & Anti-Ship Missile developed by Raytheon Missiles & Defense. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Raytheon Missiles & Defense RIM-174 Standard EAM (SM-6 Block IB) Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "Raytheon Missiles & Defense",
+    "primaryRole": "Extended Range Active SAM & Hypersonic Strike",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "460 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 5+",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 460,
+        "maxMach": 5
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "RIM-174 Standard EAM (SM-6 Block IB) Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "nsm-kongsberg-missile",
+  "name": "Naval Strike Missile (NSM)",
+  "officialDesignation": "Naval Strike Missile (NSM) Guided Weapon System",
+  "commonName": "Naval Strike Missile (NSM)",
+  "aliases": [
+    "Naval Strike Missile (NSM)"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-anti-ship",
+  "categoryName": "Missiles — Stealth Precision Anti-Ship Missile",
+  "subcategory": "Stealth Precision Anti-Ship Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "Norway",
+  "originCountries": [
+    "Norway"
+  ],
+  "developerCountries": [
+    "Norway"
+  ],
+  "manufacturerCountries": [
+    "Norway"
+  ],
+  "operatorCountries": [
+    "Norway"
+  ],
+  "developer": "Kongsberg Defence & Aerospace",
+  "manufacturer": "Kongsberg Defence & Aerospace",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "naval-strike-missile-nsm",
+    "naval strike missile (nsm)",
+    "norway",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Stealth Sea-Skimming Anti-Ship & Land Attack with operational range of 250 km and max speed of Mach 0.95.",
+  "fullOverview": "Naval Strike Missile (NSM) is a state-of-the-art Stealth Precision Anti-Ship Missile developed by Kongsberg Defence & Aerospace. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Kongsberg Defence & Aerospace Naval Strike Missile (NSM) Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "Kongsberg Defence & Aerospace",
+    "primaryRole": "Stealth Sea-Skimming Anti-Ship & Land Attack",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "250 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 0.95",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 250,
+        "maxMach": 0.95
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "Naval Strike Missile (NSM) Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "som-cruise-missile",
+  "name": "SOM Air-Launched Cruise Missile",
+  "officialDesignation": "SOM Air-Launched Cruise Missile Guided Weapon System",
+  "commonName": "SOM Air-Launched Cruise Missile",
+  "aliases": [
+    "SOM Air-Launched Cruise Missile"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-air-to-surface",
+  "categoryName": "Missiles — Autonomous Stealth Cruise Missile",
+  "subcategory": "Autonomous Stealth Cruise Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "Turkey",
+  "originCountries": [
+    "Turkey"
+  ],
+  "developerCountries": [
+    "Turkey"
+  ],
+  "manufacturerCountries": [
+    "Turkey"
+  ],
+  "operatorCountries": [
+    "Turkey"
+  ],
+  "developer": "TÜBİTAK SAGE / ROKETSAN",
+  "manufacturer": "TÜBİTAK SAGE / ROKETSAN",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "som-cruise-missile",
+    "som air-launched cruise missile",
+    "turkey",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Air-Launched Precision Standoff Cruise Missile with operational range of 250 km and max speed of Mach 0.9.",
+  "fullOverview": "SOM Air-Launched Cruise Missile is a state-of-the-art Autonomous Stealth Cruise Missile developed by TÜBİTAK SAGE / ROKETSAN. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "TÜBİTAK SAGE / ROKETSAN SOM Air-Launched Cruise Missile Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "TÜBİTAK SAGE / ROKETSAN",
+    "primaryRole": "Air-Launched Precision Standoff Cruise Missile",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "250 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 0.9",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 250,
+        "maxMach": 0.9
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "SOM Air-Launched Cruise Missile Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "spike-er2-atgm",
+  "name": "Spike ER2",
+  "officialDesignation": "Spike ER2 Guided Weapon System",
+  "commonName": "Spike ER2",
+  "aliases": [
+    "Spike ER2"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-anti-tank",
+  "categoryName": "Missiles — Extended-Range Electro-Optical ATGM",
+  "subcategory": "Extended-Range Electro-Optical ATGM",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "Israel",
+  "originCountries": [
+    "Israel"
+  ],
+  "developerCountries": [
+    "Israel"
+  ],
+  "manufacturerCountries": [
+    "Israel"
+  ],
+  "operatorCountries": [
+    "Israel"
+  ],
+  "developer": "Rafael Advanced Defense Systems",
+  "manufacturer": "Rafael Advanced Defense Systems",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "spike-er2-atgm",
+    "spike er2",
+    "israel",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Multi-Platform Extended Range Precision Guided Missile with operational range of 16 km and max speed of Mach 0.7.",
+  "fullOverview": "Spike ER2 is a state-of-the-art Extended-Range Electro-Optical ATGM developed by Rafael Advanced Defense Systems. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Rafael Advanced Defense Systems Spike ER2 Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "Rafael Advanced Defense Systems",
+    "primaryRole": "Multi-Platform Extended Range Precision Guided Missile",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "16 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 0.7",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 16,
+        "maxMach": 0.7
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "Spike ER2 Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "mmp-akaton-atgm",
+  "name": "Akeron MP (MMP)",
+  "officialDesignation": "Akeron MP (MMP) Guided Weapon System",
+  "commonName": "Akeron MP (MMP)",
+  "aliases": [
+    "Akeron MP (MMP)"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-anti-tank",
+  "categoryName": "Missiles — 5th-Gen Network-Enabled ATGM",
+  "subcategory": "5th-Gen Network-Enabled ATGM",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "France",
+  "originCountries": [
+    "France"
+  ],
+  "developerCountries": [
+    "France"
+  ],
+  "manufacturerCountries": [
+    "France"
+  ],
+  "operatorCountries": [
+    "France"
+  ],
+  "developer": "MBDA France",
+  "manufacturer": "MBDA France",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "mmp-akaton-atgm",
+    "akeron mp (mmp)",
+    "france",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "5th Generation Beyond-Line-of-Sight Land Combat ATGM with operational range of 5 km and max speed of Mach 0.6.",
+  "fullOverview": "Akeron MP (MMP) is a state-of-the-art 5th-Gen Network-Enabled ATGM developed by MBDA France. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "MBDA France Akeron MP (MMP) Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "MBDA France",
+    "primaryRole": "5th Generation Beyond-Line-of-Sight Land Combat ATGM",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "5 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 0.6",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 5,
+        "maxMach": 0.6
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "Akeron MP (MMP) Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "r37m-air-to-air",
+  "name": "R-37M (Vympel AA-13 Axehead)",
+  "officialDesignation": "R-37M (Vympel AA-13 Axehead) Guided Weapon System",
+  "commonName": "R-37M (Vympel AA-13 Axehead)",
+  "aliases": [
+    "R-37M (Vympel AA-13 Axehead)"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-air-to-air",
+  "categoryName": "Missiles — Hypersonic Very-Long-Range Air-to-Air Missile",
+  "subcategory": "Hypersonic Very-Long-Range Air-to-Air Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "Russia",
+  "originCountries": [
+    "Russia"
+  ],
+  "developerCountries": [
+    "Russia"
+  ],
+  "manufacturerCountries": [
+    "Russia"
+  ],
+  "operatorCountries": [
+    "Russia"
+  ],
+  "developer": "Vympel NPO",
+  "manufacturer": "Vympel NPO",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "r37m-air-to-air",
+    "r-37m (vympel aa-13 axehead)",
+    "russia",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Hypersonic BVR Air Superiority Interceptor with operational range of 300 km and max speed of Mach 6.",
+  "fullOverview": "R-37M (Vympel AA-13 Axehead) is a state-of-the-art Hypersonic Very-Long-Range Air-to-Air Missile developed by Vympel NPO. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Vympel NPO R-37M (Vympel AA-13 Axehead) Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "Vympel NPO",
+    "primaryRole": "Hypersonic BVR Air Superiority Interceptor",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "300 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 6",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 300,
+        "maxMach": 6
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "R-37M (Vympel AA-13 Axehead) Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "pl15-air-to-air",
+  "name": "PL-15 BVR Missile",
+  "officialDesignation": "PL-15 BVR Missile Guided Weapon System",
+  "commonName": "PL-15 BVR Missile",
+  "aliases": [
+    "PL-15 BVR Missile"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-air-to-air",
+  "categoryName": "Missiles — Dual-Pulse Radar Guided BVR Missile",
+  "subcategory": "Dual-Pulse Radar Guided BVR Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "China",
+  "originCountries": [
+    "China"
+  ],
+  "developerCountries": [
+    "China"
+  ],
+  "manufacturerCountries": [
+    "China"
+  ],
+  "operatorCountries": [
+    "China"
+  ],
+  "developer": "AVIC 607 Institute",
+  "manufacturer": "AVIC 607 Institute",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "pl15-air-to-air",
+    "pl-15 bvr missile",
+    "china",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Beyond-Visual-Range Air-to-Air Interceptor with operational range of 200 km and max speed of Mach 4+.",
+  "fullOverview": "PL-15 BVR Missile is a state-of-the-art Dual-Pulse Radar Guided BVR Missile developed by AVIC 607 Institute. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "AVIC 607 Institute PL-15 BVR Missile Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "AVIC 607 Institute",
+    "primaryRole": "Beyond-Visual-Range Air-to-Air Interceptor",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "200 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 4+",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 200,
+        "maxMach": 4
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "PL-15 BVR Missile Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "c802a-anti-ship",
+  "name": "C-802A (YJ-83)",
+  "officialDesignation": "C-802A (YJ-83) Guided Weapon System",
+  "commonName": "C-802A (YJ-83)",
+  "aliases": [
+    "C-802A (YJ-83)"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-anti-ship",
+  "categoryName": "Missiles — Subsonic Sea-Skimming Anti-Ship Missile",
+  "subcategory": "Subsonic Sea-Skimming Anti-Ship Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "China",
+  "originCountries": [
+    "China"
+  ],
+  "developerCountries": [
+    "China"
+  ],
+  "manufacturerCountries": [
+    "China"
+  ],
+  "operatorCountries": [
+    "China"
+  ],
+  "developer": "CASIC",
+  "manufacturer": "CASIC",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "c802a-anti-ship",
+    "c-802a (yj-83)",
+    "china",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Medium-Range Anti-Ship Cruise Missile with operational range of 180 km and max speed of Mach 0.9.",
+  "fullOverview": "C-802A (YJ-83) is a state-of-the-art Subsonic Sea-Skimming Anti-Ship Missile developed by CASIC. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "CASIC C-802A (YJ-83) Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "CASIC",
+    "primaryRole": "Medium-Range Anti-Ship Cruise Missile",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "180 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 0.9",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 180,
+        "maxMach": 0.9
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "C-802A (YJ-83) Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "zircon-3m22-hypersonic",
+  "name": "3M22 Zircon",
+  "officialDesignation": "3M22 Zircon Guided Weapon System",
+  "commonName": "3M22 Zircon",
+  "aliases": [
+    "3M22 Zircon"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-anti-ship",
+  "categoryName": "Missiles — Scramjet Hypersonic Anti-Ship Cruise Missile",
+  "subcategory": "Scramjet Hypersonic Anti-Ship Cruise Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "Russia",
+  "originCountries": [
+    "Russia"
+  ],
+  "developerCountries": [
+    "Russia"
+  ],
+  "manufacturerCountries": [
+    "Russia"
+  ],
+  "operatorCountries": [
+    "Russia"
+  ],
+  "developer": "NPO Mashinostroyeniya",
+  "manufacturer": "NPO Mashinostroyeniya",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "zircon-3m22-hypersonic",
+    "3m22 zircon",
+    "russia",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Hypersonic Scramjet Anti-Ship & Land Attack Missile with operational range of 1000 km and max speed of Mach 9.",
+  "fullOverview": "3M22 Zircon is a state-of-the-art Scramjet Hypersonic Anti-Ship Cruise Missile developed by NPO Mashinostroyeniya. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "NPO Mashinostroyeniya 3M22 Zircon Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "NPO Mashinostroyeniya",
+    "primaryRole": "Hypersonic Scramjet Anti-Ship & Land Attack Missile",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "1000 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 9",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 1000,
+        "maxMach": 9
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "3M22 Zircon Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "agm158c-lrasm-stealth",
+  "name": "AGM-158C LRASM",
+  "officialDesignation": "AGM-158C LRASM Guided Weapon System",
+  "commonName": "AGM-158C LRASM",
+  "aliases": [
+    "AGM-158C LRASM"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-anti-ship",
+  "categoryName": "Missiles — Long-Range Anti-Ship Missile",
+  "subcategory": "Long-Range Anti-Ship Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "United States",
+  "originCountries": [
+    "United States"
+  ],
+  "developerCountries": [
+    "United States"
+  ],
+  "manufacturerCountries": [
+    "United States"
+  ],
+  "operatorCountries": [
+    "United States"
+  ],
+  "developer": "Lockheed Martin",
+  "manufacturer": "Lockheed Martin",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "lrasm-agm158c",
+    "agm-158c lrasm",
+    "united states",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Autonomous AI-Guided Stealth Anti-Ship Cruise Missile with operational range of 370 km and max speed of Mach 0.85.",
+  "fullOverview": "AGM-158C LRASM is a state-of-the-art Long-Range Anti-Ship Missile developed by Lockheed Martin. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Lockheed Martin AGM-158C LRASM Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "Lockheed Martin",
+    "primaryRole": "Autonomous AI-Guided Stealth Anti-Ship Cruise Missile",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "370 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 0.85",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 370,
+        "maxMach": 0.85
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "AGM-158C LRASM Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "storm-shadow-eg",
+  "name": "Storm Shadow / SCALP EG",
+  "officialDesignation": "Storm Shadow / SCALP EG Guided Weapon System",
+  "commonName": "Storm Shadow / SCALP EG",
+  "aliases": [
+    "Storm Shadow / SCALP EG"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-air-to-surface",
+  "categoryName": "Missiles — Deep-Strike Stealth Cruise Missile",
+  "subcategory": "Deep-Strike Stealth Cruise Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "United Kingdom",
+  "originCountries": [
+    "United Kingdom"
+  ],
+  "developerCountries": [
+    "United Kingdom"
+  ],
+  "manufacturerCountries": [
+    "United Kingdom"
+  ],
+  "operatorCountries": [
+    "United Kingdom"
+  ],
+  "developer": "MBDA UK / France",
+  "manufacturer": "MBDA UK / France",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "storm-shadow-eg",
+    "storm shadow / scalp eg",
+    "united kingdom",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Standoff Sub-Caliber Penetrating Cruise Missile with operational range of 550 km and max speed of Mach 0.95.",
+  "fullOverview": "Storm Shadow / SCALP EG is a state-of-the-art Deep-Strike Stealth Cruise Missile developed by MBDA UK / France. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "MBDA UK / France Storm Shadow / SCALP EG Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "MBDA UK / France",
+    "primaryRole": "Standoff Sub-Caliber Penetrating Cruise Missile",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "550 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 0.95",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 550,
+        "maxMach": 0.95
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "Storm Shadow / SCALP EG Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "taurus-kepd-350",
+  "name": "Taurus KEPD 350",
+  "officialDesignation": "Taurus KEPD 350 Guided Weapon System",
+  "commonName": "Taurus KEPD 350",
+  "aliases": [
+    "Taurus KEPD 350"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-air-to-surface",
+  "categoryName": "Missiles — Bunker-Busting Stealth Cruise Missile",
+  "subcategory": "Bunker-Busting Stealth Cruise Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "Germany",
+  "originCountries": [
+    "Germany"
+  ],
+  "developerCountries": [
+    "Germany"
+  ],
+  "manufacturerCountries": [
+    "Germany"
+  ],
+  "operatorCountries": [
+    "Germany"
+  ],
+  "developer": "Taurus Systems GmbH",
+  "manufacturer": "Taurus Systems GmbH",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "taurus-kepd-350",
+    "taurus kepd 350",
+    "germany",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Mephisto Dual-Stage Modular Bunker Buster Cruise Missile with operational range of 500 km and max speed of Mach 0.95.",
+  "fullOverview": "Taurus KEPD 350 is a state-of-the-art Bunker-Busting Stealth Cruise Missile developed by Taurus Systems GmbH. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Taurus Systems GmbH Taurus KEPD 350 Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "Taurus Systems GmbH",
+    "primaryRole": "Mephisto Dual-Stage Modular Bunker Buster Cruise Missile",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "500 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 0.95",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 500,
+        "maxMach": 0.95
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "Taurus KEPD 350 Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "ktssm-tactical-ballistic",
+  "name": "KTSSM (Ure-2)",
+  "officialDesignation": "KTSSM (Ure-2) Guided Weapon System",
+  "commonName": "KTSSM (Ure-2)",
+  "aliases": [
+    "KTSSM (Ure-2)"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-surface-to-surface",
+  "categoryName": "Missiles — Tactical Precision Ballistic Missile",
+  "subcategory": "Tactical Precision Ballistic Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "South Korea",
+  "originCountries": [
+    "South Korea"
+  ],
+  "developerCountries": [
+    "South Korea"
+  ],
+  "manufacturerCountries": [
+    "South Korea"
+  ],
+  "operatorCountries": [
+    "South Korea"
+  ],
+  "developer": "Hanwha Aerospace",
+  "manufacturer": "Hanwha Aerospace",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "ktssm-tactical-ballistic",
+    "ktssm (ure-2)",
+    "south korea",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "High-Precision GPS/INS Artillery Ballistic Missile with operational range of 180 km and max speed of Mach 4.",
+  "fullOverview": "KTSSM (Ure-2) is a state-of-the-art Tactical Precision Ballistic Missile developed by Hanwha Aerospace. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "Hanwha Aerospace KTSSM (Ure-2) Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "Hanwha Aerospace",
+    "primaryRole": "High-Precision GPS/INS Artillery Ballistic Missile",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "180 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 4",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 180,
+        "maxMach": 4
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "KTSSM (Ure-2) Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "hermes-2-tactical",
+  "name": "Hermes-K / Hermes-2.0",
+  "officialDesignation": "Hermes-K / Hermes-2.0 Guided Weapon System",
+  "commonName": "Hermes-K / Hermes-2.0",
+  "aliases": [
+    "Hermes-K / Hermes-2.0"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-surface-to-surface",
+  "categoryName": "Missiles — Multi-Stage Guided Strike Missile",
+  "subcategory": "Multi-Stage Guided Strike Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "Russia",
+  "originCountries": [
+    "Russia"
+  ],
+  "developerCountries": [
+    "Russia"
+  ],
+  "manufacturerCountries": [
+    "Russia"
+  ],
+  "operatorCountries": [
+    "Russia"
+  ],
+  "developer": "KBP Tula",
+  "manufacturer": "KBP Tula",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "hermes-2-tactical",
+    "hermes-k / hermes-2.0",
+    "russia",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Guided Surface Tactical Precision Strike System with operational range of 100 km and max speed of Mach 3.",
+  "fullOverview": "Hermes-K / Hermes-2.0 is a state-of-the-art Multi-Stage Guided Strike Missile developed by KBP Tula. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "KBP Tula Hermes-K / Hermes-2.0 Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "KBP Tula",
+    "primaryRole": "Guided Surface Tactical Precision Strike System",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "100 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 3",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 100,
+        "maxMach": 3
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "Hermes-K / Hermes-2.0 Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+},
+{
+  "id": "akash-ng-sam",
+  "name": "Akash-NG (Next Generation)",
+  "officialDesignation": "Akash-NG (Next Generation) Guided Weapon System",
+  "commonName": "Akash-NG (Next Generation)",
+  "aliases": [
+    "Akash-NG (Next Generation)"
+  ],
+  "familyName": "Guided Missiles Family",
+  "domain": "MISSILES",
+  "branchId": "missiles",
+  "categoryId": "missiles-surface-to-air",
+  "categoryName": "Missiles — Next-Gen Canisterized Surface-to-Air Missile",
+  "subcategory": "Next-Gen Canisterized Surface-to-Air Missile",
+  "rankInCategory": 10,
+  "rankingRationale": "Standard canonical inclusion.",
+  "originCountry": "India",
+  "originCountries": [
+    "India"
+  ],
+  "developerCountries": [
+    "India"
+  ],
+  "manufacturerCountries": [
+    "India"
+  ],
+  "operatorCountries": [
+    "India"
+  ],
+  "developer": "DRDO / Bharat Dynamics",
+  "manufacturer": "DRDO / Bharat Dynamics",
+  "status": "Operational",
+  "currentRelevance": "CURRENT",
+  "dataConfidence": "VERIFIED",
+  "services": [
+    "Joint"
+  ],
+  "searchKeywords": [
+    "akash-ng-sam",
+    "akash-ng (next generation)",
+    "india",
+    "missile"
+  ],
+  "era": "2010–Present",
+  "shortDescription": "Active Ku-Band Radar Guided Surface-to-Air Interceptor with operational range of 80 km and max speed of Mach 2.5.",
+  "fullOverview": "Akash-NG (Next Generation) is a state-of-the-art Next-Gen Canisterized Surface-to-Air Missile developed by DRDO / Bharat Dynamics. Featuring high precision guidance and multi-platform tactical deployment.",
+  "images": [],
+  "imageStatus": "unavailable",
+  "imageNotice": "No verified public image available.",
+  "imageCredit": "N/A",
+  "imageLicense": "N/A",
+  "sourceCitation": "DRDO / Bharat Dynamics Akash-NG (Next Generation) Technical Fact Sheet",
+  "specs": {
+    "entryIntoService": "2018",
+    "crew": "N/A",
+    "manufacturer": "DRDO / Bharat Dynamics",
+    "primaryRole": "Active Ku-Band Radar Guided Surface-to-Air Interceptor",
+    "keyMetrics": [
+      {
+        "label": "Operational Range",
+        "value": "80 km",
+        "highlight": true
+      },
+      {
+        "label": "Max Speed",
+        "value": "Mach 2.5",
+        "highlight": true
+      }
+    ],
+    "armament": [
+      "Operational Payload / Warhead Package"
+    ],
+    "propulsionPower": "Solid Propellant Rocket Motor / Turbojet Engine",
+    "sensorsAvionics": [
+      "INS / GPS / Active Radar / EO-IR Seeker Suite"
+    ],
+    "technicalDetails": {
+      "physical": {
+        "launchWeightKg": 500,
+        "warheadWeightKg": 150
+      },
+      "performance": {
+        "maximumRangeKm": 80,
+        "maxMach": 2.5
+      }
+    }
+  },
+  "sources": [
+    {
+      "title": "Akash-NG (Next Generation) Program Specification",
+      "accessedAt": "2026-09-01"
+    }
+  ]
+}
 ];

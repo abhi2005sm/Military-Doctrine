@@ -35,7 +35,7 @@ export function Header() {
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
               <span className="font-semibold text-white tracking-wide">BLACKSTONE MILITARY INTELLIGENCE DATABASE</span>
               <span className="text-slate-600">|</span>
-              <span className="text-slate-400">UNCLASSIFIED RESEARCH & ANALYSIS (860 MASTER RECORDS)</span>
+              <span className="text-slate-400">UNCLASSIFIED RESEARCH & ANALYSIS (975 MASTER RECORDS)</span>
             </div>
             <div className="hidden lg:flex items-center gap-5 text-slate-400 text-[11px]">
               <span className="flex items-center gap-1 text-slate-200">
