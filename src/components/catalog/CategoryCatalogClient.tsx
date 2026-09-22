@@ -4,7 +4,7 @@ import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Category, Asset, Branch, FilterOptions, TierBadge, DevelopmentStatus, ServiceBranchTag } from '../../types/catalog';
 import { AssetCard } from './AssetCard';
-import { filterAssets, getAllCountries, getAllOperators } from '../../lib/catalogService';
+import { filterAssets, getAllCountries, getAllOperators, getCategoriesByBranch, getCategoryById } from '../../lib/catalogService';
 import { Search, RotateCcw, ChevronRight, ArrowUpDown, LayoutGrid, List, Filter } from 'lucide-react';
 
 interface CategoryCatalogClientProps {
@@ -14,6 +14,7 @@ interface CategoryCatalogClientProps {
 }
 
 export function CategoryCatalogClient({ category, branch, allBranchAssets }: CategoryCatalogClientProps) {
+  const [selectedCategory, setSelectedCategory] = useState<string>(category.id);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedOrigin, setSelectedOrigin] = useState<string>('');
   const [selectedOperator, setSelectedOperator] = useState<string>('');
@@ -29,8 +30,16 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
   const [sortBy, setSortBy] = useState<FilterOptions['sortBy']>('rank');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
+  const branchCategories = useMemo(() => getCategoriesByBranch(branch.id), [branch.id]);
   const allCountries = useMemo(() => getAllCountries(), []);
   const allOperators = useMemo(() => getAllOperators(), []);
+
+  const activeCategory = useMemo(() => {
+    if (selectedCategory === 'all' || selectedCategory.toLowerCase() === 'all') {
+      return getCategoryById('all', branch.id) || category;
+    }
+    return getCategoryById(selectedCategory, branch.id) || category;
+  }, [selectedCategory, branch.id, category]);
 
   const serviceOptions: ServiceBranchTag[] = ['Army', 'Air Force', 'Navy', 'Joint'];
   const statusOptions: DevelopmentStatus[] = ['Operational', 'Production', 'Upgrade', 'Testing', 'Prototype'];
@@ -56,7 +65,7 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
     return filterAssets({
       searchQuery,
       branchId: branch.id,
-      categoryId: category.id,
+      categoryId: selectedCategory,
       originCountry: selectedOrigin || undefined,
       operatorCountry: selectedOperator || undefined,
       manufacturerCountry: selectedManufacturer || undefined,
@@ -71,14 +80,15 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
       sortBy,
     });
   }, [
-    searchQuery, branch.id, category.id, selectedOrigin, selectedOperator,
+    searchQuery, branch.id, selectedCategory, selectedOrigin, selectedOperator,
     selectedManufacturer, selectedDeveloper, selectedJointDev, selectedExportCustomer,
     selectedService, selectedStatus, selectedGeneration, selectedEra, selectedTier, sortBy
   ]);
 
-  const hasActiveFilters = searchQuery || selectedOrigin || selectedOperator || selectedManufacturer || selectedDeveloper || selectedJointDev || selectedExportCustomer || selectedService || selectedStatus || selectedGeneration || selectedEra || selectedTier;
+  const hasActiveFilters = searchQuery || selectedCategory !== category.id || selectedOrigin || selectedOperator || selectedManufacturer || selectedDeveloper || selectedJointDev || selectedExportCustomer || selectedService || selectedStatus || selectedGeneration || selectedEra || selectedTier;
 
   const resetFilters = () => {
+    setSelectedCategory(category.id);
     setSearchQuery('');
     setSelectedOrigin('');
     setSelectedOperator('');
@@ -102,7 +112,7 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
         <ChevronRight className="w-3.5 h-3.5" />
         <Link href={`/${branch.id}`} className="hover:text-slate-900 transition-colors capitalize">{branch.name}</Link>
         <ChevronRight className="w-3.5 h-3.5" />
-        <span className="text-slate-900 font-semibold">{category.name}</span>
+        <span className="text-slate-900 font-semibold">{activeCategory.name}</span>
       </div>
 
       {/* Category Command Header */}
@@ -111,24 +121,24 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
           <div className="space-y-1">
             <div className="flex items-center gap-2">
               <span className="px-2 py-0.5 bg-[#1B3A5C] text-white text-xs font-mono font-bold rounded-sm">
-                {category.code}
+                {activeCategory.code}
               </span>
               <span className="text-xs font-mono text-slate-500 uppercase tracking-wider">
                 {branch.name} Reference Category
               </span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight font-sans">
-              {category.name}
+              {activeCategory.name}
             </h1>
             <p className="text-xs sm:text-sm text-slate-600 max-w-3xl leading-relaxed font-sans">
-              {category.description}
+              {activeCategory.description}
             </p>
           </div>
 
           <div className="flex items-center gap-4 font-mono text-xs shrink-0 bg-slate-50 p-3.5 border border-slate-200 rounded-sm">
             <div className="text-center">
-              <span className="text-[10px] text-slate-500 block font-sans font-semibold uppercase">Target Target Count</span>
-              <span className="text-xl font-bold text-[#1B3A5C]">{category.targetCount} Records</span>
+              <span className="text-[10px] text-slate-500 block font-sans font-semibold uppercase">Category Target</span>
+              <span className="text-xl font-bold text-[#1B3A5C]">{activeCategory.targetCount || allBranchAssets.length} Records</span>
             </div>
             <div className="w-[1px] h-8 bg-slate-200" />
             <div className="text-center">
@@ -141,7 +151,7 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
         {/* Subcategories strip */}
         <div className="pt-3 border-t border-slate-200 flex items-center gap-2 flex-wrap font-mono text-xs">
           <span className="text-slate-500 font-sans text-[11px] font-semibold">Subcategories:</span>
-          {category.subcategories.map(sub => (
+          {activeCategory.subcategories.map(sub => (
             <span key={sub} className="px-2 py-0.5 bg-slate-100 text-slate-700 border border-slate-200 text-[11px] rounded-xs">
               {sub}
             </span>
@@ -288,7 +298,23 @@ export function CategoryCatalogClient({ category, branch, allBranchAssets }: Cat
         </div>
 
         {/* Secondary Parameters Strip */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-2 border-t border-slate-100">
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5 pt-2 border-t border-slate-100">
+          <div>
+            <label className="text-[10px] text-[#1B3A5C] font-sans font-extrabold uppercase block mb-1">Category Filter</label>
+            <select
+              value={selectedCategory}
+              onChange={e => setSelectedCategory(e.target.value)}
+              className="w-full p-1.5 bg-slate-100 border border-[#1B3A5C] font-bold text-slate-900 text-xs rounded-sm focus:outline-none"
+            >
+              <option value="all">All Categories ({allBranchAssets.length})</option>
+              {branchCategories.map(cat => (
+                <option key={cat.id} value={cat.id}>
+                  {cat.name} ({cat.code})
+                </option>
+              ))}
+            </select>
+          </div>
+
           <div>
             <label className="text-[10px] text-slate-500 font-sans font-semibold uppercase block mb-1">Service Branch</label>
             <select

@@ -98,9 +98,19 @@ export default function BranchPage({ params }: BranchPageProps) {
           {branch.description}
         </p>
 
-        <div className="pt-2 border-t border-slate-200 flex items-center gap-2 text-xs font-mono text-slate-600">
-          <span className="font-semibold text-slate-900 font-sans">OPERATIONAL SCOPE:</span>
-          <span>{branch.primaryRole}</span>
+        <div className="pt-3 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs font-mono text-slate-600">
+          <div className="flex items-center gap-2">
+            <span className="font-semibold text-slate-900 font-sans">OPERATIONAL SCOPE:</span>
+            <span>{branch.primaryRole}</span>
+          </div>
+
+          <Link
+            href={`/${branch.id}/all`}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-[#1B3A5C] hover:bg-[#2A5CAA] text-white font-mono text-xs font-semibold rounded-sm transition-colors"
+          >
+            <span>Browse All {branch.name} Equipment Records ({branchAssets.length})</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </Link>
         </div>
       </div>
 

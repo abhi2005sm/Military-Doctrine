@@ -1,6 +1,6 @@
-import { Asset } from '../../types/catalog';
+import { Asset, RawAsset } from '../../types/catalog';
 
-export const C4ISR_ASSETS: Asset[] = [
+export const C4ISR_ASSETS: (Asset | RawAsset)[] = [
   {
     id: 'ibcs',
     name: 'IBCS',

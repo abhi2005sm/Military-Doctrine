@@ -1,9 +1,28 @@
 import type { Metadata } from "next";
+import { Inter, Inter_Tight, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 import { CompareProvider } from "../context/CompareContext";
 import { CompareTray } from "../components/catalog/CompareTray";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const interTight = Inter_Tight({
+  subsets: ["latin"],
+  variable: "--font-inter-tight",
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Blackstone — Global Military Asset Catalog",
@@ -20,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full bg-slate-50">
+    <html lang="en" className={`h-full bg-slate-50 ${inter.variable} ${interTight.variable} ${jetbrainsMono.variable}`}>
       <body className="flex flex-col min-h-screen text-slate-900 bg-slate-50 antialiased selection:bg-sky-900 selection:text-white">
         <CompareProvider>
           <Header />
@@ -32,3 +51,4 @@ export default function RootLayout({
     </html>
   );
 }
+

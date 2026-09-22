@@ -1,6 +1,6 @@
-import { Asset } from '../../types/catalog';
+import { Asset, RawAsset } from '../../types/catalog';
 
-export const ELECTRONIC_WARFARE_ASSETS: Asset[] = [
+export const ELECTRONIC_WARFARE_ASSETS: (Asset | RawAsset)[] = [
   {
     id: 'ea-18g-growler',
     name: 'EA-18G Growler',

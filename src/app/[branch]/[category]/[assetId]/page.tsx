@@ -202,7 +202,7 @@ export default function AssetDetailPage({ params }: AssetDetailPageProps) {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-3 p-3 bg-slate-50">
                 <span className="font-sans font-semibold text-slate-600">Entry Into Service:</span>
-                <span className="sm:col-span-2 text-slate-900 text-left">{asset.specs.entryIntoService || 'Unknown'}</span>
+                <span className="sm:col-span-2 text-slate-900 text-left">{asset.specs.entryIntoService || asset.serviceEntry || 'Unknown'}</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-3 p-3">
                 <span className="font-sans font-semibold text-slate-600">Weight / Displacement:</span>
@@ -222,8 +222,14 @@ export default function AssetDetailPage({ params }: AssetDetailPageProps) {
                   {asset.specs.operationalRange || 'Not publicly disclosed'}
                 </span>
               </div>
-              {asset.specs.mainArmament && asset.specs.mainArmament.length > 0 && (
+              {asset.specs.propulsionPower && asset.specs.propulsionPower !== 'Not publicly disclosed' && (
                 <div className="grid grid-cols-1 sm:grid-cols-3 p-3 bg-slate-50">
+                  <span className="font-sans font-semibold text-slate-600">Propulsion / Power:</span>
+                  <span className="sm:col-span-2 text-slate-900 text-left">{asset.specs.propulsionPower}</span>
+                </div>
+              )}
+              {asset.specs.mainArmament && asset.specs.mainArmament.length > 0 && (
+                <div className="grid grid-cols-1 sm:grid-cols-3 p-3">
                   <span className="font-sans font-semibold text-slate-600">Armament & Ordnance:</span>
                   <div className="sm:col-span-2 space-y-1 text-slate-900">
                     {asset.specs.mainArmament.map((item, idx) => (
@@ -236,7 +242,7 @@ export default function AssetDetailPage({ params }: AssetDetailPageProps) {
                 </div>
               )}
               {asset.specs.sensorsAvionics && asset.specs.sensorsAvionics.length > 0 && (
-                <div className="grid grid-cols-1 sm:grid-cols-3 p-3">
+                <div className="grid grid-cols-1 sm:grid-cols-3 p-3 bg-slate-50">
                   <span className="font-sans font-semibold text-slate-600">Sensors & Avionics Suite:</span>
                   <div className="sm:col-span-2 space-y-1 text-slate-900">
                     {asset.specs.sensorsAvionics.map((item, idx) => (
@@ -249,6 +255,31 @@ export default function AssetDetailPage({ params }: AssetDetailPageProps) {
                 </div>
               )}
             </div>
+
+            {/* Formatted Key Metrics Grid */}
+            {asset.specs.keyMetrics && asset.specs.keyMetrics.length > 0 && (
+              <div className="pt-3 border-t border-slate-200 space-y-2">
+                <span className="text-[11px] font-mono text-slate-500 uppercase font-bold block">
+                  KEY PERFORMANCE METRICS & SYSTEM DATA
+                </span>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 font-mono text-xs">
+                  {asset.specs.keyMetrics.map((km, idx) => {
+                    const labelStr = typeof km === 'string' ? 'Metric' : km.label;
+                    const valStr = typeof km === 'string' ? km : `${km.value}${km.unit ? ' ' + km.unit : ''}`;
+                    return (
+                      <div key={idx} className="p-2.5 bg-slate-50 border border-slate-200 rounded-xs space-y-0.5">
+                        <span className="text-[10px] text-slate-500 font-sans uppercase font-bold block truncate">
+                          {labelStr}
+                        </span>
+                        <span className="font-bold text-slate-900 text-xs block truncate">
+                          {valStr}
+                        </span>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Air Defence Domain Architecture & Interceptor Specs */}

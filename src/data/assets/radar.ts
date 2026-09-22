@@ -1,6 +1,6 @@
-import { Asset } from '../../types/catalog';
+import { Asset, RawAsset } from '../../types/catalog';
 
-export const RADAR_ASSETS: Asset[] = [
+export const RADAR_ASSETS: (Asset | RawAsset)[] = [
   {
     id: 'radar-giraffe-4a-1',
     name: 'Giraffe 4A',

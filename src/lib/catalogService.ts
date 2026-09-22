@@ -14,20 +14,45 @@ export function getAssetById(id: string): Asset | undefined {
   return ASSETS.find(a => a.id === id);
 }
 
-export function getAssetsByBranch(branchId: BranchId): Asset[] {
+export function getAssetsByBranch(branchId: BranchId | 'all'): Asset[] {
+  if (branchId.toLowerCase() === 'all') return ASSETS;
   return ASSETS.filter(a => a.branchId === branchId);
 }
 
-export function getAssetsByCategory(categoryId: string): Asset[] {
+export function getAssetsByCategory(categoryId: string, branchId?: BranchId): Asset[] {
+  if (categoryId.toLowerCase() === 'all') {
+    const list = branchId && branchId.toLowerCase() !== 'all' 
+      ? ASSETS.filter(a => a.branchId === branchId) 
+      : ASSETS;
+    return list.sort((a, b) => a.rankInCategory - b.rankInCategory);
+  }
   return ASSETS.filter(a => a.categoryId === categoryId)
     .sort((a, b) => a.rankInCategory - b.rankInCategory);
 }
 
-export function getCategoryById(categoryId: string): Category | undefined {
+export function getCategoryById(categoryId: string, branchId?: BranchId): Category | undefined {
+  if (categoryId.toLowerCase() === 'all') {
+    const actualBranchId = (branchId && branchId.toLowerCase() !== 'all' ? branchId : 'army') as BranchId;
+    const assetsCount = branchId && branchId.toLowerCase() !== 'all'
+      ? getAssetsByBranch(branchId).length
+      : ASSETS.length;
+
+    return {
+      id: 'all',
+      branchId: actualBranchId,
+      name: 'All Categories',
+      code: 'ALL',
+      description: 'Complete equipment inventory across all categories in this sector.',
+      subcategories: ['All Subcategories'],
+      iconName: 'Grid',
+      targetCount: assetsCount,
+    };
+  }
   return CATEGORIES.find(c => c.id === categoryId);
 }
 
-export function getCategoriesByBranch(branchId: BranchId): Category[] {
+export function getCategoriesByBranch(branchId: BranchId | 'all'): Category[] {
+  if (branchId.toLowerCase() === 'all') return CATEGORIES;
   return CATEGORIES.filter(c => c.branchId === branchId);
 }
 
@@ -49,10 +74,10 @@ export function getAllBranches(): Branch[] {
     .filter((b): b is Branch => b !== undefined);
 }
 
-export function getCategoryWithStats(categoryId: string): (Category & { actualCount: number; approvedCount: number }) | undefined {
-  const cat = getCategoryById(categoryId);
+export function getCategoryWithStats(categoryId: string, branchId?: BranchId): (Category & { actualCount: number; approvedCount: number }) | undefined {
+  const cat = getCategoryById(categoryId, branchId);
   if (!cat) return undefined;
-  const actualAssets = getAssetsByCategory(categoryId);
+  const actualAssets = getAssetsByCategory(categoryId, branchId);
   return {
     ...cat,
     actualCount: actualAssets.length,
@@ -103,17 +128,17 @@ export function calculateAverageRating(asset: Asset): number {
 export function filterAssets(options: FilterOptions): Asset[] {
   let result = [...ASSETS];
 
-  if (options.branchId) {
+  if (options.branchId && options.branchId.toLowerCase() !== 'all') {
     result = result.filter(a => a.branchId === options.branchId);
   }
 
-  if (options.categoryId) {
+  if (options.categoryId && options.categoryId.toLowerCase() !== 'all') {
     result = result.filter(a => a.categoryId === options.categoryId);
   }
 
   // 1. Origin Country Filter
   const originQuery = (options.originCountry || options.country || '').toLowerCase().trim();
-  if (originQuery) {
+  if (originQuery && originQuery !== 'all' && !originQuery.startsWith('all ')) {
     result = result.filter(a =>
       (a.originCountry && a.originCountry.toLowerCase().includes(originQuery)) ||
       (a.originCountries && a.originCountries.some(c => c.toLowerCase().includes(originQuery)))
@@ -123,58 +148,68 @@ export function filterAssets(options: FilterOptions): Asset[] {
   // 2. Operator Country Filter
   if (options.operatorCountry) {
     const q = options.operatorCountry.toLowerCase().trim();
-    result = result.filter(a => a.operatorCountries && a.operatorCountries.some(c => c.toLowerCase().includes(q)));
+    if (q !== 'all' && !q.startsWith('all ')) {
+      result = result.filter(a => a.operatorCountries && a.operatorCountries.some(c => c.toLowerCase().includes(q)));
+    }
   }
 
   // 3. Manufacturer Country Filter
   if (options.manufacturerCountry) {
     const q = options.manufacturerCountry.toLowerCase().trim();
-    result = result.filter(a =>
-      (a.manufacturerCountry && a.manufacturerCountry.toLowerCase().includes(q)) ||
-      (a.manufacturerCountries && a.manufacturerCountries.some(c => c.toLowerCase().includes(q))) ||
-      (a.manufacturer && a.manufacturer.toLowerCase().includes(q))
-    );
+    if (q !== 'all' && !q.startsWith('all ')) {
+      result = result.filter(a =>
+        (a.manufacturerCountry && a.manufacturerCountry.toLowerCase().includes(q)) ||
+        (a.manufacturerCountries && a.manufacturerCountries.some(c => c.toLowerCase().includes(q))) ||
+        (a.manufacturer && a.manufacturer.toLowerCase().includes(q))
+      );
+    }
   }
 
   // 4. Developer Country Filter
   if (options.developerCountry) {
     const q = options.developerCountry.toLowerCase().trim();
-    result = result.filter(a =>
-      (a.developerCountry && a.developerCountry.toLowerCase().includes(q)) ||
-      (a.developmentCountries && a.developmentCountries.some(c => c.toLowerCase().includes(q))) ||
-      (a.developer && a.developer.toLowerCase().includes(q))
-    );
+    if (q !== 'all' && !q.startsWith('all ')) {
+      result = result.filter(a =>
+        (a.developerCountry && a.developerCountry.toLowerCase().includes(q)) ||
+        (a.developmentCountries && a.developmentCountries.some(c => c.toLowerCase().includes(q))) ||
+        (a.developer && a.developer.toLowerCase().includes(q))
+      );
+    }
   }
 
   // 5. Joint Development Country Filter
   if (options.jointDevelopmentCountry) {
     const q = options.jointDevelopmentCountry.toLowerCase().trim();
-    result = result.filter(a => a.jointDevelopmentCountries && a.jointDevelopmentCountries.some(c => c.toLowerCase().includes(q)));
+    if (q !== 'all' && !q.startsWith('all ')) {
+      result = result.filter(a => a.jointDevelopmentCountries && a.jointDevelopmentCountries.some(c => c.toLowerCase().includes(q)));
+    }
   }
 
   // 6. Export Customer Filter
   if (options.exportCustomer) {
     const q = options.exportCustomer.toLowerCase().trim();
-    result = result.filter(a => a.exportCustomers && a.exportCustomers.some(c => c.toLowerCase().includes(q)));
+    if (q !== 'all' && !q.startsWith('all ')) {
+      result = result.filter(a => a.exportCustomers && a.exportCustomers.some(c => c.toLowerCase().includes(q)));
+    }
   }
 
-  if (options.service) {
+  if (options.service && (options.service as string).toLowerCase() !== 'all' && !(options.service as string).toLowerCase().startsWith('all ')) {
     result = result.filter(a => a.services && a.services.includes(options.service!));
   }
 
-  if (options.status) {
+  if (options.status && (options.status as string).toLowerCase() !== 'all' && !(options.status as string).toLowerCase().startsWith('all ')) {
     result = result.filter(a => a.status === options.status);
   }
 
-  if (options.generation) {
+  if (options.generation && options.generation.toLowerCase() !== 'all' && !options.generation.toLowerCase().startsWith('all ')) {
     result = result.filter(a => a.generation && a.generation.includes(options.generation!));
   }
 
-  if (options.era) {
+  if (options.era && options.era.toLowerCase() !== 'all' && !options.era.toLowerCase().startsWith('all ')) {
     result = result.filter(a => a.era === options.era);
   }
 
-  if (options.tier) {
+  if (options.tier && (options.tier as string).toLowerCase() !== 'all' && !(options.tier as string).toLowerCase().startsWith('all ')) {
     result = result.filter(a => a.overallTier === options.tier);
   }
 

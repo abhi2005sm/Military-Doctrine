@@ -117,14 +117,17 @@ export interface AssetImage {
 }
 
 export interface SourceItem {
-  title: string;
-  url: string;
-  publisher: string;
-  sourceType: 'official' | 'government' | 'reference' | 'defence-publication' | string;
-  accessedAt: string;
-  publicationDate?: string;
+  title?: string;
+  name?: string;
+  url?: string;
+  publisher?: string;
+  sourceType?: 'official' | 'government' | 'reference' | 'defence-publication' | string;
+  accessedAt?: string;
   accessDate?: string;
+  accessedYear?: number | string;
+  publicationDate?: string;
   claimSupported?: string;
+  [key: string]: any;
 }
 
 export interface VariantItem {
@@ -226,7 +229,7 @@ export interface Asset {
   variantOf?: string;
   variantType?: string;
 
-  domain?: 'LAND' | 'AIR' | 'AIR-FORCE' | 'NAVY' | 'MISSILES' | 'AIR-DEFENCE' | 'RADAR' | 'C4ISR' | 'ELECTRONIC-WARFARE' | 'UNMANNED';
+  domain?: 'LAND' | 'AIR' | 'AIR-FORCE' | 'NAVY' | 'NAVAL' | 'MISSILES' | 'AIR-DEFENCE' | 'AIR_DEFENCE' | 'RADAR' | 'C4ISR' | 'ELECTRONIC-WARFARE' | 'ELECTRONIC_WARFARE' | 'UNMANNED' | (string & {});
   branchId: BranchId;
   categoryId: string;
   categoryName: string;
@@ -310,12 +313,20 @@ export interface Asset {
   relatedAssetIds?: string[];
   variants?: VariantItem[];
   sources?: SourceItem[];
+  sourceData?: any;
   sourceCitation: string;
 
   dataConfidence?: DataConfidence;
   confidence?: 'High' | 'Medium' | 'Low' | DataConfidence;
   lastVerified?: string;
 }
+
+export type RawAsset = Omit<Asset, 'specs' | 'ratings' | 'overallTier'> & {
+  specs?: CategorySpecs;
+  ratings?: RatingScores;
+  overallTier?: TierBadge;
+  [key: string]: any;
+};
 
 export interface Category {
   id: string;

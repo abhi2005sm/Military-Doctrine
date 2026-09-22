@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getCategoryById, getBranchById, getAssetsByBranch } from '../../../lib/catalogService';
 import { CATEGORIES } from '../../../data/categories';
+import { BRANCH_LIST } from '../../../data/branches';
 import { BranchId } from '../../../types/catalog';
 import { CategoryCatalogClient } from '../../../components/catalog/CategoryCatalogClient';
 
@@ -12,10 +13,17 @@ interface CategoryPageProps {
 }
 
 export function generateStaticParams() {
-  return CATEGORIES.map(cat => ({
+  const categoryParams = CATEGORIES.map(cat => ({
     branch: cat.branchId,
     category: cat.id,
   }));
+
+  const allCategoryParams = BRANCH_LIST.map(b => ({
+    branch: b.id,
+    category: 'all',
+  }));
+
+  return [...categoryParams, ...allCategoryParams];
 }
 
 export default function CategoryPage({ params }: CategoryPageProps) {
@@ -23,9 +31,9 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   const categoryId = params.category;
 
   const branch = getBranchById(branchId);
-  const category = getCategoryById(categoryId);
+  const category = getCategoryById(categoryId, branchId);
 
-  if (!branch || !category || category.branchId !== branchId) {
+  if (!branch || !category || (category.id !== 'all' && category.branchId !== branchId)) {
     notFound();
   }
 
@@ -39,3 +47,4 @@ export default function CategoryPage({ params }: CategoryPageProps) {
     />
   );
 }
+

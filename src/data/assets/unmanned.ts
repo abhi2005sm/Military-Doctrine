@@ -1,6 +1,6 @@
-import { Asset } from '../../types/catalog';
+import { Asset, RawAsset } from '../../types/catalog';
 
-export const UNMANNED_ASSETS: Asset[] = [
+export const UNMANNED_ASSETS: (Asset | RawAsset)[] = [
   {
     id: 'rq-4d-phoenix',
     name: 'RQ-4D Phoenix',
